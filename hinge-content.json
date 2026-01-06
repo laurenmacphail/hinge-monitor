@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-06T22:46:03.185Z",
-  "totalContent": 950,
+  "lastUpdated": "2026-01-06T22:48:53.030Z",
+  "totalContent": 1050,
   "content": [
     {
       "id": "d1e78aa8ab052ef0",
@@ -16578,23 +16578,1763 @@
       "firstSeen": "2026-01-06T22:46:03.185Z",
       "lastChecked": "2026-01-06T22:46:03.185Z",
       "isNew": true
+    },
+    {
+      "id": "b3b5fed8b6c6c519",
+      "title": "8 leg mobility exercises and stretches",
+      "url": "https://www.hingehealth.com/resources/articles/leg-mobility-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how to perform ‌leg mobility exercises and stretches by physical therapists, so everyday movements become easier.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/N590aPPa2b7DmvwLLmAea/9591bb8fa5f9bbcff7e9e1297778ea36/man-performing-leg-mobility-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:04.770Z",
+      "lastChecked": "2026-01-06T22:46:04.770Z",
+      "isNew": true
+    },
+    {
+      "id": "6ae853e1d94f416e",
+      "title": "Groin pain when walking: causes and treatment",
+      "url": "https://www.hingehealth.com/resources/articles/groin-pain-when-walking/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Having groin pain when walking can make it hard to move around. Find relief with conservative treatments recommended by Hinge Health physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/15tdAGNbeGuuonkPW7Bw9z/6ce38903199d6efe39c697f9ca6a7edb/man_feeling_groin_pain_when_walking.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:06.447Z",
+      "lastChecked": "2026-01-06T22:46:06.447Z",
+      "isNew": true
+    },
+    {
+      "id": "9c6dbafc0e27ebf9",
+      "title": "7 exercises for constipation to get things moving",
+      "url": "https://www.hingehealth.com/resources/articles/exercises-for-constipation/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Hinge Health pelvic floor physical therapists share the best exercises for constipation, so you find relief and get back to doing what you love.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/45OuwLDTGT9udHY3hOmbKI/d2b401b147354656bf6077e013ccad3b/woman-practicing-exercises-for-constipation.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:08.062Z",
+      "lastChecked": "2026-01-06T22:46:08.062Z",
+      "isNew": true
+    },
+    {
+      "id": "5f6a6c8b2300ecd2",
+      "title": "6 pelvic floor exercises to do during pregnancy",
+      "url": "https://www.hingehealth.com/resources/articles/pelvic-floor-exercises-in-pregnancy/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how pregnancy affects your pelvic floor, how pelvic floor exercise can help, and the best PT-recommended pelvic floor exercises for pregnancy.",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1WCjmClBUzXfbrEYDazSpX/d388d0b09795820f2d4107d82d0e7a4f/woman-practicing-pelvic-floor-exercises-in-pregnancy.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:09.792Z",
+      "lastChecked": "2026-01-06T22:46:09.792Z",
+      "isNew": true
+    },
+    {
+      "id": "059ed3572e928e7e",
+      "title": "Pelvic Floor Dysfunction: Symptoms, Causes, Treatments, and Exercises",
+      "url": "https://www.hingehealth.com/resources/articles/pelvic-floor-dysfunction/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about pelvic floor dysfunction causes, symptoms, and treatment options, plus lifestyle tips and exercises for symptom relief.",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/SEn23MUaG2gXIxxJMaPjJ/9d3fe1245f62e97ba27632af0270f8ae/pelvic-floor-dysfunction.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:11.456Z",
+      "lastChecked": "2026-01-06T22:46:11.456Z",
+      "isNew": true
+    },
+    {
+      "id": "1cff159402ea6b1c",
+      "title": "The New Era of Musculoskeletal Health — Happening Now",
+      "url": "https://www.hingehealth.com/resources/articles/the-new-era-of-musculoskeletal-health/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Hinge Health has released its fifth annual State of Musculoskeletal (MSK) Care Report based on insights from over one million members who have completed 59 million treatment sessions.",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:13.151Z",
+      "lastChecked": "2026-01-06T22:46:13.151Z",
+      "isNew": true
+    },
+    {
+      "id": "6237ab9873766bc1",
+      "title": "Golf and back pain: causes, exercises, and tips for relief",
+      "url": "https://www.hingehealth.com/resources/articles/golf-back-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover effective tips and exercises to prevent and relieve lower back pain from golf, ensuring a healthier swing and enjoyable game.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1bdNqzH9juVvTEXeX6SRM2/41945a400a7d3bcab9b6639cb3f54a43/man-experiencing-back-pain-from-golf.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:14.816Z",
+      "lastChecked": "2026-01-06T22:46:14.816Z",
+      "isNew": true
+    },
+    {
+      "id": "d14b0174883512ba",
+      "title": "Urinary or Bowel Issues? Track Your Symptoms With a Bladder and Bowel Diary",
+      "url": "https://www.hingehealth.com/resources/articles/bladder-bowel-diary/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how to track your urinary and bowel habits to help manage urgency and urinary or fecal incontinence",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4fFTgAoLGXTrK43Jf3DtOf/874aea1788fd3ef418628624f77e1a3b/iStock-1456806811.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:16.520Z",
+      "lastChecked": "2026-01-06T22:46:16.520Z",
+      "isNew": true
+    },
+    {
+      "id": "c604e75f4deeb69a",
+      "title": "Focus on Your ‘Who’: Why Identity Is a Powerful Tool for Behavior Change and Healthy Habits",
+      "url": "https://www.hingehealth.com/resources/articles/identity-and-habits/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how identity can be a powerful tool for building healthy habits and find ways to embrace a new identity.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4yugpoSzstbO5EdfkPDzAF/00fd3311da2ac580f9b63d5fab1b3ac2/iStock-1290862561__1_.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:18.196Z",
+      "lastChecked": "2026-01-06T22:46:18.196Z",
+      "isNew": true
+    },
+    {
+      "id": "4009fd784c9b635e",
+      "title": "What to Know About the Hinge Health Pelvic Trainer — and Should You Try It?",
+      "url": "https://www.hingehealth.com/resources/articles/pelvic-trainer/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the Hinge Health pelvic trainer, how it works, how it can help your pelvic symptoms, and how to know if a pelvic trainer is right for you",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5zhYpQ5tae3CKVf8m9yoLr/5801595c9c2eec40d296a2dccf9dae21/231116-HingeHealth-36848__1___1___1_.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:19.948Z",
+      "lastChecked": "2026-01-06T22:46:19.948Z",
+      "isNew": true
+    },
+    {
+      "id": "688ae342a336b2df",
+      "title": "The Perfectionism Trap: Why It’s Better to Build Healthy Habits With Consistency",
+      "url": "https://www.hingehealth.com/resources/articles/perfectionism-trap/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the power of consistency (and the pitfalls of perfectionism) when building healthy habits, and find ways to make consistency work for you.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:21.750Z",
+      "lastChecked": "2026-01-06T22:46:21.750Z",
+      "isNew": true
+    },
+    {
+      "id": "b46ed4fe4d7a2fac",
+      "title": "Get More From Hinge Health: Tips for Boosting Fitness and Pain Relief",
+      "url": "https://www.hingehealth.com/resources/articles/tips-to-get-more-from-hinge-health/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover tips from Hinge Health coaches and physical therapists to add challenge and integrate Hinge Health exercises into your fitness routine.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/LIIrRPyZgssXlIplkMFnN/2c54ffd8d486fdeb10753833f2a4d6eb/iStock-1451002406.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:23.453Z",
+      "lastChecked": "2026-01-06T22:46:23.453Z",
+      "isNew": true
+    },
+    {
+      "id": "e3669129014a8e9f",
+      "title": "Menopause and hip pain: causes, treatments, and exercises for relief",
+      "url": "https://www.hingehealth.com/resources/articles/menopause-hip-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about symptoms, causes, and treatment options for menopause joint pain, including PT-recommended exercises for relief",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1er2SK9Nief3DULtY57xpC/7106830153f23bb1997cf5fe6bb3b3f7/menopause-and-hip-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:25.062Z",
+      "lastChecked": "2026-01-06T22:46:25.062Z",
+      "isNew": true
+    },
+    {
+      "id": "dbaefccf16e1406c",
+      "title": "Understanding Osteoporosis in Men: How to Keep Your Bones Healthy",
+      "url": "https://www.hingehealth.com/resources/articles/osteoporosis-in-men/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about osteoporosis in men, its causes, risk factors, and prevention tips, including PT-recommended exercises.",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6iADqwwhHYAQ4nSwiaAlPg/66cdc67c5922c09425f9eff494d7c852/old-man-drinking-milk.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:26.754Z",
+      "lastChecked": "2026-01-06T22:46:26.754Z",
+      "isNew": true
+    },
+    {
+      "id": "171bf99f1638f244",
+      "title": "7 Bodyweight Glute Exercises for Your Butt and Hips",
+      "url": "https://www.hingehealth.com/resources/articles/glute-strengthening-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the importance of bodyweight glute exercises and discover the moves recommended by physical therapists to strengthen your glutes and hips.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5PA9Sv9VzA9IkZRYsVXbZi/04e1e8b31be0969bac449dc33ec21cfa/glute-strengthening-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:28.432Z",
+      "lastChecked": "2026-01-06T22:46:28.432Z",
+      "isNew": true
+    },
+    {
+      "id": "511238e516c744b4",
+      "title": "When the pain hurts so bad you can’t stand up",
+      "url": "https://www.hingehealth.com/resources/articles/when-the-pain-hurts-so-bad-you-cant-stand-up/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "See the outcomes from Hinge Health's randomized control trial published this month in Nature journal of Digital Medicine.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:30.167Z",
+      "lastChecked": "2026-01-06T22:46:30.167Z",
+      "isNew": true
+    },
+    {
+      "id": "d85972ae301b207d",
+      "title": "25 exercise therapy sessions. Zero miles commuted.",
+      "url": "https://www.hingehealth.com/resources/articles/25-exercise-therapy-sessions/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Breaking down the barriers to the three pillars of best practice musculoskeletal care: exercise therapy, behavioral health, and education.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5MLiOPXKihYvYFjheNbXw5/496c8ef6a6876d8067d4cf0bdadad217/1000.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:31.851Z",
+      "lastChecked": "2026-01-06T22:46:31.851Z",
+      "isNew": true
+    },
+    {
+      "id": "913ef7d266069556",
+      "title": "5 Ways to Incorporate Movement While Working from Home",
+      "url": "https://www.hingehealth.com/resources/articles/5-ways-to-incorporate-movement-while-working-from-home/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Michael Craigen, Health Coach at Hinge Health shares the benefits of movement to your health and how to avoid sedentariness and continue to move.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/68CHQ6QDziILesl3VEjed/e0c60181f0379183c4346908f3f97976/nelly-antoniadou-9X1P46Y2KJo-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:33.561Z",
+      "lastChecked": "2026-01-06T22:46:33.561Z",
+      "isNew": true
+    },
+    {
+      "id": "add828c1d7318b85",
+      "title": "From Judo to COO",
+      "url": "https://www.hingehealth.com/resources/articles/from-judo-to-coo/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about how Gabriel, Hinge Health's COO, struggled with chronic pain and how it lead him to the world of digital health.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3Xe7qehuuPoUY1C60P81Ix/f94b076d93841683a9bdb0e8749129cc/sam-moghadam-1239577-unsplash-.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:35.198Z",
+      "lastChecked": "2026-01-06T22:46:35.198Z",
+      "isNew": true
+    },
+    {
+      "id": "1984c35ea8ee4d4b",
+      "title": "How to Keep Your Healthy Habits During Your Summer Vacation",
+      "url": "https://www.hingehealth.com/resources/articles/how-to-keep-your-healthy-habits-during-your-summer-vacation/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Staying on track with healthy habits whether it’s exercise or healthy eating can be a challenge during the summer vacation months.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6MVoU34TgYOyL1qKp2yNER/7c261b7e0cb22575574d04fe5fe259e4/ibrahim-rifath-p2w_m25kkV0-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:37.032Z",
+      "lastChecked": "2026-01-06T22:46:37.032Z",
+      "isNew": true
+    },
+    {
+      "id": "d7aa346972e526d5",
+      "title": "4 Benefits of Virtual Physical Therapy for Resolving Chronic Back Pain",
+      "url": "https://www.hingehealth.com/resources/articles/virtual-physical-therapy-chronic-back-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Online physical therapy, for example, has emerged as a promising way to nudge people with chronic pain in the right direction. Here are four benefits of virtual physical therapy that I’m seeing from my work at Hinge Health.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:38.883Z",
+      "lastChecked": "2026-01-06T22:46:38.883Z",
+      "isNew": true
+    },
+    {
+      "id": "038b99742920797c",
+      "title": "4 Reasons Why Now Is the Time To Address MSK Pain",
+      "url": "https://www.hingehealth.com/resources/articles/why-now-is-the-time-to-address-msk-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Musculoskeletal or MSK pain has become a high profile issue for benefits teams, due to its outsized impact on employee wellbeing and the cost required to treat it. Traditional remedies like surgery or pharmaceutical interventions have been found to be bot",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:40.689Z",
+      "lastChecked": "2026-01-06T22:46:40.689Z",
+      "isNew": true
+    },
+    {
+      "id": "d3b2fb6b993a8a81",
+      "title": "4 Ways to Reduce the Sugar in Your Diet and Lose Weight",
+      "url": "https://www.hingehealth.com/resources/articles/4-ways-to-reduce-the-sugar-in-your-diet-and-lose-weight/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "It is easy to eat too much sugar without realizing how it contributes to weight gain.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3wEdiRKb4UjzhVRXdqVg2/e8f488af4388d1771faff4978ff65f17/iStock-1174293909.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:42.417Z",
+      "lastChecked": "2026-01-06T22:46:42.417Z",
+      "isNew": true
+    },
+    {
+      "id": "b4fb4313d2742213",
+      "title": "New Research Shows Health Coaching Can Reduce Low Back Pain and Knee Osteoarthritis",
+      "url": "https://www.hingehealth.com/resources/articles/health-coach-low-back-pain-knee-osteoarthritis/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "A new study has found that health coaching is effective at reducing the disability and pain associated with chronic lower back pain and reducing disability in individuals with knee osteoarthritis.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:44.099Z",
+      "lastChecked": "2026-01-06T22:46:44.099Z",
+      "isNew": true
+    },
+    {
+      "id": "26a13838fe232ba1",
+      "title": "4 Beginner Yoga Poses to Help Relieve Back Pain",
+      "url": "https://www.hingehealth.com/resources/articles/4-beginner-yoga-poses-to-help-relieve-back-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Liz Greenlaw, Health Coach at Hinge health shares how yoga can play a powerful role in relieving back pain by moving in new ways.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/53sAzbvMMWX23qtdEDwQWD/ed6e040eee95cb1eca6cbd790bfee5e3/jay-castor-7AcMUSYRZpU-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:45.783Z",
+      "lastChecked": "2026-01-06T22:46:45.783Z",
+      "isNew": true
+    },
+    {
+      "id": "07649203a7668cc2",
+      "title": "Older Adults Are Saying Goodbye to MSK Pain and Hello to the Activities They Love",
+      "url": "https://www.hingehealth.com/resources/articles/older-adults-are-saying-goodbye-to-msk-pain-and-hello-to-the-activities-they/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "So what do older users say about engaging in a digital MSK program at home? Here are two success stories from Hinge Health members.",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:47.488Z",
+      "lastChecked": "2026-01-06T22:46:47.488Z",
+      "isNew": true
+    },
+    {
+      "id": "87ce85d1961814ca",
+      "title": "How to Unlock the Power of Pain Science to Achieve Your Athletic Goals This Year",
+      "url": "https://www.hingehealth.com/resources/articles/how-to-unlock-the-power-of-pain-science-to-achieve-your-athletic-goals/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Here are six ways to unlock the power of exercise therapy and pain science in the New Year to eliminate joint pain so you can maintain training consistency and continue improving in your favorite activity.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:49.172Z",
+      "lastChecked": "2026-01-06T22:46:49.172Z",
+      "isNew": true
+    },
+    {
+      "id": "d2bd7ebed9938abb",
+      "title": "The Connection Between Diet, Weight, and Chronic Joint Pain",
+      "url": "https://www.hingehealth.com/resources/articles/the-connection-between-diet-weight-and-chronic-joint-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Being overweight is a common barrier when it comes to reducing chronic back and joint pain. Losing weight will help manage chronic pain.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2wFsFNXgPJzoyhQ7sL6vq7/d4ad91526bfa1a886ffecce8e458efb1/iStock-503428976.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:50.854Z",
+      "lastChecked": "2026-01-06T22:46:50.854Z",
+      "isNew": true
+    },
+    {
+      "id": "12e326d79706f374",
+      "title": "7 Daily Breathing Exercises to a Stress-Free and Healthier Life",
+      "url": "https://www.hingehealth.com/resources/articles/7-daily-breathing-exercises-to-a-stress-free-and-healthier-life/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "breathing has the power to modulate the many systems of the body, and is a strong indicator of our present state",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2StaQ8k0kJPzgR2qTgyZB1/92ea67adfee9eef83999debc0d7da247/iStock-1191251788__1_.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:52.528Z",
+      "lastChecked": "2026-01-06T22:46:52.528Z",
+      "isNew": true
+    },
+    {
+      "id": "f83232fb49ecb56b",
+      "title": "4 Actionable Strategies to Improve Work-Life Balance During Remote Work",
+      "url": "https://www.hingehealth.com/resources/articles/4-actionable-strategies-to-improve-work-life-balance-during-remote-work/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "4 actionable strategies to help discover what work-life balance means to you and how to take action each day to create realistic boundaries.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5aX6nhvr06j2itR60WA4UL/c70da9112dbe580695033ac0dae6ef86/martin-sanchez-MD6E2Sv__iA-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:54.197Z",
+      "lastChecked": "2026-01-06T22:46:54.197Z",
+      "isNew": true
+    },
+    {
+      "id": "5905b0c7fe049530",
+      "title": "PT Alone Won’t Eliminate Musculoskeletal Pain: 3 Tips for Implementing a Whole-Person Approach to Care",
+      "url": "https://www.hingehealth.com/resources/articles/physical-therapy-alone-wont-eliminate-musculoskeletal-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Musculoskeletal or MSK pain is multi-dimensional, stemming not only from physical injuries, but also from a person’s diet, lifestyle, and emotional state. Researchers have found that whole person, mind-body approaches to pain relief are more successful tha",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:56.038Z",
+      "lastChecked": "2026-01-06T22:46:56.038Z",
+      "isNew": true
+    },
+    {
+      "id": "b4fb60627b586f0d",
+      "title": "Experts Reinforce a Mind-Body Approach to Musculoskeletal Pain",
+      "url": "https://www.hingehealth.com/resources/articles/experts-reinforce-a-mind-body-approach-to-musculoskeletal-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Jonathan Ide-Don, Doctor of Physical Therapy at Hinge Health shares why experts recommend a mind and body approach to treat chronic musculoskeletal pain.",
+      "targetAudience": [
+        "employers",
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:57.704Z",
+      "lastChecked": "2026-01-06T22:46:57.704Z",
+      "isNew": true
+    },
+    {
+      "id": "e73dd2ff4faba92d",
+      "title": "Don’t be Tricked by Treats this Halloween and Keep the Weight off Your Joints",
+      "url": "https://www.hingehealth.com/resources/articles/dont-be-tricked-by-treats-this-halloween-and-keep-the-weight-off-your-joints/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Hinge Health - Don’t be Tricked by Treats this Halloween and Keep the Weight off Your Joints",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2njp7X4uXA9dbbFzDK12Dq/349d7c39517297a1b9fe13e17a7e35e9/iStock-1171715638.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:46:59.329Z",
+      "lastChecked": "2026-01-06T22:46:59.329Z",
+      "isNew": true
+    },
+    {
+      "id": "af3f64797bdefcf7",
+      "title": "5 Ways to Fix Common Ergonomic Issues in Your Home Office",
+      "url": "https://www.hingehealth.com/resources/articles/5-ways-to-fix-common-ergonomic-issues-in-your-home-office/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "5 Ways to Fix Common Ergonomic Issues in Your Home Office",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6qqjSInIWfR9tBMyBvRq9x/aa07dcc9389d9b30f71db57af46beefb/iStock-1205113147.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:00.994Z",
+      "lastChecked": "2026-01-06T22:47:00.994Z",
+      "isNew": true
+    },
+    {
+      "id": "85f01ee0ffb8f4c3",
+      "title": "Benefits of behavioral therapy: understanding and overcoming chronic pain",
+      "url": "https://www.hingehealth.com/resources/articles/benefits-of-behavioral-therapy/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "The 3 pillars of best practice care series: behavioral health and why it is incredibly effective at helping to manage MSK pain.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:02.767Z",
+      "lastChecked": "2026-01-06T22:47:02.767Z",
+      "isNew": true
+    },
+    {
+      "id": "04443c74fc7ce156",
+      "title": "You are more than your pain diagnosis",
+      "url": "https://www.hingehealth.com/resources/articles/you-are-more-than-your-pain-diagnosis/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover why exercise therapy, education and behavioral support are the 3 pillars of best practice care for chronic pain treatment.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:04.449Z",
+      "lastChecked": "2026-01-06T22:47:04.449Z",
+      "isNew": true
+    },
+    {
+      "id": "4dd513221dacd014",
+      "title": "How to Form a New Habit: 5 Simple Steps to Conquer Chronic Pain",
+      "url": "https://www.hingehealth.com/resources/articles/how-to-form-a-new-habit-5-simple-steps-to-conquer-chronic-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Hinge Health - How to Form a New Habit: 5 Simple Steps to Conquer Chronic Pain",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2aRvb12JoEJApuV5vPkQ3Y/bc58dbed78e8228d8b138faff0fb3900/iStock-1189143194.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:06.140Z",
+      "lastChecked": "2026-01-06T22:47:06.140Z",
+      "isNew": true
+    },
+    {
+      "id": "622201fa92edc27a",
+      "title": "New Year, No Pain: 4 Mindfulness Strategies to Improve Your Health in 2022",
+      "url": "https://www.hingehealth.com/resources/articles/new-year-no-pain-4-mindfulness-strategies-to-improve-your-health-in-2021/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Hinge Health - New Year, No Pain: 4 Mindfulness Strategies to Lose Weight and Improve Your Health",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/10Op97xcz024MFDY0DPwGn/178d2eeba7653ed2837f28cccf44a177/iStock-1271295587.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:07.829Z",
+      "lastChecked": "2026-01-06T22:47:07.829Z",
+      "isNew": true
+    },
+    {
+      "id": "dba8b2f1b6275166",
+      "title": "Movement is medicine: why exercise therapy reduces chronic pain",
+      "url": "https://www.hingehealth.com/resources/articles/movement-is-medicine/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Millions of people suffering from chronic musculoskeletal (MSK) pain find it tempting to avoid the motions that cause pain. But exercise actually retrains the brain and body to manage pain and is often the very best way to help lessen the pain, avoid surge",
+      "targetAudience": [
+        "employers",
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:09.501Z",
+      "lastChecked": "2026-01-06T22:47:09.501Z",
+      "isNew": true
+    },
+    {
+      "id": "8d1e2e1fbc63c339",
+      "title": "4 Tips to Eat Healthy After a Lapse During COVID-19",
+      "url": "https://www.hingehealth.com/resources/articles/4-tips-to-eat-healthy-after-a-lapse-during-covid-19/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Carrying a few extra pounds can make a big difference if you have chronic pain. Here are 4 tips to eat healthy after a lapse during COVID-19.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5UkrsfzT0OXjq1E0WW48n1/fa9db1b9b0dbcf43aaf1745576c1b5af/assorted-vegetables-1656666.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:11.200Z",
+      "lastChecked": "2026-01-06T22:47:11.200Z",
+      "isNew": true
+    },
+    {
+      "id": "a0fd805595230ba7",
+      "title": "This Little Mindset Shift Can Help You Achieve Any Goal",
+      "url": "https://www.hingehealth.com/resources/articles/this-little-mindset-shift-can-help-you-achieve-any-goal/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Not hitting your wellness goals because life gets in the way? This health coach trick will get you back on track and make any health goal more attainable.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7jTBCf0IzWciEGc2wEc11E/74d5b299a8ad7514822332b39ec67fd3/pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:12.985Z",
+      "lastChecked": "2026-01-06T22:47:12.985Z",
+      "isNew": true
+    },
+    {
+      "id": "c82283d05d7cd268",
+      "title": "Outdated Healthcare Practices Worsen Lower Back Pain: 4 Ways to Fix Your Back",
+      "url": "https://www.hingehealth.com/resources/articles/outdated-healthcare-practices-worsen-lower-back-pain-4-ways-to-fix-your-back/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Outdated Healthcare Practices Worsen Lower Back Pain: 4 Ways to Fix Your Back",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7E3Ro8ON0oPKXa1e0p66JY/605c757ab635a8d6665c805330398409/iStock-1144826387.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:14.657Z",
+      "lastChecked": "2026-01-06T22:47:14.657Z",
+      "isNew": true
+    },
+    {
+      "id": "b44eb8cce02fbab6",
+      "title": "11 Things Hinge Health Members Do to Make Time for Exercise",
+      "url": "https://www.hingehealth.com/resources/articles/make-time-for-your-exercise/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "No time for your Hinge Health playlist? Take a look at these 11 tips that help you find time for your exercises.",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6DlTPdYJ4kN95vUkh2OM2K/f0e0a075dc5d7efc96901a62bbdd159e/luemen-rutkowski-mIHbipd5-Qw-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:16.340Z",
+      "lastChecked": "2026-01-06T22:47:16.340Z",
+      "isNew": true
+    },
+    {
+      "id": "2a8d5ccbca40b2b9",
+      "title": "Transitioning to Fall: How to Embrace Change and Reduce Your Chronic Pain",
+      "url": "https://www.hingehealth.com/resources/articles/transitioning-to-fall-how-to-embrace-change-and-reduce-your-chronic-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Transitioning to Fall: How to Embrace Change and Reduce Your Chronic Pain",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6Jq8cVIx2OeFfXBnit3KO7/6b96c9e7436fd41f798c9f36f84dc90c/iStock-459964819.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:18.020Z",
+      "lastChecked": "2026-01-06T22:47:18.020Z",
+      "isNew": true
+    },
+    {
+      "id": "c84c9b78e83be9e8",
+      "title": "A road warrior’s guide to chronic pain recovery",
+      "url": "https://www.hingehealth.com/resources/articles/a-road-warriors-guide-to-chronic-pain-recovery/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn why chronic pain is common in the professional services industry, and how a digital care program helps road warriors.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/eF0wSo3RiG54a6N2ikFoS/80ad1fc6761771348fcc20fb80a7b281/industry_professional_services_image.png?w=1200",
+      "firstSeen": "2026-01-06T22:47:19.687Z",
+      "lastChecked": "2026-01-06T22:47:19.687Z",
+      "isNew": true
+    },
+    {
+      "id": "3b0bc9e5e4d5e567",
+      "title": "5 Ways to Overcome Work from Home Challenges",
+      "url": "https://www.hingehealth.com/resources/articles/5-ways-to-overcome-work-from-home-challenges/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "\"Ryan Sharkey, Doctor of Physical Therapy at Hinge Health shares how COVID-19 has changed the way we work and affected us physically.  \"",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6qSUPgIXa4GFhNfihMuuU7/3beefd9cf78fbb3c38bb163eac2f1ebc/iStock-1218524083.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:21.310Z",
+      "lastChecked": "2026-01-06T22:47:21.310Z",
+      "isNew": true
+    },
+    {
+      "id": "123e5f311f38b21c",
+      "title": "6 Meditation Tips to Reduce Your Stress and Chronic Pain",
+      "url": "https://www.hingehealth.com/resources/articles/6-meditation-tips-to-reduce-your-stress-and-chronic-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Meditation is a useful technique for Hinge Health participants to minimize stress levels as part of a holistic approach to reducing back and joint pain.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4aoQh9QkgvbzIcrEntwiLk/b982dd5dad0573a07dd06d2decf247c3/iStock-1202729719.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:23.074Z",
+      "lastChecked": "2026-01-06T22:47:23.074Z",
+      "isNew": true
+    },
+    {
+      "id": "c0fd3491f8505bae",
+      "title": "How to Change Your Perspective to Reduce Chronic Pain",
+      "url": "https://www.hingehealth.com/resources/articles/how-to-change-your-perspective-to-reduce-chronic-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Someone’s “normal” perspective can change depending on what’s happening in their life.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2EYYCmus7MPGoSnas7wF8c/dcdb19a9dd31021724da0775e841a17a/paul-skorupskas-7KLa-xLbSXA-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:24.741Z",
+      "lastChecked": "2026-01-06T22:47:24.741Z",
+      "isNew": true
+    },
+    {
+      "id": "f8b22e61c22c5832",
+      "title": "5 Ways To Reset and Jumpstart Your Journey to Better Back and Joint Health",
+      "url": "https://www.hingehealth.com/resources/articles/jumpstart-your-musculoskeletal-care-recovery/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Here are five steps to help you and your members reset your mind and build new habits to jumpstart your Musculoskeletal care journey.",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:26.407Z",
+      "lastChecked": "2026-01-06T22:47:26.407Z",
+      "isNew": true
+    },
+    {
+      "id": "782d1d37bc211ad9",
+      "title": "How Understanding Your Pain Helps You Conquer It",
+      "url": "https://www.hingehealth.com/resources/articles/understanding-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "The 3 pillars of best practice care series: a few common misconceptions that could impact how your members manage pain.",
+      "targetAudience": [
+        "members",
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:28.144Z",
+      "lastChecked": "2026-01-06T22:47:28.144Z",
+      "isNew": true
+    },
+    {
+      "id": "6e648f526cea8276",
+      "title": "What Is Hinge Health? How It Helps Muscle and Joint Pain",
+      "url": "https://www.hingehealth.com/resources/articles/what-is-hinge-health/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Hinge Health offers virtual physical therapy for muscle and joint pain, providing personalized care from the comfort of your home.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1oRFtFU7SrRhQldp1JtYOH/e5b6442f7e47700b937066d5886437d7/woman-exercising-at-home.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:29.897Z",
+      "lastChecked": "2026-01-06T22:47:29.897Z",
+      "isNew": true
+    },
+    {
+      "id": "e2bd40d59be95783",
+      "title": "Hinge Health Now Offers Guided Breathing Exercises: Here’s Why You Should Try Them",
+      "url": "https://www.hingehealth.com/resources/articles/guided-breathing-exercises-pain-relief/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the benefits of breathing for pain relief and why Hinge Health is now offering guided breathing in our digital musculoskeletal (MSK) clinic.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7zp9BKkjN1bvY6aIjUmcC1/71bb5891cb7b8c986a97e9ce24f4053e/Screenshot_2024-04-26_at_3.57.07_PM.png?w=1200",
+      "firstSeen": "2026-01-06T22:47:31.584Z",
+      "lastChecked": "2026-01-06T22:47:31.584Z",
+      "isNew": true
+    },
+    {
+      "id": "25b48f4b06eae900",
+      "title": "Debunking the Myth of Perfect Back Posture: 4 Ways to Reduce Lower Back Pain",
+      "url": "https://www.hingehealth.com/resources/articles/debunking-the-myth-of-perfect-back-posture-4-ways-to-reduce-lower-back-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Dylan Peterson, Doctor of Physical Therapy at Hinge Health shares new research that reveals common posture advice is misguided, and 4 ways to reduce back pain.",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4ZGvOh98kyuIJQFvghgrPU/3947d357d97ed503e6b58c9f66703c11/iStock-1153409111.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:33.283Z",
+      "lastChecked": "2026-01-06T22:47:33.283Z",
+      "isNew": true
+    },
+    {
+      "id": "ae5c9ebdc228fdd2",
+      "title": "The Surprising Pain Management Tool You Aren’t Using",
+      "url": "https://www.hingehealth.com/resources/articles/self-talk/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "A pain management tool that often gets overlooked but is instrumental in living a life with less pain is self-talk. Find out how to use it in this article.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7tdrTR6SXC5jGYUv39VryK/5f2ce7f288c1543bb8eb729f04ec6026/Hinge_Health_Open_Graph.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:34.930Z",
+      "lastChecked": "2026-01-06T22:47:34.930Z",
+      "isNew": true
+    },
+    {
+      "id": "e3147ee9dc06bcff",
+      "title": "11 Ways to Bring Joy Into Movement",
+      "url": "https://www.hingehealth.com/resources/articles/bring-joy-into-movement/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Do you sometimes treat exercise like another mundane task to check off your to-do list? Check out these 11 ways that help you find joy in exercise.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6jdioUMiWsQeS4BXwX89tm/e07047e4ebf35d4b5bf25b7b96faade3/kaylee-garrett-GaprWyIw66o-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:36.663Z",
+      "lastChecked": "2026-01-06T22:47:36.663Z",
+      "isNew": true
+    },
+    {
+      "id": "22de2f048136a7ba",
+      "title": "Work From Home: New Health Risks Come With the New Normal",
+      "url": "https://www.hingehealth.com/resources/articles/work-from-home-new-health-risks-come-with-the-new-normal/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "With remote work, new health risks have been identified. Hinge Health conducted a survey to find out how workers are faring with physical and mental health.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2sqvoKPYYXCd8lTndw63QQ/38efde565ddbd0b43266d2050615e193/male-suffering-from-back-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:38.342Z",
+      "lastChecked": "2026-01-06T22:47:38.342Z",
+      "isNew": true
+    },
+    {
+      "id": "256635ec90ec24f9",
+      "title": "Webinar Recap: Get to Know Your Pelvic Floor",
+      "url": "https://www.hingehealth.com/resources/articles/pelvic-floor-webinar-recap/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn all about the pelvic floor in this webinar recap featuring pelvic floor physical therapists Dr. Kandis Daroski, PT, DPT, and Dr. Bijal Toprani, PT, DPT.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/36s9Ovc5HIftHyadTKdmC4/72a5ffa12681d0dc3a698fd22c0ea3a9/Hero_image__1_.png?w=1200",
+      "firstSeen": "2026-01-06T22:47:40.005Z",
+      "lastChecked": "2026-01-06T22:47:40.005Z",
+      "isNew": true
+    },
+    {
+      "id": "698d49ac2369c364",
+      "title": "Bicep Strain: Causes, Symptoms, and Exercises to Relieve Pain and Prevent Injury",
+      "url": "https://www.hingehealth.com/resources/articles/bicep-strain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about bicep strain, along with its common causes, symptoms, and exercises for treatment and prevention from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/SiBW4zupDYjyilBzGsQAE/88d13a5d3a2e02b01443a1c11d5fb7fb/woman-feeling-pain-due-to-bicep-strain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:41.926Z",
+      "lastChecked": "2026-01-06T22:47:41.926Z",
+      "isNew": true
+    },
+    {
+      "id": "136420085479e4e5",
+      "title": "Why Am I Sore When I Wake Up? 9 Common Causes of Morning Stiffness",
+      "url": "https://www.hingehealth.com/resources/articles/why-am-sore-when-wake-up/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Wondering, \"Why am I sore when I wake up?\" Discover common causes of morning stiffness and tips to relieve body aches.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2IpEzhI0R5IiB7l68mHghV/c4c23d04f715890841a6364acfb821d2/why-am-sore-when-wake-up.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:43.599Z",
+      "lastChecked": "2026-01-06T22:47:43.599Z",
+      "isNew": true
+    },
+    {
+      "id": "33a355c933ff6a42",
+      "title": "What Is TENS Therapy? Uses, Benefits, How It Works",
+      "url": "https://www.hingehealth.com/resources/articles/what-is-tens-therapy/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Transcutaneous electrical nerve stimulation provides relief for common muscle and joint pain. Learn more about TENS units and whether they’re right for you.",
+      "targetAudience": [
+        "employers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2oDB8O2UouDDqLY3ovNVKF/a88a7a53da1ea207e7c6b2fbce1bf0d3/iStock-1211760641.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:45.358Z",
+      "lastChecked": "2026-01-06T22:47:45.358Z",
+      "isNew": true
+    },
+    {
+      "id": "3b9a41818780537b",
+      "title": "Can a Weak Core Cause Lower Back Pain?",
+      "url": "https://www.hingehealth.com/resources/articles/weak-core-back-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the link between core strength and back pain. Get tips for back pain relief from a Hinge Health physical therapist.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2DiDjXxDRs647nZbfUhPqE/9950b0647cc53ad18bb54147adab73d2/man-feeling-back-pain-due.to-weak-core.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:47.134Z",
+      "lastChecked": "2026-01-06T22:47:47.134Z",
+      "isNew": true
+    },
+    {
+      "id": "673dff0d21585aad",
+      "title": "How to Treat Neck and Shoulder Pain, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/neck-and-shoulder-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover common causes and best treatments for neck and shoulder pain. Get exercises and tips from physical therapists to manage and prevent discomfort.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7z6SJs1kIsJQfDn5J1EQLO/36f46b64dbfb87e8789a2b2e59e16200/neck-and-shoulder-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:48.802Z",
+      "lastChecked": "2026-01-06T22:47:48.802Z",
+      "isNew": true
+    },
+    {
+      "id": "7d56d11d2393c7b5",
+      "title": "Physical Therapy for Carpal Tunnel Syndrome: How It Works, What to Expect, and Best Exercises",
+      "url": "https://www.hingehealth.com/resources/articles/physical-therapy-for-carpal-tunnel/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how physical therapy for carpal tunnel syndrome can help you manage symptoms and prevent future pain flares through targeted exercises.",
+      "targetAudience": [
+        "employers",
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3HbFJFHvs0h7ua05I8paHE/a4ad5172a56accd89028b7dac3e8b526/carpal-tunnel-syndrome.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:50.514Z",
+      "lastChecked": "2026-01-06T22:47:50.514Z",
+      "isNew": true
+    },
+    {
+      "id": "8875ac2bd8da5b7e",
+      "title": "6 Hip Flexor Exercises to Relieve Tight, Achy Hips",
+      "url": "https://www.hingehealth.com/resources/articles/hip-flexor-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover how hip flexor exercises can relieve hip pain. Improve your hip strength with tips from Hinge Health physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4fRH9ljFDC7QAzG0QQzblz/1b2742a826707c1438198cc178745aec/hip-flexor-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:52.115Z",
+      "lastChecked": "2026-01-06T22:47:52.115Z",
+      "isNew": true
+    },
+    {
+      "id": "28f05b27a3f21882",
+      "title": "How to Treat Inner Thigh Pain, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/inner-thigh-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn common causes of inner thigh pain and how to relieve it, especially with exercises from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/19DQrRfYbVe9k3RWs3kzJW/b9e48ac3234dcf6d3952a97bac8c7f66/inner-thigh-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:53.752Z",
+      "lastChecked": "2026-01-06T22:47:53.752Z",
+      "isNew": true
+    },
+    {
+      "id": "78ca655f369ddad9",
+      "title": "Tennis Shoulder Pain: Causes and Exercises to Relieve Symptoms",
+      "url": "https://www.hingehealth.com/resources/articles/tennis-shoulder-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the causes of tennis shoulder pain, plus get expert tips and exercises to relieve pain and restore shoulder function.",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3xrHgL19SERqV5IMv9VHeQ/2bead721ec07be9765477f86bac2b3ea/woman-feeling-shoulder-pain-when-playing-tennis.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:55.426Z",
+      "lastChecked": "2026-01-06T22:47:55.426Z",
+      "isNew": true
+    },
+    {
+      "id": "81ad6b725d12822e",
+      "title": "How Do You Speed Up Muscle Strain Recovery?",
+      "url": "https://www.hingehealth.com/resources/articles/how-to-speed-up-muscle-strain-recovery/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about how to speed up healing from a muscle strain. Get tips for pain relief from a Hinge Health physical therapist.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4EiZXOT6WGUZLLUXnyGR01/d10946d265b6307880c12dc6fb3ab725/man-experiencing-a-muscle-strain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:57.112Z",
+      "lastChecked": "2026-01-06T22:47:57.112Z",
+      "isNew": true
+    },
+    {
+      "id": "83f3eeb4dbbbb25a",
+      "title": "Why Do My Joints Hurt When It Rains? Causes, Tips, and Exercises",
+      "url": "https://www.hingehealth.com/resources/articles/why-do-my-joints-hurt-when-it-rains/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Wondering, \"Why do my joints hurt when it rains?\" Discover why weather affects joint pain and get exercises to relieve discomfort.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/16NmOLgUaNNuQcTE8HF72N/c31b6f9e2282964c5c8c128c370be50a/why-do-my-joints-hurt-when-it-rains.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:47:58.788Z",
+      "lastChecked": "2026-01-06T22:47:58.788Z",
+      "isNew": true
+    },
+    {
+      "id": "163bc285c6784ff4",
+      "title": "Can ‘Poor Posture’ Result in Back Pain?",
+      "url": "https://www.hingehealth.com/resources/articles/how-can-poor-posture-result-in-back-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the link between back pain and posture, and get tips for back pain relief from a Hinge Health physical therapist.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1Qad4JilWdxuKUuj9WjO5a/65eb8d4f0b6debd08b78d07652e1be93/old_lady_with_phone.jpeg?w=1200",
+      "firstSeen": "2026-01-06T22:48:00.602Z",
+      "lastChecked": "2026-01-06T22:48:00.602Z",
+      "isNew": true
+    },
+    {
+      "id": "a8ca567ae09307a2",
+      "title": "How to Treat Inner Knee Pain, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/inner-knee-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn common causes of inner knee pain and how to relieve it, especially with exercises from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/10LEiXD80ZYMRs2ibGymbR/e48217c18cbd848871ac03e8cd3fb641/inner-knee-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:02.293Z",
+      "lastChecked": "2026-01-06T22:48:02.293Z",
+      "isNew": true
+    },
+    {
+      "id": "7b872ee1d4de192f",
+      "title": "Wrist Pain: Treatment Tips and Exercises from Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/wrist-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn common causes of wrist pain, symptoms to watch for, and simple exercises to help prevent and treat discomfort.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4BDNKICkefPxTLML8E6sHa/c207913cfdc2643ade605f2761dd6037/wrist-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:04.086Z",
+      "lastChecked": "2026-01-06T22:48:04.086Z",
+      "isNew": true
+    },
+    {
+      "id": "e4b4cc1c79af14c4",
+      "title": "7 Simple Wrist Stretches to Ease Pain and Boost Flexibility",
+      "url": "https://www.hingehealth.com/resources/articles/wrist-stretches/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about wrist stretches that can help prevent injuries and relieve pain to make everyday activities easier.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2EoontFsZK1IRhPfOn3cmC/04175d9dcdf7fb922483e1a02328b6a6/woman-practicing-wrist-stretches.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:05.741Z",
+      "lastChecked": "2026-01-06T22:48:05.741Z",
+      "isNew": true
+    },
+    {
+      "id": "b0c475fdbd0959fb",
+      "title": "How to Do a Kneeling Squat: A Hinge Health Guide",
+      "url": "https://www.hingehealth.com/resources/articles/kneeling-squat/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how to do a kneeling squat to improve lower body strength, plus modifications to make this exercise easier or harder.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/38ZJLThCDCiIeVMHwmvzAa/8cbe976a55e9aab2f2d3f6e01e19aec8/kneeling-squat.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:07.417Z",
+      "lastChecked": "2026-01-06T22:48:07.417Z",
+      "isNew": true
+    },
+    {
+      "id": "fe9506c4739c1bc0",
+      "title": "How to Do a Monster Walk: A Hinge Health Guide",
+      "url": "https://www.hingehealth.com/resources/articles/monster-walk/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how to do a monster walk exercise to improve hip strength and balance, plus modifications to make this exercise easier or harder.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/53CUjIJoLMM8MAzfUL6hqP/a41c751d0bf6729994a7cddffd4852b5/monster-walk.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:09.050Z",
+      "lastChecked": "2026-01-06T22:48:09.050Z",
+      "isNew": true
+    },
+    {
+      "id": "234144928af6c4e3",
+      "title": "How to Treat Paraspinal Muscle Spasm, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/paraspinal-muscle-spasm/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn more about what causes paraspinal muscle spasms and get the exercises that can help provide relief, recommended by physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1ubUZRDbsNGfUsCbvtfbk9/214f99501b68a5bbd535bf023fbe98f2/paraspinal-muscle-spasms.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:10.724Z",
+      "lastChecked": "2026-01-06T22:48:10.724Z",
+      "isNew": true
+    },
+    {
+      "id": "73b51298496bae88",
+      "title": "How to Treat Elbow Injuries, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/elbow-injuries/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn common symptoms of elbow injuries and how to relieve them, especially with exercises from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2r11DPDYGXWKHzAHusfiMV/210983e7fbc1bbc0b8cba520604f45fb/elbow-injuries.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:12.450Z",
+      "lastChecked": "2026-01-06T22:48:12.450Z",
+      "isNew": true
+    },
+    {
+      "id": "b4fb28c8f8c117e9",
+      "title": "8 Bicep Stretches Physical Therapists Recommend to Ease Arm Pain",
+      "url": "https://www.hingehealth.com/resources/articles/bicep-stretch/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover how bicep stretches can relieve arm pain and improve mobility with tips from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/YMp6CnamyXVkT4oqxz9lm/ade10809e46d2f422397d86e297baa2f/man-practicing-bicep-stretch.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:14.165Z",
+      "lastChecked": "2026-01-06T22:48:14.165Z",
+      "isNew": true
+    },
+    {
+      "id": "267386014f57ceed",
+      "title": "6 Thoracic Mobility Exercises for Back Flexibility and Pain Relief",
+      "url": "https://www.hingehealth.com/resources/articles/thoracic-mobility-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover thoracic mobility exercises recommended by physical therapists to improve flexibility and posture, and relieve upper back pain.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3tDhRR0hZBhaKVVbv2GPUh/618e2578f1f493ebe097ec4e90ebf27b/woman-practicing-thoracic-mobility-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:15.791Z",
+      "lastChecked": "2026-01-06T22:48:15.791Z",
+      "isNew": true
+    },
+    {
+      "id": "42b16cc6971584c5",
+      "title": "6 Benefits of Working Out at Night, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/working-out-at-night/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover the benefits of working out at night and get expert-recommended exercises for your evening routine.",
+      "targetAudience": [
+        "employers",
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6sfxV0Vye7MCsrZJuEoxZv/b212dbe3066ebc1e6bfd873e2be145df/working-out-at-night.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:17.502Z",
+      "lastChecked": "2026-01-06T22:48:17.502Z",
+      "isNew": true
+    },
+    {
+      "id": "5d01b05bedbc7958",
+      "title": "9 Hand Strengthening Exercises for Better Function and Less Pain",
+      "url": "https://www.hingehealth.com/resources/articles/hand-strengthening-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about hand strengthening exercises you can do at home to improve your daily activities and overall health.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1HTZk8rhgWrtT9ZUOixh8A/a630c5d832d01d8cb305df41401ac920/man-practicing-hand-strengthening-exercises.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:19.091Z",
+      "lastChecked": "2026-01-06T22:48:19.091Z",
+      "isNew": true
+    },
+    {
+      "id": "feee483ac5ad2520",
+      "title": "How to Be More Mindful: 12 Tips to Manage Pain and Reduce Stress",
+      "url": "https://www.hingehealth.com/resources/articles/routine-hacks-to-make-yourself-more-mindful/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how to be more mindful and manage stress and pain effectively. Discover mindfulness techniques to improve your mental and physical well-being.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/r8fFiy1ONe6mEN2uT0GOP/b29073651cb9383d46359f3231c5a202/artem-kovalev-fk3XUcfTAvk-unsplash.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:20.751Z",
+      "lastChecked": "2026-01-06T22:48:20.751Z",
+      "isNew": true
+    },
+    {
+      "id": "502fe60e8e26ba58",
+      "title": "How to Treat a UCL Injury and Relieve Elbow Pain, According to Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/ucl-injury/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn common causes of a UCL injury and how to relieve the associated elbow pain, especially with exercises from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/7G2FUZRjaqTD024msGTzkR/489b000ff24e9836fc488cfe50218ad7/tennis-player-with-ucl-injury.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:22.672Z",
+      "lastChecked": "2026-01-06T22:48:22.672Z",
+      "isNew": true
+    },
+    {
+      "id": "1557b99930816d02",
+      "title": "Should You Use Heat or Ice for Arthritis Pain? Here’s How To Decide",
+      "url": "https://www.hingehealth.com/resources/articles/heat-or-ice-for-arthritis/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn when to use heat or ice for arthritis, and get exercise recommendations from physical therapists that can provide long-term relief for sore joints.",
+      "targetAudience": [
+        "employers",
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/72g9Bn2kHZlWC5sYkBMamA/afc50827fb004617896a13b94ef757a7/senior_woman_using_ice_for_arthritis_relief.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:24.329Z",
+      "lastChecked": "2026-01-06T22:48:24.329Z",
+      "isNew": true
+    },
+    {
+      "id": "46eb250c9c0c68f0",
+      "title": "8 Resistance Band Arm Strengthening Exercises for Better Function and Less Pain",
+      "url": "https://www.hingehealth.com/resources/articles/arm-strengthening-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about arm strengthening exercises you can do at home with just a resistance band.",
+      "targetAudience": [
+        "general"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5sVx4rKm1SW7lFKTBCtKHT/dfb3ce7c63cf08879108ffd3716b1a5b/arm-strengthening-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:26.011Z",
+      "lastChecked": "2026-01-06T22:48:26.011Z",
+      "isNew": true
+    },
+    {
+      "id": "7dc78f3b802a60ff",
+      "title": "Tai Chi Benefits: Why It Helps Improve Your Health",
+      "url": "https://www.hingehealth.com/resources/articles/tai-chi-benefits/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover the health benefits of tai chi and why physical therapists recommend it to improve pain and well-being.",
+      "targetAudience": [
+        "employers",
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/Z1yTNoYcdJwGUSsiXJSo5/9451e7a385368af72c0ad689c62e685b/tai-chi-benefits.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:27.708Z",
+      "lastChecked": "2026-01-06T22:48:27.708Z",
+      "isNew": true
+    },
+    {
+      "id": "9f34ff95bdcaade6",
+      "title": "Dealing With Tight Calves? Here’s How to Get Relief",
+      "url": "https://www.hingehealth.com/resources/articles/tight-calves/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about what causes tight calves and how to feel better with tips and exercises from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/2HnVKw25lfBCtHVTJM10pi/346daae9eaa6d4120f6d4d0cfaa313e0/tight-calves.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:29.365Z",
+      "lastChecked": "2026-01-06T22:48:29.365Z",
+      "isNew": true
+    },
+    {
+      "id": "762b6a495dafb2b0",
+      "title": "Hinge Health’s Guide to Holistic Pain Relief",
+      "url": "https://www.hingehealth.com/resources/articles/holistic-pain-relief/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover holistic pain relief options that go beyond medication. Learn about effective natural strategies like physical therapy, acupuncture, and yoga.",
+      "targetAudience": [
+        "providers"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5EFWsPHxi2gvkEi44qoZRt/e1f252455a5ed22687848fb35fc392f1/holistic-pain-relief.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:31.074Z",
+      "lastChecked": "2026-01-06T22:48:31.074Z",
+      "isNew": true
+    },
+    {
+      "id": "77ee7d5f18ed27c1",
+      "title": "Ice or Heat for Neck Pain: How to Choose",
+      "url": "https://www.hingehealth.com/resources/articles/ice-or-heat-for-neck-pain/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn when to use ice or heat for neck pain, and get exercise recommendations from physical therapists that can provide long-term relief.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3paOmaOXwe2AW9oy3TjlSy/d58ed604b5bea0abe0894c016910ba5d/ice-or-heat-for-neck-pain.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:32.738Z",
+      "lastChecked": "2026-01-06T22:48:32.738Z",
+      "isNew": true
+    },
+    {
+      "id": "a64c00e8b9dd0028",
+      "title": "My Hinge Health Story: Shirley",
+      "url": "https://www.hingehealth.com/resources/articles/my-hinge-health-story-shirley/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "One member shares how she reclaimed her life by reducing her knee, shoulder, and back pain",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5JQhZGTfg90Z0f367TKzjw/46edadd8de64d867f6620c8fbf86cdb7/Shirley_TestimonialFeature_Tablet_640x420.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:34.414Z",
+      "lastChecked": "2026-01-06T22:48:34.414Z",
+      "isNew": true
+    },
+    {
+      "id": "2270cb6698a314bc",
+      "title": "My Hinge Health Story: Andy",
+      "url": "https://www.hingehealth.com/resources/articles/my-hinge-health-story-andy/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn how this member overcame severe back pain to return to his lifelong passions—skiing, wakeboarding, and rock climbing.",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/23hRhf1sCz1qFGPFGWaEek/2fc3fa9ea6a9cbf80faff478919d5b7c/Andy_TestimonialFeature_XL_600x420.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:36.079Z",
+      "lastChecked": "2026-01-06T22:48:36.079Z",
+      "isNew": true
+    },
+    {
+      "id": "f4d87269c72d1002",
+      "title": "My Hinge Health Story: Linda",
+      "url": "https://www.hingehealth.com/resources/articles/my-hinge-health-story-linda/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "How one member finally rid herself of back pain and drastically reduced her medication use",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/GLfUb9G3TyrdRT62hfqfB/ef2a9ddb981ab538f6333e66f7841b6e/Linda_TestimonialFeature_Tablet_640x420.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:37.772Z",
+      "lastChecked": "2026-01-06T22:48:37.772Z",
+      "isNew": true
+    },
+    {
+      "id": "79c06465964c5b7e",
+      "title": "My Hinge Health Story: Mark",
+      "url": "https://www.hingehealth.com/resources/articles/my-hinge-health-story-mark/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "How one member succeeded in reducing chronic back and knee pain to reclaim an active lifestyle.",
+      "targetAudience": [
+        "employers",
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3ZPfgC1JGRCVweQRtwUu8C/26a164f0c3c11e69910061a5be541368/Mark_TestimonialFeature_Desktop_740x420.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:39.526Z",
+      "lastChecked": "2026-01-06T22:48:39.526Z",
+      "isNew": true
+    },
+    {
+      "id": "f14ed6864b90b850",
+      "title": "My Hinge Health Story: Maria",
+      "url": "https://www.hingehealth.com/resources/articles/my-hinge-health-story-maria/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "One member shares the life-changing impact of addressing her pelvic floor and incontinence issues",
+      "targetAudience": [
+        "members"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/3l2kjvful9ctoOgyVIdqP7/1a8f5c2ee2aca342f3b3eb75ec1f2766/Maria_TestimonialFeature_Tablet_640x420.png?w=1200",
+      "firstSeen": "2026-01-06T22:48:41.210Z",
+      "lastChecked": "2026-01-06T22:48:41.210Z",
+      "isNew": true
+    },
+    {
+      "id": "d83340b016b56492",
+      "title": "Improving Knee Health: A Hinge Health Guide",
+      "url": "https://www.hingehealth.com/resources/articles/knee-health/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover how to improve knee health and stay mobile with tips and exercises recommended by physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/6a1icpeuIh4HRYJEEMH7Mr/b05029c3220ed6277cf2c52bc9312128/man-practicing-stretches-to-improve-knee-health.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:42.917Z",
+      "lastChecked": "2026-01-06T22:48:42.917Z",
+      "isNew": true
+    },
+    {
+      "id": "5af2e03cf99638b7",
+      "title": "10 Back Exercises for Beginners, Recommended by Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/back-exercises-for-beginners/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Discover the back exercises for beginners that are recommended by Hinge Health physical therapists to relieve back pain and improve mobility.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/4IrPjdZ1XsCtFBz5HWXSqG/9b889874d0cc8bc3f7ac2d116afd1c7b/woman-practicing-back-exercises-for-beginners.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:44.601Z",
+      "lastChecked": "2026-01-06T22:48:44.601Z",
+      "isNew": true
+    },
+    {
+      "id": "05a850e310e738b1",
+      "title": "8 PT-Approved Resistance Band Back Exercises to Help You Get Stronger",
+      "url": "https://www.hingehealth.com/resources/articles/resistance-band-back-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the importance of back strength and how to improve yours with resistance band back exercises recommended by physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/1N7IIQ53PQaHMZgquMlRi9/160dcba163a222517b21462faa65dec3/woman-practicing-back-exercises-with-resistance-band.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:46.239Z",
+      "lastChecked": "2026-01-06T22:48:46.239Z",
+      "isNew": true
+    },
+    {
+      "id": "61f5e5b1ab025cd9",
+      "title": "10 Shoulder Stability Exercises Physical Therapists Want You To Try",
+      "url": "https://www.hingehealth.com/resources/articles/shoulder-stability-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the importance of shoulder strength and how to improve yours with shoulder stability exercises recommended by physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/26UTfrhTZVHSOoM08PPD1Y/8bf399adfb2dd4344a54d7a0957e096d/shoulder-stability-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:48.020Z",
+      "lastChecked": "2026-01-06T22:48:48.020Z",
+      "isNew": true
+    },
+    {
+      "id": "0e651f242ad601b5",
+      "title": "Stiff Hips? These Tips and Exercises From Physical Therapists Can Help",
+      "url": "https://www.hingehealth.com/resources/articles/stiff-hips/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about what causes stiff hips and how to feel better with treatment tips and exercises from physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/IQ8Q5EJ4xRhVS1CcAa3jg/dbf3d9e2af200b2103eb2217651a25c3/stiff-hips.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:49.683Z",
+      "lastChecked": "2026-01-06T22:48:49.683Z",
+      "isNew": true
+    },
+    {
+      "id": "2ead92fb51b426a6",
+      "title": "12 Back Strengthening Exercises for Seniors Recommended by Physical Therapists",
+      "url": "https://www.hingehealth.com/resources/articles/back-strengthening-exercises-for-seniors/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Learn about the importance of back strengthening exercises for seniors and get moves recommended by physical therapists.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/5z9RmqB4DLDj9nlbvQihAF/518f55c87d358ebc0422dc5ee98768c7/seniors-practicing-back-strengthening-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:51.372Z",
+      "lastChecked": "2026-01-06T22:48:51.372Z",
+      "isNew": true
+    },
+    {
+      "id": "f7b2460d9fc70a91",
+      "title": "10 Wrist Strengthening Exercises Physical Therapists Recommend",
+      "url": "https://www.hingehealth.com/resources/articles/wrist-strengthening-exercises/",
+      "publishDate": null,
+      "updateDate": null,
+      "contentType": "article",
+      "categories": [],
+      "metaDescription": "Get wrist strengthening exercises from physical therapists to relieve wrist pain and improve mobility and grip strength.",
+      "targetAudience": [
+        "providers",
+        "partners"
+      ],
+      "featuredImage": "https://images.ctfassets.net/hjcv6wdwxsdz/gQ6cGz8rtirBrNTWKHUUn/1213e4c5d621a8c665a0aa7a8666ab32/wrist-strengthening-exercises.jpg?w=1200",
+      "firstSeen": "2026-01-06T22:48:53.030Z",
+      "lastChecked": "2026-01-06T22:48:53.030Z",
+      "isNew": true
     }
   ],
   "summary": {
-    "totalContent": 950,
-    "newContentCount": 950,
+    "totalContent": 1050,
+    "newContentCount": 1050,
     "contentByType": {
       "support": 72,
       "case-study": 16,
-      "article": 793,
+      "article": 893,
       "press-release": 69
     },
     "contentByAudience": {
-      "general": 382,
-      "employers": 144,
-      "partners": 356,
-      "members": 31,
-      "providers": 464
+      "general": 409,
+      "employers": 168,
+      "partners": 388,
+      "members": 41,
+      "providers": 511
     },
     "topCategories": {}
   }
