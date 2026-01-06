@@ -1,0 +1,270 @@
+name: Hinge Health Content Monitor
+
+# Run daily at 8 AM EST (13:00 UTC during standard time, 12:00 UTC during daylight time)
+on:
+  schedule:
+    - cron: '0 13 * * *'  # 8 AM EST (adjust based on DST)
+
+  # Allow manual triggering from Actions tab
+  workflow_dispatch:
+
+  # Run on push to main for testing
+  push:
+    branches:
+      - main
+    paths:
+      - 'hinge-monitor.js'
+      - 'config.json'
+      - '.github/workflows/monitor.yml'
+
+jobs:
+  monitor:
+    name: Monitor Hinge Health Content
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Need full history for proper commit management
+          fetch-depth: 0
+
+      # Setup Node.js environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # Install Chromium dependencies for Puppeteer
+      - name: Install Puppeteer dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            chromium-browser \
+            libnss3 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2
+
+      # Run the monitoring script
+      - name: Run content monitor
+        id: monitor
+        run: |
+          echo "Starting content monitoring..."
+          npm run monitor > monitor-output.log 2>&1
+
+          # Capture the exit code
+          MONITOR_EXIT_CODE=$?
+
+          # Display the output
+          cat monitor-output.log
+
+          # Check if there's new content
+          if grep -q "New Content:" monitor-output.log; then
+            NEW_CONTENT=$(grep "New Content:" monitor-output.log | awk '{print $NF}')
+            echo "new_content=$NEW_CONTENT" >> $GITHUB_OUTPUT
+
+            if [ "$NEW_CONTENT" -gt 0 ]; then
+              echo "has_new_content=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_new_content=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "has_new_content=false" >> $GITHUB_OUTPUT
+            echo "new_content=0" >> $GITHUB_OUTPUT
+          fi
+
+          exit $MONITOR_EXIT_CODE
+        env:
+          # Puppeteer configuration
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'false'
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+
+      # Create a summary of the run
+      - name: Generate summary
+        if: always()
+        run: |
+          echo "## Hinge Health Content Monitor Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Run Date:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "hinge-content.json" ]; then
+            TOTAL=$(jq '.totalContent' hinge-content.json)
+            NEW=$(jq '.summary.newContentCount' hinge-content.json)
+
+            echo "**Total Content Pieces:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+            echo "**New Content This Run:** $NEW" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            echo "### Content by Type" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            jq -r '.summary.contentByType | to_entries[] | "- **\(.key):** \(.value)"' hinge-content.json >> $GITHUB_STEP_SUMMARY
+
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Top Categories" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            jq -r '.summary.topCategories | to_entries[] | select(.value >= 5) | "- **\(.key):** \(.value)"' hinge-content.json | head -10 >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**Status:** No data file generated" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      # Configure Git for commits
+      - name: Configure Git
+        if: success()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      # Commit and push changes if data was updated
+      - name: Commit updated data
+        if: success()
+        run: |
+          # Add the data file
+          git add hinge-content.json
+
+          # Add backup files if they exist
+          if [ -d "backups" ]; then
+            git add backups/
+          fi
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Create commit message with summary
+            if [ -f "hinge-content.json" ]; then
+              TOTAL=$(jq '.totalContent' hinge-content.json)
+              NEW=$(jq '.summary.newContentCount' hinge-content.json)
+
+              git commit -m "Update content data: $TOTAL total pieces ($NEW new)" \
+                         -m "Automated update from GitHub Actions" \
+                         -m "Run: ${{ github.run_number }}" \
+                         -m "Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+
+              git push
+              echo "Changes committed and pushed"
+            else
+              git commit -m "Update content data" \
+                         -m "Automated update from GitHub Actions"
+              git push
+            fi
+          fi
+
+      # Create an issue if new content is found
+      - name: Create issue for new content
+        if: steps.monitor.outputs.has_new_content == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('hinge-content.json', 'utf8'));
+
+            const newContent = data.content.filter(item => item.isNew);
+            const newCount = newContent.length;
+
+            let issueBody = `## ${newCount} New Content Piece${newCount > 1 ? 's' : ''} Found\n\n`;
+            issueBody += `Found ${newCount} new content piece${newCount > 1 ? 's' : ''} from Hinge Health.\n\n`;
+            issueBody += `### New Content:\n\n`;
+
+            newContent.slice(0, 10).forEach((item, index) => {
+              issueBody += `${index + 1}. **${item.title}**\n`;
+              issueBody += `   - Type: ${item.contentType}\n`;
+              issueBody += `   - URL: ${item.url}\n`;
+              issueBody += `   - Published: ${item.publishDate || 'Unknown'}\n`;
+              if (item.categories.length > 0) {
+                issueBody += `   - Topics: ${item.categories.slice(0, 5).join(', ')}\n`;
+              }
+              issueBody += `\n`;
+            });
+
+            if (newCount > 10) {
+              issueBody += `\n*...and ${newCount - 10} more. See hinge-content.json for full details.*\n`;
+            }
+
+            issueBody += `\n---\n*Automated by Hinge Health Content Monitor*`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `New Content Alert: ${newCount} piece${newCount > 1 ? 's' : ''} found`,
+              body: issueBody,
+              labels: ['content-update', 'automated']
+            });
+
+      # Upload artifacts
+      - name: Upload monitoring data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitoring-data-${{ github.run_number }}
+          path: |
+            hinge-content.json
+            monitor-output.log
+            backups/
+          retention-days: 90
+
+      # Send notification on failure
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Content Monitor Failed',
+              body: `The content monitoring workflow failed.\n\nRun: ${context.runNumber}\nWorkflow: ${context.workflow}\n\nPlease check the [workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`,
+              labels: ['bug', 'automated', 'monitoring-failure']
+            });
+
+  analyze:
+    name: Analyze Content
+    needs: monitor
+    runs-on: ubuntu-latest
+    if: success()
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pull latest changes
+        run: git pull
+
+      - name: Run analysis
+        run: |
+          echo "Running content analysis..."
+          npm run analyze > analysis-output.log 2>&1
+          cat analysis-output.log
+
+      - name: Upload analysis results
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-results-${{ github.run_number }}
+          path: analysis-output.log
+          retention-days: 30

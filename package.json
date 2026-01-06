@@ -1,0 +1,35 @@
+{
+  "name": "hinge-monitor",
+  "version": "1.0.0",
+  "description": "Competitor content monitoring system for HingeHealth.com/resources",
+  "main": "hinge-monitor.js",
+  "scripts": {
+    "scrape": "node hinge-scraper-sitemap.js",
+    "scrape-simple": "node hinge-scraper-simple.js",
+    "monitor": "node hinge-monitor.js",
+    "analyze": "node hinge-analyzer.js",
+    "dev": "npm run scrape",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "competitor-analysis",
+    "content-monitoring",
+    "web-scraping",
+    "hinge-health"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "date-fns": "^3.0.6",
+    "puppeteer": "^24.34.0",
+    "robots-parser": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

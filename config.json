@@ -1,0 +1,45 @@
+{
+  "targetUrl": "https://www.hingehealth.com/resources",
+  "scraping": {
+    "headless": true,
+    "timeout": 30000,
+    "waitForNetworkIdle": true,
+    "userAgent": "Mozilla/5.0 (compatible; HingeMonitor/1.0; +https://github.com/yourrepo/hinge-monitor)",
+    "delayBetweenRequests": 800,
+    "maxRetries": 3,
+    "respectRobotsTxt": true
+  },
+  "monitoring": {
+    "includeBlogPosts": true,
+    "includeCaseStudies": true,
+    "includeWhitepapers": true,
+    "includeGuides": true,
+    "includeVideos": true,
+    "includeWebinars": true,
+    "maxPagesToScrape": 2000,
+    "contentAgeLimit": 730
+  },
+  "notifications": {
+    "enabled": false,
+    "email": "",
+    "webhook": "",
+    "notifyOnNewContent": true,
+    "dailySummary": true
+  },
+  "schedule": {
+    "enabled": true,
+    "cronExpression": "0 8 * * *",
+    "timezone": "America/New_York"
+  },
+  "output": {
+    "dataFile": "hinge-content.json",
+    "logLevel": "info",
+    "prettyPrint": true,
+    "backupOldData": true
+  },
+  "analysis": {
+    "minTopicFrequency": 3,
+    "recentContentDays": 7,
+    "trendAnalysisPeriod": 90
+  }
+}
