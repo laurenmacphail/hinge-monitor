@@ -49,7 +49,7 @@ const STRATEGIC_TOPICS = {
     'app', 'mobile', 'platform', 'technology', 'enso', 'truemotion'
   ],
   market: [
-    'msk', 'value-based care', 'population health',
+    'musculoskeletal', 'msk', 'value-based care', 'population health',
     'clinical outcomes', 'patient outcomes', 'evidence-based',
     'research', 'study', 'clinical study', 'white paper', 'report',
     'partnership', 'integration', 'provider network'

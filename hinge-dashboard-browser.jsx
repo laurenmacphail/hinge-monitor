@@ -1,22 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import {
-  BarChart, Bar, LineChart, Line, PieChart, Pie, Cell,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
-} from 'recharts';
-
 /**
- * Hinge Health Competitive Intelligence Dashboard
- * 
- * Interactive dashboard displaying strategic intelligence from Hinge Health content analysis
- * Fetches data from hinge-intelligence.json (can be configured for GitHub Pages URL)
+ * Hinge Health Competitive Intelligence Dashboard - Browser Version
+ * Compatible with Babel standalone (no build step required)
  */
 
+// Get React hooks and Recharts from global scope
+const { useState, useEffect } = React;
+const { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = Recharts;
+
 // Configuration - Update this URL for GitHub Pages deployment
-const DATA_SOURCE_URL = process.env.REACT_APP_DATA_URL || './hinge-intelligence.json';
+const DATA_SOURCE_URL = './hinge-intelligence.json';
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D', '#FFC658', '#FF6B6B'];
 
 const HingeIntelligenceDashboard = () => {
+  console.log('Dashboard component rendering...');
+
   const [intelligence, setIntelligence] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -24,24 +22,34 @@ const HingeIntelligenceDashboard = () => {
   const [expandedPriority, setExpandedPriority] = useState(null);
 
   useEffect(() => {
+    console.log('useEffect triggered, loading intelligence...');
     loadIntelligence();
   }, []);
 
   const loadIntelligence = async () => {
     try {
+      console.log('Fetching from:', DATA_SOURCE_URL);
       setLoading(true);
       const response = await fetch(DATA_SOURCE_URL);
-      
+
+      console.log('Fetch response:', response.status, response.statusText);
+
       if (!response.ok) {
-        throw new Error('Could not load intelligence data. Please run: npm run generate-intelligence');
+        throw new Error(`Could not load intelligence data (${response.status}). Please run: npm run generate-intelligence`);
       }
 
       const data = await response.json();
+      console.log('Intelligence data loaded:', {
+        totalPieces: data.metadata?.totalPieces,
+        priorities: data.strategicPriorities?.length,
+        hasAllSections: !!(data.trendingUp && data.audienceStrategy && data.campaigns)
+      });
+
       setIntelligence(data);
       setError(null);
     } catch (err) {
-      setError(err.message);
       console.error('Error loading intelligence:', err);
+      setError(err.message);
     } finally {
       setLoading(false);
     }
@@ -75,7 +83,12 @@ const HingeIntelligenceDashboard = () => {
     );
   }
 
-  if (!intelligence) return null;
+  if (!intelligence) {
+    console.log('No intelligence data available');
+    return null;
+  }
+
+  console.log('Rendering dashboard with data');
 
   const tabs = [
     { id: 'overview', label: '📊 Overview', icon: '📊' },
@@ -97,8 +110,8 @@ const HingeIntelligenceDashboard = () => {
         <div>
           <h1 style={styles.title}>Hinge Health Competitive Intelligence</h1>
           <p style={styles.subtitle}>
-            Last Updated: {new Date(intelligence.lastUpdated).toLocaleString()} 
-            {' • '} 
+            Last Updated: {new Date(intelligence.lastUpdated).toLocaleString()}
+            {' • '}
             {intelligence.metadata.totalPieces.toLocaleString()} pieces analyzed
           </p>
         </div>
@@ -128,8 +141,8 @@ const HingeIntelligenceDashboard = () => {
       <main style={styles.main}>
         {activeTab === 'overview' && <OverviewTab intelligence={intelligence} />}
         {activeTab === 'priorities' && (
-          <PrioritiesTab 
-            priorities={intelligence.strategicPriorities} 
+          <PrioritiesTab
+            priorities={intelligence.strategicPriorities}
             expanded={expandedPriority}
             setExpanded={setExpandedPriority}
           />
@@ -151,14 +164,14 @@ const HingeIntelligenceDashboard = () => {
 const OverviewTab = ({ intelligence }) => (
   <div style={styles.tabContent}>
     <h2 style={styles.sectionTitle}>Content Overview</h2>
-    
+
     <div style={styles.cardGrid}>
       <div style={styles.statCard}>
         <div style={styles.statValue}>{intelligence.metadata.totalPieces.toLocaleString()}</div>
         <div style={styles.statLabel}>Total Pieces</div>
       </div>
       <div style={styles.statCard}>
-        <div style={styles.statValue}>{intelligence.metadata.withDatesPct}%</div>
+        <div style={styles.statValue}>{intelligence.metadata.withDatesPct}</div>
         <div style={styles.statLabel}>With Dates</div>
       </div>
       <div style={styles.statCard}>
@@ -181,7 +194,7 @@ const OverviewTab = ({ intelligence }) => (
     <div style={styles.card}>
       <h3 style={styles.cardTitle}>Quick Summary</h3>
       <ul style={{lineHeight: '1.8', color: '#555'}}>
-        <li><strong>{intelligence.strategicPriorities[0]?.count} pieces</strong> on {intelligence.strategicPriorities[0]?.topic} ({intelligence.strategicPriorities[0]?.percentage}%)</li>
+        <li><strong>{intelligence.strategicPriorities[0]?.count} pieces</strong> on {intelligence.strategicPriorities[0]?.topic} ({intelligence.strategicPriorities[0]?.percentage})</li>
         <li><strong>{intelligence.audienceStrategy.breakdown[0]?.count} pieces</strong> target {intelligence.audienceStrategy.breakdown[0]?.audience}</li>
         <li><strong>{intelligence.trendingUp[0]?.topic}</strong> trending up +{intelligence.trendingUp[0]?.change}%</li>
         <li><strong>{intelligence.contentGaps.zeroCoverage.length} content gaps</strong> with zero coverage</li>
@@ -218,7 +231,7 @@ const PrioritiesTab = ({ priorities, expanded, setExpanded }) => {
       <div style={styles.prioritiesList}>
         {priorities.map(priority => (
           <div key={priority.rank} style={styles.priorityCard}>
-            <div 
+            <div
               style={styles.priorityHeader}
               onClick={() => setExpanded(expanded === priority.rank ? null : priority.rank)}
             >
@@ -228,7 +241,7 @@ const PrioritiesTab = ({ priorities, expanded, setExpanded }) => {
                   {priority.topic.charAt(0).toUpperCase() + priority.topic.slice(1)}
                 </h3>
                 <p style={styles.priorityStats}>
-                  {priority.count} pieces ({priority.percentage}%) • {priority.interpretation}
+                  {priority.count} pieces ({priority.percentage}) • {priority.interpretation}
                 </p>
               </div>
               <span style={styles.expandIcon}>{expanded === priority.rank ? '▼' : '▶'}</span>
@@ -242,7 +255,7 @@ const PrioritiesTab = ({ priorities, expanded, setExpanded }) => {
                     {priority.subtopics.map((sub, i) => (
                       <div key={i} style={styles.subtopicItem}>
                         <span>{sub.name}: </span>
-                        <strong>{sub.count} pieces ({sub.percentage}%)</strong>
+                        <strong>{sub.count} pieces ({sub.percentage})</strong>
                       </div>
                     ))}
                   </div>
@@ -254,7 +267,7 @@ const PrioritiesTab = ({ priorities, expanded, setExpanded }) => {
                     {priority.contentTypes.map((type, i) => (
                       <div key={i} style={styles.subtopicItem}>
                         <span>{type.name}: </span>
-                        <strong>{type.count} pieces ({type.percentage}%)</strong>
+                        <strong>{type.count} pieces ({type.percentage})</strong>
                       </div>
                     ))}
                   </div>
@@ -356,7 +369,7 @@ const AudienceTab = ({ audience }) => {
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={(entry) => `${entry.name}: ${entry.percentage}%`}
+                label={(entry) => `${entry.name}: ${entry.percentage}`}
                 outerRadius={80}
                 fill="#8884d8"
                 dataKey="value"
@@ -379,7 +392,7 @@ const AudienceTab = ({ audience }) => {
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={(entry) => `${entry.name}: ${entry.percentage}%`}
+                label={(entry) => `${entry.name}: ${entry.percentage}`}
                 outerRadius={80}
                 fill="#8884d8"
                 dataKey="value"
@@ -605,7 +618,7 @@ const InsightsTab = ({ insights }) => (
   </div>
 );
 
-// Raw Data Tab (simplified version - original table can be expanded)
+// Raw Data Tab
 const RawDataTab = ({ rawContent }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState('all');
@@ -1088,4 +1101,4 @@ const styles = {
   }
 };
 
-export default HingeIntelligenceDashboard;
+console.log('Dashboard script loaded successfully');

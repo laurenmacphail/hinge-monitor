@@ -5,9 +5,12 @@
   "main": "hinge-monitor.js",
   "scripts": {
     "scrape": "node hinge-scraper-sitemap.js",
-    "scrape-simple": "node hinge-scraper-simple.js",
-    "monitor": "node hinge-monitor.js",
+    "scrape:full": "node hinge-scraper-sitemap.js --full",
     "analyze": "node hinge-analyzer.js",
+    "report": "node hinge-report.js",
+    "generate-intelligence": "node hinge-intelligence-generator.js",
+    "build": "npm run generate-intelligence",
+    "build-all": "npm run scrape && npm run generate-intelligence",
     "dev": "npm run scrape",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
