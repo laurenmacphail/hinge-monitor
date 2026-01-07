@@ -11,6 +11,8 @@
     "generate-intelligence": "node hinge-intelligence-generator.js",
     "build": "npm run generate-intelligence",
     "build-all": "npm run scrape && npm run generate-intelligence",
+    "update-pages": "cp dashboard.html docs/index.html && cp hinge-intelligence.json docs/",
+    "deploy": "npm run generate-intelligence && npm run update-pages",
     "dev": "npm run scrape",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

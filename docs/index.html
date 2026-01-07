@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sword Health Competitive Intelligence Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header */
+    .header {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(135deg, #FF8283 0%, #FFA5A6 100%);
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .header .subtitle {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    /* Competitor Bar */
+    .competitor-bar {
+      background: #e8f5e9;
+      padding: 16px 40px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .competitor-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      color: #2e7d32;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .coming-soon {
+      font-size: 13px;
+      color: #558b2f;
+      font-weight: 500;
+    }
+
+    .refresh-btn {
+      padding: 12px 24px;
+      background: white;
+      color: #FF8283;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .refresh-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    /* Tabs */
+    .tabs {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tab {
+      padding: 12px 20px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #666;
+      transition: all 0.2s;
+      font-weight: 500;
+    }
+
+    .tab:hover {
+      background: #f5f5f5;
+      transform: translateY(-1px);
+    }
+
+    .tab.active {
+      background: #FF8283;
+      color: white;
+      box-shadow: 0 4px 12px rgba(255,130,131,0.3);
+    }
+
+    /* Main Content */
+    .main {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 40px;
+      min-height: 600px;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease-in;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: 700;
+    }
+
+    .section-desc {
+      color: #666;
+      margin-bottom: 32px;
+      font-size: 16px;
+    }
+
+    /* Cards */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+      border: 2px solid #FF8283;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: all 0.3s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      border-color: #FF6B6C;
+    }
+
+    .stat-value {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #FF8283;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: #666;
+      font-weight: 600;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: all 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    /* Timeline Chart */
+    .timeline-chart {
+      margin: 30px 0;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+    }
+
+    .chart-bars {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      height: 240px;
+      gap: 8px;
+      padding: 20px 0;
+      border-bottom: 2px solid #e0e0e0;
+      margin-bottom: 10px;
+    }
+
+    .chart-bar-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .chart-bar-wrapper:hover .chart-bar {
+      opacity: 0.8;
+      transform: scaleY(1.05);
+    }
+
+    .chart-bar {
+      width: 100%;
+      background: linear-gradient(180deg, #FF8283 0%, #FF6B6C 100%);
+      border-radius: 6px 6px 0 0;
+      transition: all 0.3s;
+      position: relative;
+      min-height: 8px;
+    }
+
+    .chart-value {
+      font-size: 13px;
+      font-weight: 700;
+      color: #FF8283;
+      margin-bottom: 4px;
+    }
+
+    .chart-label {
+      font-size: 11px;
+      color: #666;
+      margin-top: 8px;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    /* Bar Charts (CSS) */
+    .bar-chart {
+      margin: 20px 0;
+    }
+
+    .bar-item {
+      margin-bottom: 16px;
+    }
+
+    .bar-label {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .bar-bg {
+      background: #f0f0f0;
+      border-radius: 6px;
+      height: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      background: linear-gradient(90deg, #FF8283 0%, #FFA5A6 100%);
+      height: 100%;
+      border-radius: 6px;
+      transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      align-items: center;
+      padding-left: 12px;
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(255,130,131,0.3);
+    }
+
+    /* Priority Cards */
+    .priority-card {
+      background: white;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      overflow: hidden;
+      transition: all 0.3s;
+    }
+
+    .priority-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      transform: translateY(-2px);
+    }
+
+    .priority-header {
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .priority-header:hover {
+      background: #f9f9f9;
+    }
+
+    .priority-rank {
+      font-size: 28px;
+      font-weight: 700;
+      color: #FF8283;
+      margin-right: 20px;
+      min-width: 45px;
+    }
+
+    .priority-title {
+      font-size: 18px;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .priority-stats {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .expand-icon {
+      margin-left: auto;
+      font-size: 14px;
+      color: #999;
+      transition: transform 0.3s;
+    }
+
+    .priority-details {
+      padding: 0 24px 24px 89px;
+      background: #f9f9f9;
+      display: none;
+    }
+
+    .priority-details.expanded {
+      display: block;
+      animation: slideDown 0.3s ease;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; max-height: 0; }
+      to { opacity: 1; max-height: 1000px; }
+    }
+
+    .detail-section {
+      margin-top: 20px;
+    }
+
+    .detail-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #555;
+    }
+
+    .detail-item {
+      padding: 8px 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .example-link {
+      color: #7A9BD4;
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+
+    .example-link:hover {
+      color: #FF8283;
+      text-decoration: underline;
+    }
+
+    /* Trending */
+    .trending-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .trend-item {
+      padding: 16px 0;
+      border-bottom: 1px solid #f0f0f0;
+      transition: all 0.2s;
+    }
+
+    .trend-item:hover {
+      padding-left: 8px;
+    }
+
+    .trend-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .trend-badge {
+      padding: 6px 12px;
+      border-radius: 20px;
+      color: white;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .trend-badge.up {
+      background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    }
+
+    .trend-badge.down {
+      background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+    }
+
+    .trend-details {
+      font-size: 13px;
+      color: #666;
+      font-weight: 500;
+    }
+
+    /* Gap Items */
+    .gap-item {
+      padding: 16px 20px;
+      background: white;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      border-left: 4px solid;
+      transition: all 0.3s;
+    }
+
+    .gap-item:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .gap-item.zero {
+      border-left-color: #f45c43;
+    }
+
+    .gap-item.limited {
+      border-left-color: #f9a826;
+    }
+
+    .gap-topic {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 6px;
+      color: #333;
+    }
+
+    .gap-desc {
+      color: #666;
+      font-size: 14px;
+    }
+
+    /* Insight Cards */
+    .insight-card {
+      display: flex;
+      background: linear-gradient(135deg, #FF828315 0%, #FFA5A615 100%);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      transition: all 0.3s;
+      border-left: 4px solid #FF8283;
+    }
+
+    .insight-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .insight-number {
+      font-size: 42px;
+      font-weight: 700;
+      color: #FF8283;
+      margin-right: 24px;
+      min-width: 56px;
+    }
+
+    .insight-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .insight-data {
+      font-size: 17px;
+      color: #FF8283;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .insight-text {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    /* Table */
+    .table-controls {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 12px 16px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: #FF8283;
+      box-shadow: 0 0 0 3px rgba(255,130,131,0.1);
+    }
+
+    .select {
+      padding: 12px 16px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+      min-width: 180px;
+      background: white;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .select:focus {
+      outline: none;
+      border-color: #FF8283;
+    }
+
+    .export-btn {
+      padding: 12px 24px;
+      background: #FF8283;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.3s;
+      box-shadow: 0 2px 8px rgba(255,130,131,0.3);
+    }
+
+    .export-btn:hover {
+      background: #FF6B6C;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255,130,131,0.4);
+    }
+
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .results-count {
+      font-size: 14px;
+      color: #666;
+      font-weight: 500;
+    }
+
+    .sortable {
+      cursor: pointer;
+      user-select: none;
+      position: relative;
+      padding-right: 20px;
+    }
+
+    .sortable:hover {
+      background: #FF6B6C;
+    }
+
+    .sortable::after {
+      content: '⇅';
+      position: absolute;
+      right: 8px;
+      opacity: 0.5;
+      font-size: 12px;
+    }
+
+    .sortable.sorted-asc::after {
+      content: '↑';
+      opacity: 1;
+    }
+
+    .sortable.sorted-desc::after {
+      content: '↓';
+      opacity: 1;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      max-height: 600px;
+      overflow-y: auto;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      padding: 14px 16px;
+      text-align: left;
+      background: #FF8283;
+      color: white;
+      border-bottom: 2px solid #FF6B6C;
+      position: sticky;
+      top: 0;
+      font-size: 14px;
+      font-weight: 600;
+      z-index: 10;
+    }
+
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 14px;
+    }
+
+    tr:hover {
+      background: #f9f9f9;
+    }
+
+    /* Loading/Error States */
+    .loading, .error {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 400px;
+      color: #666;
+    }
+
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #FF8283;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .error {
+      background: #fff3cd;
+      border: 2px solid #ffc107;
+      border-radius: 12px;
+      padding: 40px;
+      margin: 40px;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* Progress Bars */
+    .quality-card {
+      text-align: center;
+    }
+
+    .quality-value {
+      font-size: 42px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .quality-label {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .quality-bar {
+      height: 10px;
+      background: #e8ecff;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .quality-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+      transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 2px 8px rgba(17,153,142,0.3);
+    }
+
+    /* Metric Badge */
+    .metric-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: linear-gradient(135deg, #FF828315 0%, #FFA5A615 100%);
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #FF8283;
+      margin-bottom: 16px;
+    }
+
+    /* Audience Pie Chart (CSS) */
+    .pie-chart {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .pie-visual {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+    }
+
+    .pie-legend {
+      flex: 1;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 0;
+      font-size: 14px;
+    }
+
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div id="header" class="header">
+      <div>
+        <h1>🎯 Sword Health Competitive Intelligence</h1>
+        <div class="subtitle" id="header-subtitle">Loading...</div>
+      </div>
+      <button class="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
+    </div>
+
+    <!-- Competitor Bar -->
+    <div class="competitor-bar">
+      <div>
+        <div class="competitor-badge">
+          🏢 Hinge Health
+        </div>
+      </div>
+      <div class="coming-soon">
+        More competitors coming soon...
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loading" class="main">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>Loading intelligence data...</p>
+      </div>
+    </div>
+
+    <!-- Error State -->
+    <div id="error" class="main hidden">
+      <div class="error">
+        <h2>⚠️ Error Loading Data</h2>
+        <p id="error-message"></p>
+        <p style="margin-top: 20px; font-size: 14px; color: #666;">
+          Make sure to run: <code>npm run generate-intelligence</code>
+        </p>
+        <button class="refresh-btn" onclick="loadData()" style="margin-top: 20px;">Retry</button>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div id="tabs" class="tabs hidden">
+      <button class="tab active" onclick="switchTab('overview')">📊 Overview</button>
+      <button class="tab" onclick="switchTab('priorities')">🎯 Strategic Priorities</button>
+      <button class="tab" onclick="switchTab('trending')">📈 Trending</button>
+      <button class="tab" onclick="switchTab('audience')">👥 Audience</button>
+      <button class="tab" onclick="switchTab('messaging')">💬 Messaging</button>
+      <button class="tab" onclick="switchTab('campaigns')">🚀 Campaigns</button>
+      <button class="tab" onclick="switchTab('gaps')">⚠️ Gaps</button>
+      <button class="tab" onclick="switchTab('quality')">💎 Quality</button>
+      <button class="tab" onclick="switchTab('insights')">💡 Insights</button>
+      <button class="tab" onclick="switchTab('data')">📄 Raw Data</button>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main" class="main hidden">
+      <div id="content"></div>
+    </div>
+  </div>
+
+  <script>
+    let intelligenceData = null;
+    let rawDataFiltered = [];
+    let currentSort = { column: null, direction: 'asc' };
+
+    // Load data on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('Dashboard loading...');
+      loadData();
+    });
+
+    async function loadData() {
+      console.log('Fetching intelligence data...');
+
+      // Show loading state
+      document.getElementById('loading').classList.remove('hidden');
+      document.getElementById('error').classList.add('hidden');
+      document.getElementById('tabs').classList.add('hidden');
+      document.getElementById('main').classList.add('hidden');
+
+      try {
+        const response = await fetch('./hinge-intelligence.json');
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: Could not load intelligence data`);
+        }
+
+        intelligenceData = await response.json();
+        console.log('✓ Data loaded:', {
+          totalPieces: intelligenceData.metadata.totalPieces,
+          priorities: intelligenceData.strategicPriorities.length,
+          timelineMonths: intelligenceData.timeline?.last12Months?.length || 0
+        });
+
+        // Update header
+        const subtitle = document.getElementById('header-subtitle');
+        subtitle.textContent = `Last Updated: ${new Date(intelligenceData.lastUpdated).toLocaleString()} • ${intelligenceData.metadata.totalPieces.toLocaleString()} pieces analyzed`;
+
+        // Show dashboard
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('tabs').classList.remove('hidden');
+        document.getElementById('main').classList.remove('hidden');
+
+        // Render initial tab
+        switchTab('overview');
+
+      } catch (err) {
+        console.error('Error loading data:', err);
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('error').classList.remove('hidden');
+        document.getElementById('error-message').textContent = err.message;
+      }
+    }
+
+    function switchTab(tabName) {
+      // Update active tab
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      event?.target?.classList.add('active') || document.querySelector(`.tab[onclick*="${tabName}"]`).classList.add('active');
+
+      // Render content
+      const content = document.getElementById('content');
+
+      switch(tabName) {
+        case 'overview':
+          content.innerHTML = renderOverview();
+          break;
+        case 'priorities':
+          content.innerHTML = renderPriorities();
+          break;
+        case 'trending':
+          content.innerHTML = renderTrending();
+          break;
+        case 'audience':
+          content.innerHTML = renderAudience();
+          break;
+        case 'messaging':
+          content.innerHTML = renderMessaging();
+          break;
+        case 'campaigns':
+          content.innerHTML = renderCampaigns();
+          break;
+        case 'gaps':
+          content.innerHTML = renderGaps();
+          break;
+        case 'quality':
+          content.innerHTML = renderQuality();
+          break;
+        case 'insights':
+          content.innerHTML = renderInsights();
+          break;
+        case 'data':
+          content.innerHTML = renderRawData();
+          setupTableSearch();
+          break;
+      }
+    }
+
+    function renderOverview() {
+      const d = intelligenceData;
+      const timeline = d.timeline || { last12Months: [], avgPerMonth: 0 };
+
+      // Calculate max from ONLY the visible 12 months data
+      const visibleMonths = timeline.last12Months || [];
+      const maxCount = visibleMonths.length > 0
+        ? Math.max(...visibleMonths.map(m => m.count))
+        : 1;
+
+      // Chart container is 240px tall with 20px padding top/bottom = 200px usable height
+      const CHART_HEIGHT = 200;
+
+      console.log('Timeline chart data:', {
+        totalMonths: visibleMonths.length,
+        maxCount: maxCount,
+        chartHeight: CHART_HEIGHT,
+        months: visibleMonths.map(m => {
+          const barHeight = (m.count / maxCount) * CHART_HEIGHT;
+          return `${m.displayMonth}: ${m.count} pieces → ${barHeight.toFixed(1)}px`;
+        })
+      });
+
+      return `
+        <h2 class="section-title">📊 Content Overview</h2>
+        <p class="section-desc">Key metrics and publishing trends</p>
+
+        <div class="card-grid">
+          <div class="stat-card">
+            <div class="stat-value">${d.metadata.totalPieces.toLocaleString()}</div>
+            <div class="stat-label">Total Pieces</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${d.metadata.withDatesPct}%</div>
+            <div class="stat-label">With Dates</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${d.strategicPriorities.length}</div>
+            <div class="stat-label">Strategic Topics</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${timeline.avgPerMonth}</div>
+            <div class="stat-label">Avg/Month</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>📈 Publishing Timeline (Last 12 Months)</h3>
+          <div class="metric-badge">
+            📅 ${timeline.totalMonths} total months tracked • ${timeline.avgPerMonth} pieces per month average • Max: ${maxCount} pieces
+          </div>
+          <div class="timeline-chart">
+            <div class="chart-bars">
+              ${visibleMonths.map(month => {
+                const barHeightPx = (month.count / maxCount) * CHART_HEIGHT;
+                const heightPct = (month.count / maxCount) * 100;
+                return `
+                  <div class="chart-bar-wrapper" title="${month.displayMonth}: ${month.count} pieces (${heightPct.toFixed(1)}% of max - ${barHeightPx.toFixed(0)}px tall)">
+                    <div class="chart-value">${month.count}</div>
+                    <div class="chart-bar" style="height: ${barHeightPx}px"></div>
+                    <div class="chart-label">${month.displayMonth.split(' ')[0]}<br>${month.displayMonth.split(' ')[1]}</div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>📅 Date Range</h3>
+          <p style="font-size: 16px; color: #555; font-weight: 500;">
+            ${d.metadata.dateRange.earliest} → ${d.metadata.dateRange.latest}
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>✨ Quick Summary</h3>
+          <ul style="line-height: 2; color: #555; padding-left: 20px; font-size: 15px;">
+            <li><strong>${d.strategicPriorities[0].count} pieces</strong> on ${d.strategicPriorities[0].topic} (${d.strategicPriorities[0].percentage})</li>
+            <li><strong>${d.audienceStrategy.breakdown[0].count} pieces</strong> target ${d.audienceStrategy.breakdown[0].audience}</li>
+            <li><strong>${d.trendingUp[0].topic}</strong> trending up +${d.trendingUp[0].change}%</li>
+            <li><strong>${d.contentGaps.zeroCoverage.length} content gaps</strong> with zero coverage</li>
+          </ul>
+        </div>
+      `;
+    }
+
+    function renderPriorities() {
+      const priorities = intelligenceData.strategicPriorities;
+
+      let html = `
+        <h2 class="section-title">🎯 Strategic Priorities</h2>
+        <p class="section-desc">Top 10 topics showing major content investment</p>
+
+        <div class="card">
+          <h3>Content Distribution by Topic</h3>
+          <div class="bar-chart">
+            ${priorities.map(p => `
+              <div class="bar-item">
+                <div class="bar-label">
+                  <span><strong>${p.topic.toUpperCase()}</strong></span>
+                  <span>${p.count} pieces (${p.percentage})</span>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill" style="width: ${parseFloat(p.percentage)}%">${parseFloat(p.percentage)}%</div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <div style="margin-top: 30px;">
+          <h3 style="font-size: 20px; margin-bottom: 20px; color: #333;">Click to explore each priority ↓</h3>
+          ${priorities.map(p => `
+            <div class="priority-card">
+              <div class="priority-header" onclick="togglePriority(${p.rank})">
+                <span class="priority-rank">${p.rank}</span>
+                <div style="flex: 1;">
+                  <div class="priority-title">${p.topic.charAt(0).toUpperCase() + p.topic.slice(1)}</div>
+                  <div class="priority-stats">${p.count} pieces (${p.percentage}) • ${p.interpretation}</div>
+                </div>
+                <span class="expand-icon" id="icon-${p.rank}">▶</span>
+              </div>
+              <div class="priority-details" id="details-${p.rank}">
+                ${p.subtopics ? `
+                  <div class="detail-section">
+                    <div class="detail-title">📊 Subtopics:</div>
+                    ${p.subtopics.map(sub => `
+                      <div class="detail-item">→ ${sub.name}: <strong>${sub.count} pieces (${sub.percentage})</strong></div>
+                    `).join('')}
+                  </div>
+                ` : ''}
+                ${p.contentTypes ? `
+                  <div class="detail-section">
+                    <div class="detail-title">📑 Content Types:</div>
+                    ${p.contentTypes.map(type => `
+                      <div class="detail-item">→ ${type.name}: <strong>${type.count} pieces (${type.percentage})</strong></div>
+                    `).join('')}
+                  </div>
+                ` : ''}
+                <div class="detail-section">
+                  <div class="detail-title">📝 Examples:</div>
+                  ${p.examples.map(ex => `
+                    <div class="detail-item">
+                      → <a href="${ex.url}" target="_blank" class="example-link">"${ex.title}"</a>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+
+      return html;
+    }
+
+    function togglePriority(rank) {
+      const details = document.getElementById(`details-${rank}`);
+      const icon = document.getElementById(`icon-${rank}`);
+
+      if (details.classList.contains('expanded')) {
+        details.classList.remove('expanded');
+        icon.textContent = '▶';
+      } else {
+        // Close all others
+        document.querySelectorAll('.priority-details').forEach(d => d.classList.remove('expanded'));
+        document.querySelectorAll('.expand-icon').forEach(i => i.textContent = '▶');
+
+        // Open this one
+        details.classList.add('expanded');
+        icon.textContent = '▼';
+      }
+    }
+
+    function renderTrending() {
+      const up = intelligenceData.trendingUp;
+      const down = intelligenceData.trendingDown;
+
+      return `
+        <h2 class="section-title">📈 Trending Analysis</h2>
+        <p class="section-desc">Content topics gaining and losing focus (Last 3 months vs. older)</p>
+
+        <div class="trending-grid">
+          <div class="card">
+            <h3 style="color: #11998e;">📈 Trending UP</h3>
+            ${up.map(t => `
+              <div class="trend-item">
+                <div class="trend-header">
+                  <strong style="color: #11998e; font-size: 16px;">${t.topic}</strong>
+                  <span class="trend-badge up">↗ +${t.change}%</span>
+                </div>
+                <div class="trend-details">${t.recentCount} recent vs ${t.olderCount} older</div>
+                ${t.examples && t.examples.length > 0 ? `
+                  <div style="font-size: 13px; color: #777; padding-left: 12px; margin-top: 8px;">
+                    ${t.examples.map(ex => `<div style="margin-top: 4px;">• ${ex.title.substring(0, 70)}...</div>`).join('')}
+                  </div>
+                ` : ''}
+              </div>
+            `).join('')}
+          </div>
+
+          <div class="card">
+            <h3 style="color: #f45c43;">📉 Declining</h3>
+            ${down.map(t => `
+              <div class="trend-item">
+                <div class="trend-header">
+                  <strong style="color: #f45c43; font-size: 16px;">${t.topic}</strong>
+                  <span class="trend-badge down">↘ ${t.change}%</span>
+                </div>
+                <div class="trend-details">${t.recentCount} recent vs ${t.olderCount} older</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderAudience() {
+      const aud = intelligenceData.audienceStrategy;
+      const colors = ['#FF8283', '#7A9BD4', '#FFA5A6', '#8FA5CC', '#FF6B6C'];
+
+      return `
+        <h2 class="section-title">👥 Audience Strategy</h2>
+        <p class="section-desc">Who they're targeting and how it's shifting</p>
+
+        <div class="card">
+          <h3>Audience Breakdown</h3>
+          <div class="bar-chart">
+            ${aud.breakdown.map((a, i) => `
+              <div class="bar-item">
+                <div class="bar-label">
+                  <span><strong>${a.audience.toUpperCase()}</strong></span>
+                  <span>${a.count} pieces (${a.percentage})</span>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill" style="width: ${parseFloat(a.percentage)}%; background: ${colors[i % colors.length]};">${a.percentage}</div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Provider Deep Dive</h3>
+          <div class="bar-chart">
+            ${aud.providerDeepDive.breakdown.map((p, i) => `
+              <div class="bar-item">
+                <div class="bar-label">
+                  <span><strong>${p.type}</strong></span>
+                  <span>${p.count} pieces (${p.percentage})</span>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill" style="width: ${parseFloat(p.percentage)}%">${p.percentage}</div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="card" style="background: linear-gradient(135deg, #FF828315 0%, #FFA5A615 100%); border-left: 4px solid #FF8283;">
+          <h3>💡 Strategic Insight</h3>
+          <p style="font-size: 16px; line-height: 1.7; color: #555; font-weight: 500;">${aud.providerDeepDive.interpretation}</p>
+          <p style="font-size: 16px; margin-top: 12px; color: #555; font-weight: 500;"><strong>B2B2C strategy:</strong> Partner with PTs who deliver care to members</p>
+        </div>
+
+        <div class="card">
+          <h3>Audience Shifts (Last 3 Months)</h3>
+          <div class="trending-grid">
+            <div>
+              <h4 style="color: #11998e; margin-bottom: 12px; font-size: 18px;">Growing ↗</h4>
+              ${aud.shifts.growing.map(s => `
+                <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #e8ecff;">
+                  <span style="font-weight: 600;">${s.audience}</span>
+                  <span class="trend-badge up">+${s.change}%</span>
+                </div>
+              `).join('')}
+            </div>
+            <div>
+              <h4 style="color: #f45c43; margin-bottom: 12px; font-size: 18px;">Declining ↘</h4>
+              ${aud.shifts.declining.map(s => `
+                <div style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #e8ecff;">
+                  <span style="font-weight: 600;">${s.audience}</span>
+                  <span class="trend-badge down">${s.change}%</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderMessaging() {
+      const msg = intelligenceData.messaging;
+
+      return `
+        <h2 class="section-title">💬 Messaging Analysis</h2>
+        <p class="section-desc">What they're saying about their top topics</p>
+
+        ${msg.byTopic.map(t => `
+          <div class="card">
+            <h3>${t.topic.toUpperCase()}</h3>
+            <div class="bar-chart">
+              ${t.themes.map(theme => `
+                <div class="bar-item">
+                  <div class="bar-label">
+                    <span>${theme.theme}</span>
+                    <span>${theme.percentage}</span>
+                  </div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" style="width: ${parseFloat(theme.percentage)}%">${theme.percentage}</div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `).join('')}
+
+        <div class="card" style="background: linear-gradient(135deg, #FF828315 0%, #FFA5A615 100%);">
+          <h3>🎯 Key Claims They Make</h3>
+          <ul style="line-height: 2; font-size: 16px; padding-left: 24px; font-weight: 500; color: #555;">
+            ${msg.keyClaims.map(claim => `<li>${claim}</li>`).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    function renderCampaigns() {
+      const campaigns = intelligenceData.campaigns;
+
+      return `
+        <h2 class="section-title">🚀 Content Campaigns Detected</h2>
+        <p class="section-desc">Major strategic content pushes (50+ pieces)</p>
+
+        <div class="card">
+          <h3>Campaign Volume</h3>
+          <div class="bar-chart">
+            ${campaigns.map((c, i) => `
+              <div class="bar-item">
+                <div class="bar-label">
+                  <span><strong>${i + 1}. ${c.topic.toUpperCase()}</strong></span>
+                  <span>${c.count} pieces</span>
+                </div>
+                <div class="bar-bg">
+                  <div class="bar-fill" style="width: ${(c.count / campaigns[0].count) * 100}%">${c.count}</div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        ${campaigns.map((c, i) => `
+          <div class="card" style="border-left: 4px solid #FF8283;">
+            <h3>${i + 1}. ${c.topic.toUpperCase()} <span style="color: #666; font-weight: normal; font-size: 16px;">• ${c.count} pieces</span></h3>
+            ${c.interpretation ? `<p style="color: #555; font-size: 15px; line-height: 1.7; font-weight: 500;">${c.interpretation}</p>` : ''}
+          </div>
+        `).join('')}
+      `;
+    }
+
+    function renderGaps() {
+      const gaps = intelligenceData.contentGaps;
+
+      return `
+        <h2 class="section-title">⚠️ Content Gaps & Opportunities</h2>
+        <p class="section-desc">Topics where your competitors aren't covering - your opportunity to lead</p>
+
+        <div class="card">
+          <h3 style="color: #f45c43;">🔴 Zero Coverage (Major Gaps)</h3>
+          <p style="margin-bottom: 20px; color: #666; font-size: 15px;">These topics have <strong>zero pieces</strong> - prime opportunity for thought leadership</p>
+          ${gaps.zeroCoverage.map(gap => `
+            <div class="gap-item zero">
+              <div class="gap-topic">${gap.topic}</div>
+              <div class="gap-desc">0 pieces${gap.opportunity ? ` • ${gap.opportunity}` : ''}</div>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="card">
+          <h3 style="color: #f9a826;">🟡 Limited Coverage (Opportunities)</h3>
+          <p style="margin-bottom: 20px; color: #666; font-size: 15px;">Minimal coverage - room to differentiate and dominate</p>
+          ${gaps.limitedCoverage.map(gap => `
+            <div class="gap-item limited">
+              <div class="gap-topic">${gap.topic}</div>
+              <div class="gap-desc">${gap.count} pieces${gap.opportunity ? ` • ${gap.opportunity}` : ''}</div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function renderQuality() {
+      const q = intelligenceData.qualityMetrics;
+
+      return `
+        <h2 class="section-title">💎 Quality Metrics</h2>
+        <p class="section-desc">Content quality and completeness indicators</p>
+
+        <div class="card-grid">
+          <div class="stat-card quality-card">
+            <div class="quality-value">${q.metaDescriptions}%</div>
+            <div class="quality-label">Meta Descriptions</div>
+            <div class="quality-bar">
+              <div class="quality-fill" style="width: ${q.metaDescriptions}%"></div>
+            </div>
+          </div>
+
+          <div class="stat-card quality-card">
+            <div class="quality-value">${q.featuredImages}%</div>
+            <div class="quality-label">Featured Images</div>
+            <div class="quality-bar">
+              <div class="quality-fill" style="width: ${q.featuredImages}%"></div>
+            </div>
+          </div>
+
+          <div class="stat-card quality-card">
+            <div class="quality-value">${q.avgDescLength}</div>
+            <div class="quality-label">Avg Description Length</div>
+            <p style="font-size: 13px; opacity: 0.8; margin-top: 8px;">characters</p>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderInsights() {
+      const insights = intelligenceData.keyInsights;
+
+      return `
+        <h2 class="section-title">💡 Key Strategic Insights</h2>
+        <p class="section-desc">Critical findings that drive competitive strategy</p>
+
+        ${insights.map((insight, i) => `
+          <div class="insight-card">
+            <div class="insight-number">${i + 1}</div>
+            <div style="flex: 1;">
+              <div class="insight-title">${insight.title}</div>
+              <div class="insight-data">${insight.data}</div>
+              <div class="insight-text">${insight.insight}</div>
+            </div>
+          </div>
+        `).join('')}
+      `;
+    }
+
+    function renderRawData() {
+      rawDataFiltered = intelligenceData.rawContent;
+      const types = [...new Set(intelligenceData.rawContent.map(item => item.contentType))].sort();
+
+      // Get all unique audiences and sort them in priority order
+      const audiencesSet = new Set();
+      intelligenceData.rawContent.forEach(item => {
+        item.targetAudience.forEach(aud => audiencesSet.add(aud));
+      });
+      // Sort audiences in logical order: members, employers, health plans, providers, partners, general
+      const audienceOrder = ['members', 'employers', 'health plans', 'providers', 'partners', 'general'];
+      const audiences = Array.from(audiencesSet).sort((a, b) => {
+        const aIndex = audienceOrder.indexOf(a);
+        const bIndex = audienceOrder.indexOf(b);
+        if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+        if (aIndex !== -1) return -1;
+        if (bIndex !== -1) return 1;
+        return a.localeCompare(b);
+      });
+
+      return `
+        <h2 class="section-title">📄 Raw Content Data</h2>
+        <p class="section-desc">All ${intelligenceData.metadata.totalPieces.toLocaleString()} pieces - searchable and filterable</p>
+
+        <div class="table-controls">
+          <input type="text" id="search-input" class="search-input" placeholder="🔍 Search titles and descriptions..." onkeyup="filterTable()">
+          <select id="type-filter" class="select" onchange="filterTable()">
+            <option value="all">All Content Types</option>
+            ${types.map(type => `<option value="${type}">${type}</option>`).join('')}
+          </select>
+          <select id="audience-filter" class="select" onchange="filterTable()">
+            <option value="all">All Audiences</option>
+            ${audiences.map(aud => `<option value="${aud}">${aud.charAt(0).toUpperCase() + aud.slice(1)}</option>`).join('')}
+          </select>
+        </div>
+
+        <div class="results-info">
+          <div class="results-count" id="results-count">
+            Showing <strong>${rawDataFiltered.length.toLocaleString()}</strong> of <strong>${intelligenceData.rawContent.length.toLocaleString()}</strong> items
+          </div>
+          <button class="export-btn" onclick="exportTableToCSV()">📥 Export to CSV</button>
+        </div>
+
+        <div class="table-container">
+          <table id="data-table">
+            <thead>
+              <tr>
+                <th class="sortable" onclick="sortTable('title')" id="sort-title" style="min-width: 300px;">Title</th>
+                <th>Type</th>
+                <th class="sortable" onclick="sortTable('date')" id="sort-date">Date</th>
+                <th>Audience</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              ${renderTableRows()}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function renderTableRows() {
+      return rawDataFiltered.slice(0, 100).map(item => `
+        <tr>
+          <td><a href="${item.url}" target="_blank" style="color: #7A9BD4; text-decoration: none; font-weight: 500;">${item.title}</a></td>
+          <td><span style="background: #e8ecff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600;">${item.contentType}</span></td>
+          <td>${item.publishDate || 'N/A'}</td>
+          <td>${item.targetAudience.join(', ')}</td>
+        </tr>
+      `).join('');
+    }
+
+    function setupTableSearch() {
+      // Already set up via onkeyup/onchange
+    }
+
+    function filterTable() {
+      const searchTerm = document.getElementById('search-input')?.value.toLowerCase() || '';
+      const typeFilter = document.getElementById('type-filter')?.value || 'all';
+      const audienceFilter = document.getElementById('audience-filter')?.value || 'all';
+
+      rawDataFiltered = intelligenceData.rawContent.filter(item => {
+        const matchesSearch = item.title.toLowerCase().includes(searchTerm) ||
+                             item.metaDescription.toLowerCase().includes(searchTerm);
+        const matchesType = typeFilter === 'all' || item.contentType === typeFilter;
+        const matchesAudience = audienceFilter === 'all' || item.targetAudience.includes(audienceFilter);
+        return matchesSearch && matchesType && matchesAudience;
+      });
+
+      // Apply current sort if any
+      if (currentSort.column) {
+        applySortToFiltered();
+      }
+
+      document.getElementById('results-count').innerHTML =
+        `Showing <strong>${rawDataFiltered.length.toLocaleString()}</strong> of <strong>${intelligenceData.rawContent.length.toLocaleString()}</strong> items`;
+
+      document.getElementById('table-body').innerHTML = renderTableRows();
+    }
+
+    function sortTable(column) {
+      // Toggle sort direction if clicking same column
+      if (currentSort.column === column) {
+        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+      } else {
+        currentSort.column = column;
+        currentSort.direction = 'asc';
+      }
+
+      applySortToFiltered();
+
+      // Update sort indicators
+      document.querySelectorAll('.sortable').forEach(th => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+      });
+
+      const sortHeader = document.getElementById(`sort-${column}`);
+      if (sortHeader) {
+        sortHeader.classList.add(`sorted-${currentSort.direction}`);
+      }
+
+      // Re-render table
+      document.getElementById('table-body').innerHTML = renderTableRows();
+    }
+
+    function applySortToFiltered() {
+      rawDataFiltered.sort((a, b) => {
+        let aVal, bVal;
+
+        if (currentSort.column === 'title') {
+          aVal = a.title.toLowerCase();
+          bVal = b.title.toLowerCase();
+        } else if (currentSort.column === 'date') {
+          aVal = a.publishDate || '0000-00-00';
+          bVal = b.publishDate || '0000-00-00';
+        }
+
+        if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
+        if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
+        return 0;
+      });
+    }
+
+    function exportTableToCSV() {
+      // Create CSV content from filtered data
+      const headers = ['Title', 'URL', 'Type', 'Date', 'Audience', 'Description'];
+      const csvRows = [headers.join(',')];
+
+      rawDataFiltered.forEach(item => {
+        const row = [
+          `"${item.title.replace(/"/g, '""')}"`,
+          `"${item.url}"`,
+          `"${item.contentType}"`,
+          `"${item.publishDate || 'N/A'}"`,
+          `"${item.targetAudience.join(', ')}"`,
+          `"${item.metaDescription.replace(/"/g, '""')}"`
+        ];
+        csvRows.push(row.join(','));
+      });
+
+      // Create blob and download
+      const csvContent = csvRows.join('\n');
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(blob);
+
+      const timestamp = new Date().toISOString().split('T')[0];
+      link.setAttribute('href', url);
+      link.setAttribute('download', `hinge-health-content-${timestamp}.csv`);
+      link.style.visibility = 'hidden';
+
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      console.log(`✓ Exported ${rawDataFiltered.length} items to CSV`);
+    }
+
+    console.log('✓ Dashboard ready');
+  </script>
+</body>
+</html>
