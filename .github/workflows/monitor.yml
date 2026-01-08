@@ -47,25 +47,60 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Debug environment
+      - name: Debug environment
+        run: |
+          echo "=== Environment Check ==="
+          echo "Node: $(node --version)"
+          echo "NPM: $(npm --version)"
+          echo "Working directory: $(pwd)"
+          echo ""
+          echo "=== Files in directory ==="
+          ls -la
+          echo ""
+          echo "=== Checking config.json ==="
+          if [ -f "config.json" ]; then
+            echo "✓ config.json exists"
+            cat config.json
+          else
+            echo "✗ config.json NOT FOUND"
+          fi
+          echo ""
+          echo "=== Checking existing data ==="
+          if [ -f "hinge-content.json" ]; then
+            echo "✓ hinge-content.json exists"
+            ls -lh hinge-content.json
+          else
+            echo "○ hinge-content.json not found (will be created)"
+          fi
+
       # Run the monitoring script
       - name: Run content monitor
         id: monitor
         run: |
           echo "Starting content monitoring..."
-          npm run monitor > monitor-output.log 2>&1
+          echo "Node version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          echo "Working directory: $(pwd)"
+          echo ""
 
-          # Capture the exit code
+          # Run the monitor and capture output
+          set +e  # Don't exit on error yet
+          npm run monitor 2>&1 | tee monitor-output.log
           MONITOR_EXIT_CODE=$?
+          set -e
 
-          # Display the output
-          cat monitor-output.log
+          echo ""
+          echo "Monitor exit code: $MONITOR_EXIT_CODE"
+          echo ""
 
           # Check if there's new content
           if grep -q "New Content:" monitor-output.log; then
             NEW_CONTENT=$(grep "New Content:" monitor-output.log | awk '{print $NF}')
             echo "new_content=$NEW_CONTENT" >> $GITHUB_OUTPUT
+            echo "Detected new content: $NEW_CONTENT pieces"
 
-            if [ "$NEW_CONTENT" -gt 0 ]; then
+            if [ "$NEW_CONTENT" -gt 0 ] 2>/dev/null; then
               echo "has_new_content=true" >> $GITHUB_OUTPUT
             else
               echo "has_new_content=false" >> $GITHUB_OUTPUT
@@ -73,9 +108,29 @@ jobs:
           else
             echo "has_new_content=false" >> $GITHUB_OUTPUT
             echo "new_content=0" >> $GITHUB_OUTPUT
+            echo "No new content detected"
           fi
 
-          exit $MONITOR_EXIT_CODE
+          # Show summary
+          if [ -f "hinge-content.json" ]; then
+            echo ""
+            echo "Content file created successfully"
+            ls -lh hinge-content.json
+          else
+            echo ""
+            echo "WARNING: hinge-content.json not found!"
+          fi
+
+          # Exit with the monitor's exit code
+          if [ $MONITOR_EXIT_CODE -ne 0 ]; then
+            echo ""
+            echo "ERROR: Monitor failed with exit code $MONITOR_EXIT_CODE"
+            echo "Check the logs above for details"
+            exit $MONITOR_EXIT_CODE
+          fi
+
+          echo ""
+          echo "Monitor completed successfully"
 
       # Create a summary of the run
       - name: Generate summary
