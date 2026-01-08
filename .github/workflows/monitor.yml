@@ -22,6 +22,12 @@ jobs:
     name: Monitor Hinge Health Content
     runs-on: ubuntu-latest
 
+    # Grant necessary permissions for the workflow
+    permissions:
+      contents: write    # Required to push commits
+      issues: write      # Required to create issues
+      actions: read      # Required to read workflow data
+
     steps:
       # Checkout the repository
       - name: Checkout repository
@@ -130,12 +136,25 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
+      # Generate intelligence and update GitHub Pages
+      - name: Update dashboard data
+        if: success()
+        run: |
+          echo "Generating intelligence data..."
+          npm run generate-intelligence
+
+          echo "Updating GitHub Pages..."
+          npm run update-pages
+
       # Commit and push changes if data was updated
       - name: Commit updated data
         if: success()
         run: |
           # Add the data file
-          git add hinge-content.json
+          git add hinge-content.json hinge-intelligence.json
+
+          # Add GitHub Pages files
+          git add docs/
 
           # Add backup files if they exist
           if [ -d "backups" ]; then
@@ -237,6 +256,10 @@ jobs:
     needs: monitor
     runs-on: ubuntu-latest
     if: success()
+
+    # Grant necessary permissions
+    permissions:
+      contents: read     # Required to read repository contents
 
     steps:
       - name: Checkout repository

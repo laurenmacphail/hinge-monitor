@@ -6,6 +6,7 @@
   "scripts": {
     "scrape": "node hinge-scraper-sitemap.js",
     "scrape:full": "node hinge-scraper-sitemap.js --full",
+    "monitor": "node hinge-scraper-sitemap.js --full",
     "analyze": "node hinge-analyzer.js",
     "report": "node hinge-report.js",
     "generate-intelligence": "node hinge-intelligence-generator.js",
