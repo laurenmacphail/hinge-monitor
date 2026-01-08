@@ -47,25 +47,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Install Chromium dependencies for Puppeteer
-      - name: Install Puppeteer dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            chromium-browser \
-            libnss3 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxrandr2 \
-            libgbm1 \
-            libasound2
-
       # Run the monitoring script
       - name: Run content monitor
         id: monitor
@@ -95,10 +76,6 @@ jobs:
           fi
 
           exit $MONITOR_EXIT_CODE
-        env:
-          # Puppeteer configuration
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'false'
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
 
       # Create a summary of the run
       - name: Generate summary

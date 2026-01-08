@@ -4,12 +4,13 @@
  * Sitemap-Based Hinge Health Content Scraper
  *
  * Uses the sitemap to find ALL content URLs, then scrapes them
+ * Uses axios + cheerio (no Puppeteer needed - just static HTML parsing)
  */
 
 const fs = require('fs').promises;
 const path = require('path');
-const puppeteer = require('puppeteer');
 const axios = require('axios');
+const cheerio = require('cheerio');
 const { format } = require('date-fns');
 const crypto = require('crypto');
 
@@ -33,6 +34,18 @@ const stats = {
 // Collected content
 let allContent = [];
 let existingContent = new Map(); // URL -> content mapping
+
+// Create axios instance with proper headers
+const httpClient = axios.create({
+  timeout: 10000,
+  headers: {
+    'User-Agent': config.scraping.userAgent || 'Mozilla/5.0 (compatible; ContentMonitor/1.0)',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Accept-Encoding': 'gzip, deflate',
+    'Cache-Control': 'no-cache',
+  }
+});
 
 /**
  * Load existing content from file
@@ -218,8 +231,7 @@ async function fetchSitemapUrls() {
   console.log('Fetching sitemap...');
 
   try {
-    const sitemapIndexResponse = await axios.get('https://www.hingehealth.com/sitemap-index.xml');
-    const sitemapResponse = await axios.get('https://www.hingehealth.com/sitemap-0.xml');
+    const sitemapResponse = await httpClient.get('https://www.hingehealth.com/sitemap-0.xml');
 
     // Parse XML to extract URLs and lastmod dates
     const urlPattern = /<url>\s*<loc>([^<]+)<\/loc>(?:\s*<lastmod>([^<]+)<\/lastmod>)?/g;
@@ -268,77 +280,49 @@ async function fetchSitemapUrls() {
 }
 
 /**
- * Scrape a single page
+ * Scrape a single page using axios + cheerio (no Puppeteer!)
  */
-async function scrapePage(page, url, sitemapLastmod = null) {
+async function scrapePage(url, sitemapLastmod = null) {
   try {
-    await page.goto(url, {
-      waitUntil: 'domcontentloaded',
-      timeout: 5000
+    // Fetch the HTML
+    const response = await httpClient.get(url);
+    const html = response.data;
+
+    // Parse with cheerio
+    const $ = cheerio.load(html);
+
+    // Extract data
+    const data = {};
+
+    // Title
+    data.title = $('h1').first().text().trim() ||
+                 $('title').first().text().trim() || '';
+
+    // Meta description
+    data.metaDescription = $('meta[name="description"]').attr('content')?.trim() ||
+                          $('meta[property="og:description"]').attr('content')?.trim() || '';
+
+    // Publish date
+    data.publishDate = $('meta[property="article:published_time"]').attr('content') ||
+                      $('meta[name="publish-date"]').attr('content') ||
+                      $('time[datetime]').first().attr('datetime') ||
+                      $('time[datetime]').first().text().trim() ||
+                      $('.publish-date').first().text().trim() ||
+                      $('.post-date').first().text().trim() ||
+                      null;
+
+    // Categories
+    data.categories = [];
+    $('.category, .tag, .topic, [rel="category tag"]').each((i, el) => {
+      const text = $(el).text().trim();
+      if (text && !data.categories.includes(text)) {
+        data.categories.push(text);
+      }
     });
 
-    await sleep(500);
-
-    const data = await page.evaluate(() => {
-      const content = {};
-
-      // Title
-      content.title = document.querySelector('h1')?.textContent?.trim() ||
-                     document.querySelector('title')?.textContent?.trim() || '';
-
-      // Meta description
-      const metaDesc = document.querySelector('meta[name="description"]') ||
-                       document.querySelector('meta[property="og:description"]');
-      content.metaDescription = metaDesc?.getAttribute('content')?.trim() || '';
-
-      // Publish date
-      const dateSelectors = [
-        'meta[property="article:published_time"]',
-        'meta[name="publish-date"]',
-        'time[datetime]',
-        '.publish-date',
-        '.post-date'
-      ];
-
-      for (const selector of dateSelectors) {
-        const element = document.querySelector(selector);
-        if (element) {
-          content.publishDate = element.getAttribute('content') ||
-                               element.getAttribute('datetime') ||
-                               element.textContent?.trim();
-          if (content.publishDate) break;
-        }
-      }
-
-      // Categories
-      content.categories = [];
-      const categorySelectors = ['.category', '.tag', '.topic', '[rel="category tag"]'];
-      categorySelectors.forEach(selector => {
-        const elements = document.querySelectorAll(selector);
-        elements.forEach(el => {
-          const text = el.textContent?.trim();
-          if (text && !content.categories.includes(text)) {
-            content.categories.push(text);
-          }
-        });
-      });
-
-      // Featured image
-      const imgSelectors = [
-        'meta[property="og:image"]',
-        'meta[name="twitter:image"]'
-      ];
-
-      for (const selector of imgSelectors) {
-        const element = document.querySelector(selector);
-        if (element) {
-          content.featuredImage = element.getAttribute('content');
-          if (content.featuredImage) break;
-        }
-      }
-
-      return content;
-    });
+    // Featured image
+    data.featuredImage = $('meta[property="og:image"]').attr('content') ||
+                        $('meta[name="twitter:image"]').attr('content') || '';
 
     // Determine content type (refine based on title)
     let contentType = determineContentType(url);
@@ -386,6 +370,7 @@ async function scrapePage(page, url, sitemapLastmod = null) {
   } catch (error) {
     stats.failed++;
     stats.failedUrls.push(url);
+    console.error(`  ✗ Failed to scrape ${url}: ${error.message}`);
     return false;
   }
 }
@@ -396,6 +381,7 @@ async function scrapePage(page, url, sitemapLastmod = null) {
 async function main() {
   console.log('\n' + '='.repeat(60));
   console.log('HINGE HEALTH SITEMAP-BASED SCRAPER');
+  console.log('Using axios + cheerio (no Puppeteer)');
   console.log('='.repeat(60));
 
   // Load existing content
@@ -431,20 +417,6 @@ async function main() {
 
   console.log(`\nScraping ${filteredUrls.length} pages...\n`);
 
-  // Launch browser
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu'
-    ]
-  });
-
-  const page = await browser.newPage();
-  await page.setUserAgent(config.scraping.userAgent);
-
   try {
     // Scrape each URL
     for (let i = 0; i < filteredUrls.length; i++) {
@@ -457,7 +429,7 @@ async function main() {
         console.log(`Progress: ${i}/${filteredUrls.length} (${((i/filteredUrls.length)*100).toFixed(1)}%)`);
       }
 
-      await scrapePage(page, url, lastmod);
+      await scrapePage(url, lastmod);
 
       // Save periodically
       if (i % 50 === 0 && i > 0) {
@@ -494,6 +466,7 @@ async function main() {
     console.log(`Previously scraped (kept): ${stats.skipped}`);
     console.log(`Failed: ${stats.failed}`);
     console.log(`Total content saved: ${allContent.length}`);
+    console.log(`New Content: ${allContent.filter(item => item.isNew).length}`);
     console.log(`Saved to: ${DATA_FILE}`);
 
     if (stats.failedUrls.length > 0 && stats.failedUrls.length <= 20) {
@@ -518,8 +491,8 @@ async function main() {
 
   } catch (error) {
     console.error('\n✗ Fatal error:', error.message);
-  } finally {
-    await browser.close();
+    console.error(error.stack);
+    process.exit(1);
   }
 
   process.exit(stats.failed > 0 ? 1 : 0);
