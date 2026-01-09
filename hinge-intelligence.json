@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-08T17:50:36.042Z",
-  "generatedAt": "January 8, 2026 at 5:50 PM",
+  "lastUpdated": "2026-01-09T14:02:53.467Z",
+  "generatedAt": "January 9, 2026 at 2:02 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "pelvic floor",
-      "change": 3.3,
+      "change": 3.4,
       "recentCount": 11,
       "olderCount": 24,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "app",
-      "change": 2.9,
+      "change": 3,
       "recentCount": 17,
       "olderCount": 59,
       "examples": [
@@ -406,8 +406,8 @@
     {
       "topic": "ai",
       "change": 1.1,
-      "recentCount": 99,
-      "olderCount": 500,
+      "recentCount": 98,
+      "olderCount": 501,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -416,6 +416,22 @@
         {
           "title": "3 ways to greet this holiday season with less musculoskeletal pain",
           "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
+        }
+      ]
+    },
+    {
+      "topic": "physical therapy",
+      "change": 0.9,
+      "recentCount": 12,
+      "olderCount": 54,
+      "examples": [
+        {
+          "title": "Access to virtual physical therapy is at your fingertips",
+          "url": "https://www.hingehealth.com/resources/support/mobile-app-support/"
+        },
+        {
+          "title": "Personalizing digital physical therapy: how we forge therapeutic alliance at Hinge Health",
+          "url": "https://www.hingehealth.com/resources/articles/personalizing-digital-pt-therapeutic-alliance/"
         }
       ]
     },
@@ -436,18 +452,18 @@
       ]
     },
     {
-      "topic": "physical therapy",
-      "change": 0.8,
-      "recentCount": 12,
-      "olderCount": 54,
+      "topic": "benefits",
+      "change": 0.5,
+      "recentCount": 14,
+      "olderCount": 68,
       "examples": [
         {
-          "title": "Access to virtual physical therapy is at your fingertips",
-          "url": "https://www.hingehealth.com/resources/support/mobile-app-support/"
+          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
+          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
         },
         {
-          "title": "Personalizing digital physical therapy: how we forge therapeutic alliance at Hinge Health",
-          "url": "https://www.hingehealth.com/resources/articles/personalizing-digital-pt-therapeutic-alliance/"
+          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
+          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
         }
       ]
     }
@@ -455,21 +471,21 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -8.9,
+      "change": -8.8,
       "recentCount": 12,
       "olderCount": 150
-    },
-    {
-      "topic": "back pain",
-      "change": -2.3,
-      "recentCount": 8,
-      "olderCount": 64
     },
     {
       "topic": "chronic pain",
       "change": -2.3,
       "recentCount": 1,
       "olderCount": 28
+    },
+    {
+      "topic": "back pain",
+      "change": -2.2,
+      "recentCount": 8,
+      "olderCount": 64
     },
     {
       "topic": "employer",
@@ -484,16 +500,16 @@
       "olderCount": 18
     },
     {
-      "topic": "msk",
-      "change": -1.6,
-      "recentCount": 8,
-      "olderCount": 57
-    },
-    {
       "topic": "pain relief",
       "change": -1.6,
       "recentCount": 7,
       "olderCount": 52
+    },
+    {
+      "topic": "msk",
+      "change": -1.5,
+      "recentCount": 8,
+      "olderCount": 57
     },
     {
       "topic": "employers",
@@ -520,6 +536,12 @@
       "olderCount": 14
     },
     {
+      "topic": "productivity",
+      "change": -0.9,
+      "recentCount": 0,
+      "olderCount": 9
+    },
+    {
       "topic": "knee pain",
       "change": -0.8,
       "recentCount": 6,
@@ -538,16 +560,16 @@
       "olderCount": 7
     },
     {
-      "topic": "hip pain",
-      "change": -0.6,
-      "recentCount": 3,
-      "olderCount": 21
-    },
-    {
       "topic": "research",
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 6
+    },
+    {
+      "topic": "hip pain",
+      "change": -0.5,
+      "recentCount": 3,
+      "olderCount": 21
     },
     {
       "topic": "claims",
@@ -625,13 +647,13 @@
       "growing": [
         {
           "audience": "providers",
-          "change": 0.9,
-          "recent": 2,
-          "older": 1
+          "change": 0.3,
+          "recent": 1,
+          "older": 2
         },
         {
           "audience": "members",
-          "change": 2.5,
+          "change": 3.6,
           "recent": 156,
           "older": 780
         }
@@ -639,9 +661,9 @@
       "declining": [
         {
           "audience": "employers",
-          "change": -4,
-          "recent": 5,
-          "older": 65
+          "change": -4.5,
+          "recent": 4,
+          "older": 66
         },
         {
           "audience": "health plans",
@@ -657,7 +679,7 @@
         },
         {
           "audience": "general",
-          "change": -1.4,
+          "change": -1.3,
           "recent": 29,
           "older": 164
         }
@@ -1020,8 +1042,8 @@
     },
     {
       "title": "PELVIC FLOOR EXPANSION",
-      "data": "+3.3% growth (11 recent vs 24 older)",
-      "insight": "Pelvic floor content trending up +3.3%, indicating strategic expansion into this area."
+      "data": "+3.4% growth (11 recent vs 24 older)",
+      "insight": "Pelvic floor content trending up +3.4%, indicating strategic expansion into this area."
     },
     {
       "title": "OUTCOMES > COST",
@@ -1030,8 +1052,8 @@
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +2.5%, employers -4%",
-      "insight": "Shifting focus from employers (-4%) to members (+2.5%), indicating a strategic repositioning."
+      "data": "members +3.6%, employers -4.5%",
+      "insight": "Shifting focus from employers (-4.5%) to members (+3.6%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
