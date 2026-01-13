@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-12T14:01:36.466Z",
-  "generatedAt": "January 12, 2026 at 2:01 PM",
+  "lastUpdated": "2026-01-13T14:00:57.028Z",
+  "generatedAt": "January 13, 2026 at 2:00 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -341,7 +341,7 @@
     },
     {
       "topic": "app",
-      "change": 3,
+      "change": 3.1,
       "recentCount": 17,
       "olderCount": 59,
       "examples": [
@@ -356,24 +356,8 @@
       ]
     },
     {
-      "topic": "outcomes",
-      "change": 1.8,
-      "recentCount": 6,
-      "olderCount": 13,
-      "examples": [
-        {
-          "title": "Pain graph: A clearer view of your progress",
-          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
-        },
-        {
-          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
-          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
-        }
-      ]
-    },
-    {
       "topic": "tendonitis",
-      "change": 1.3,
+      "change": 1.4,
       "recentCount": 5,
       "olderCount": 13,
       "examples": [
@@ -389,7 +373,7 @@
     },
     {
       "topic": "shoulder pain",
-      "change": 1.2,
+      "change": 1.3,
       "recentCount": 5,
       "olderCount": 14,
       "examples": [
@@ -406,8 +390,8 @@
     {
       "topic": "ai",
       "change": 1.1,
-      "recentCount": 98,
-      "olderCount": 501,
+      "recentCount": 97,
+      "olderCount": 502,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -421,7 +405,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 0.9,
+      "change": 1,
       "recentCount": 12,
       "olderCount": 54,
       "examples": [
@@ -437,7 +421,7 @@
     },
     {
       "topic": "arthritis",
-      "change": 0.9,
+      "change": 1,
       "recentCount": 5,
       "olderCount": 17,
       "examples": [
@@ -453,7 +437,7 @@
     },
     {
       "topic": "benefits",
-      "change": 0.5,
+      "change": 0.6,
       "recentCount": 14,
       "olderCount": 68,
       "examples": [
@@ -471,15 +455,15 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -8.8,
-      "recentCount": 12,
-      "olderCount": 150
+      "change": -9.3,
+      "recentCount": 11,
+      "olderCount": 151
     },
     {
       "topic": "chronic pain",
-      "change": -2.3,
-      "recentCount": 1,
-      "olderCount": 28
+      "change": -2.9,
+      "recentCount": 0,
+      "olderCount": 29
     },
     {
       "topic": "back pain",
@@ -500,16 +484,16 @@
       "olderCount": 18
     },
     {
-      "topic": "pain relief",
-      "change": -1.6,
-      "recentCount": 7,
-      "olderCount": 52
-    },
-    {
       "topic": "msk",
       "change": -1.5,
       "recentCount": 8,
       "olderCount": 57
+    },
+    {
+      "topic": "pain relief",
+      "change": -1.5,
+      "recentCount": 7,
+      "olderCount": 52
     },
     {
       "topic": "employers",
@@ -519,7 +503,7 @@
     },
     {
       "topic": "roi",
-      "change": -1.4,
+      "change": -1.3,
       "recentCount": 2,
       "olderCount": 24
     },
@@ -543,7 +527,7 @@
     },
     {
       "topic": "knee pain",
-      "change": -0.8,
+      "change": -0.7,
       "recentCount": 6,
       "olderCount": 39
     },
@@ -653,17 +637,17 @@
         },
         {
           "audience": "members",
-          "change": 3.6,
-          "recent": 156,
-          "older": 780
+          "change": 4,
+          "recent": 155,
+          "older": 781
         }
       ],
       "declining": [
         {
           "audience": "employers",
-          "change": -4.5,
-          "recent": 4,
-          "older": 66
+          "change": -5.1,
+          "recent": 3,
+          "older": 67
         },
         {
           "audience": "health plans",
@@ -679,9 +663,9 @@
         },
         {
           "audience": "general",
-          "change": -1.3,
-          "recent": 29,
-          "older": 164
+          "change": -1.7,
+          "recent": 28,
+          "older": 165
         }
       ]
     }
@@ -1046,14 +1030,9 @@
       "insight": "Pelvic floor content trending up +3.4%, indicating strategic expansion into this area."
     },
     {
-      "title": "OUTCOMES > COST",
-      "data": "Outcomes +1.8%, roi -1.4%",
-      "insight": "Messaging shift from cost focus to clinical outcomes. Outcomes content up +1.8% while roi content declined -1.4%."
-    },
-    {
       "title": "AUDIENCE PIVOT",
-      "data": "members +3.6%, employers -4.5%",
-      "insight": "Shifting focus from employers (-4.5%) to members (+3.6%), indicating a strategic repositioning."
+      "data": "members +4%, employers -5.1%",
+      "insight": "Shifting focus from employers (-5.1%) to members (+4%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
