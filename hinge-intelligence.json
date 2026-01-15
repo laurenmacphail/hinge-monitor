@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-14T14:01:15.218Z",
-  "generatedAt": "January 14, 2026 at 2:01 PM",
+  "lastUpdated": "2026-01-15T14:00:37.939Z",
+  "generatedAt": "January 15, 2026 at 2:00 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "pelvic floor",
-      "change": 3.4,
+      "change": 3.5,
       "recentCount": 11,
       "olderCount": 24,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "app",
-      "change": 3.1,
+      "change": 3.2,
       "recentCount": 17,
       "olderCount": 59,
       "examples": [
@@ -352,6 +352,22 @@
         {
           "title": "My device doesn’t have enough storage / memory to download the app",
           "url": "https://www.hingehealth.com/resources/support/not-enough-storage-or-memory-to-download-app/"
+        }
+      ]
+    },
+    {
+      "topic": "ai",
+      "change": 1.8,
+      "recentCount": 97,
+      "olderCount": 502,
+      "examples": [
+        {
+          "title": "Pain graph: A clearer view of your progress",
+          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
+        },
+        {
+          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
+          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
         }
       ]
     },
@@ -384,22 +400,6 @@
         {
           "title": "What is shoulder instability? Causes, symptoms, treatments, and exercises",
           "url": "https://www.hingehealth.com/resources/articles/shoulder-instability/"
-        }
-      ]
-    },
-    {
-      "topic": "ai",
-      "change": 1.1,
-      "recentCount": 97,
-      "olderCount": 502,
-      "examples": [
-        {
-          "title": "Pain graph: A clearer view of your progress",
-          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
-        },
-        {
-          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
-          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
         }
       ]
     },
@@ -437,7 +437,7 @@
     },
     {
       "topic": "benefits",
-      "change": 0.6,
+      "change": 0.7,
       "recentCount": 14,
       "olderCount": 68,
       "examples": [
@@ -455,7 +455,7 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -9.3,
+      "change": -9.2,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -467,7 +467,7 @@
     },
     {
       "topic": "back pain",
-      "change": -2.2,
+      "change": -2.1,
       "recentCount": 8,
       "olderCount": 64
     },
@@ -484,12 +484,6 @@
       "olderCount": 18
     },
     {
-      "topic": "msk",
-      "change": -1.5,
-      "recentCount": 8,
-      "olderCount": 57
-    },
-    {
       "topic": "pain relief",
       "change": -1.5,
       "recentCount": 7,
@@ -500,6 +494,12 @@
       "change": -1.5,
       "recentCount": 0,
       "olderCount": 15
+    },
+    {
+      "topic": "msk",
+      "change": -1.4,
+      "recentCount": 8,
+      "olderCount": 57
     },
     {
       "topic": "roi",
@@ -548,12 +548,6 @@
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 6
-    },
-    {
-      "topic": "hip pain",
-      "change": -0.5,
-      "recentCount": 3,
-      "olderCount": 21
     },
     {
       "topic": "claims",
@@ -637,9 +631,9 @@
         },
         {
           "audience": "members",
-          "change": 4,
-          "recent": 155,
-          "older": 781
+          "change": 3.7,
+          "recent": 153,
+          "older": 783
         }
       ],
       "declining": [
@@ -663,7 +657,7 @@
         },
         {
           "audience": "general",
-          "change": -1.7,
+          "change": -1.5,
           "recent": 28,
           "older": 165
         }
@@ -1026,13 +1020,13 @@
     },
     {
       "title": "PELVIC FLOOR EXPANSION",
-      "data": "+3.4% growth (11 recent vs 24 older)",
-      "insight": "Pelvic floor content trending up +3.4%, indicating strategic expansion into this area."
+      "data": "+3.5% growth (11 recent vs 24 older)",
+      "insight": "Pelvic floor content trending up +3.5%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +4%, employers -5.1%",
-      "insight": "Shifting focus from employers (-5.1%) to members (+4%), indicating a strategic repositioning."
+      "data": "members +3.7%, employers -5.1%",
+      "insight": "Shifting focus from employers (-5.1%) to members (+3.7%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
