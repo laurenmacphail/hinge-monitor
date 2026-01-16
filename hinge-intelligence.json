@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-15T14:00:37.939Z",
-  "generatedAt": "January 15, 2026 at 2:00 PM",
+  "lastUpdated": "2026-01-16T13:58:28.156Z",
+  "generatedAt": "January 16, 2026 at 1:58 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "pelvic floor",
-      "change": 3.5,
+      "change": 3.6,
       "recentCount": 11,
       "olderCount": 24,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "app",
-      "change": 3.2,
+      "change": 3.4,
       "recentCount": 17,
       "olderCount": 59,
       "examples": [
@@ -357,9 +357,9 @@
     },
     {
       "topic": "ai",
-      "change": 1.8,
-      "recentCount": 97,
-      "olderCount": 502,
+      "change": 2.2,
+      "recentCount": 96,
+      "olderCount": 503,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -405,7 +405,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 1,
+      "change": 1.2,
       "recentCount": 12,
       "olderCount": 54,
       "examples": [
@@ -434,28 +434,12 @@
           "url": "https://www.hingehealth.com/resources/articles/thumb-arthritis/"
         }
       ]
-    },
-    {
-      "topic": "benefits",
-      "change": 0.7,
-      "recentCount": 14,
-      "olderCount": 68,
-      "examples": [
-        {
-          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
-          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
-        },
-        {
-          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
-          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
-        }
-      ]
     }
   ],
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -9.2,
+      "change": -9.1,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -467,7 +451,7 @@
     },
     {
       "topic": "back pain",
-      "change": -2.1,
+      "change": -2,
       "recentCount": 8,
       "olderCount": 64
     },
@@ -484,20 +468,20 @@
       "olderCount": 18
     },
     {
-      "topic": "pain relief",
-      "change": -1.5,
-      "recentCount": 7,
-      "olderCount": 52
-    },
-    {
       "topic": "employers",
       "change": -1.5,
       "recentCount": 0,
       "olderCount": 15
     },
     {
-      "topic": "msk",
+      "topic": "pain relief",
       "change": -1.4,
+      "recentCount": 7,
+      "olderCount": 52
+    },
+    {
+      "topic": "msk",
+      "change": -1.3,
       "recentCount": 8,
       "olderCount": 57
     },
@@ -526,12 +510,6 @@
       "olderCount": 9
     },
     {
-      "topic": "knee pain",
-      "change": -0.7,
-      "recentCount": 6,
-      "olderCount": 39
-    },
-    {
       "topic": "mental health",
       "change": -0.7,
       "recentCount": 1,
@@ -544,22 +522,16 @@
       "olderCount": 7
     },
     {
+      "topic": "knee pain",
+      "change": -0.6,
+      "recentCount": 6,
+      "olderCount": 39
+    },
+    {
       "topic": "research",
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 6
-    },
-    {
-      "topic": "claims",
-      "change": -0.5,
-      "recentCount": 0,
-      "olderCount": 5
-    },
-    {
-      "topic": "medical claims",
-      "change": -0.5,
-      "recentCount": 0,
-      "olderCount": 5
     }
   ],
   "audienceStrategy": {
@@ -631,9 +603,9 @@
         },
         {
           "audience": "members",
-          "change": 3.7,
-          "recent": 153,
-          "older": 783
+          "change": 3.4,
+          "recent": 150,
+          "older": 786
         }
       ],
       "declining": [
@@ -657,7 +629,7 @@
         },
         {
           "audience": "general",
-          "change": -1.5,
+          "change": -1.2,
           "recent": 28,
           "older": 165
         }
@@ -1020,13 +992,13 @@
     },
     {
       "title": "PELVIC FLOOR EXPANSION",
-      "data": "+3.5% growth (11 recent vs 24 older)",
-      "insight": "Pelvic floor content trending up +3.5%, indicating strategic expansion into this area."
+      "data": "+3.6% growth (11 recent vs 24 older)",
+      "insight": "Pelvic floor content trending up +3.6%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +3.7%, employers -5.1%",
-      "insight": "Shifting focus from employers (-5.1%) to members (+3.7%), indicating a strategic repositioning."
+      "data": "members +3.4%, employers -5.1%",
+      "insight": "Shifting focus from employers (-5.1%) to members (+3.4%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
