@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-20T14:19:30.702Z",
-  "generatedAt": "January 20, 2026 at 2:19 PM",
+  "lastUpdated": "2026-01-21T14:06:31.362Z",
+  "generatedAt": "January 21, 2026 at 2:06 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "pelvic floor",
-      "change": 3.6,
+      "change": 3.7,
       "recentCount": 11,
       "olderCount": 24,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "app",
-      "change": 3.4,
+      "change": 3.6,
       "recentCount": 17,
       "olderCount": 59,
       "examples": [
@@ -356,24 +356,8 @@
       ]
     },
     {
-      "topic": "ai",
-      "change": 1.8,
-      "recentCount": 95,
-      "olderCount": 504,
-      "examples": [
-        {
-          "title": "Pain graph: A clearer view of your progress",
-          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
-        },
-        {
-          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
-          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
-        }
-      ]
-    },
-    {
       "topic": "tendonitis",
-      "change": 1.4,
+      "change": 1.5,
       "recentCount": 5,
       "olderCount": 13,
       "examples": [
@@ -388,24 +372,8 @@
       ]
     },
     {
-      "topic": "shoulder pain",
-      "change": 1.3,
-      "recentCount": 5,
-      "olderCount": 14,
-      "examples": [
-        {
-          "title": "Rotator cuff tendonitis: causes, symptoms, and exercises to relieve pain and improve mobility",
-          "url": "https://www.hingehealth.com/resources/articles/rotator-cuff-tendonitis/"
-        },
-        {
-          "title": "What is shoulder instability? Causes, symptoms, treatments, and exercises",
-          "url": "https://www.hingehealth.com/resources/articles/shoulder-instability/"
-        }
-      ]
-    },
-    {
       "topic": "physical therapy",
-      "change": 1.2,
+      "change": 1.3,
       "recentCount": 12,
       "olderCount": 54,
       "examples": [
@@ -420,8 +388,24 @@
       ]
     },
     {
+      "topic": "ai",
+      "change": 1.2,
+      "recentCount": 93,
+      "olderCount": 506,
+      "examples": [
+        {
+          "title": "Pain graph: A clearer view of your progress",
+          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
+        },
+        {
+          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
+          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
+        }
+      ]
+    },
+    {
       "topic": "arthritis",
-      "change": 1,
+      "change": 1.1,
       "recentCount": 5,
       "olderCount": 17,
       "examples": [
@@ -439,7 +423,7 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -9,
+      "change": -8.9,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -448,12 +432,6 @@
       "change": -2.9,
       "recentCount": 0,
       "olderCount": 29
-    },
-    {
-      "topic": "back pain",
-      "change": -2,
-      "recentCount": 8,
-      "olderCount": 64
     },
     {
       "topic": "pain relief",
@@ -468,6 +446,12 @@
       "olderCount": 20
     },
     {
+      "topic": "back pain",
+      "change": -1.9,
+      "recentCount": 8,
+      "olderCount": 64
+    },
+    {
       "topic": "digital msk",
       "change": -1.8,
       "recentCount": 0,
@@ -480,16 +464,16 @@
       "olderCount": 15
     },
     {
-      "topic": "msk",
-      "change": -1.3,
-      "recentCount": 8,
-      "olderCount": 57
-    },
-    {
       "topic": "roi",
       "change": -1.3,
       "recentCount": 2,
       "olderCount": 24
+    },
+    {
+      "topic": "msk",
+      "change": -1.2,
+      "recentCount": 8,
+      "olderCount": 57
     },
     {
       "topic": "health plan",
@@ -597,15 +581,15 @@
       "growing": [
         {
           "audience": "providers",
-          "change": 0.3,
+          "change": 0.4,
           "recent": 1,
           "older": 2
         },
         {
           "audience": "members",
-          "change": 3.2,
-          "recent": 149,
-          "older": 787
+          "change": 3.7,
+          "recent": 148,
+          "older": 788
         }
       ],
       "declining": [
@@ -629,9 +613,9 @@
         },
         {
           "audience": "general",
-          "change": -1.1,
-          "recent": 28,
-          "older": 165
+          "change": -1.6,
+          "recent": 27,
+          "older": 166
         }
       ]
     }
@@ -992,13 +976,13 @@
     },
     {
       "title": "PELVIC FLOOR EXPANSION",
-      "data": "+3.6% growth (11 recent vs 24 older)",
-      "insight": "Pelvic floor content trending up +3.6%, indicating strategic expansion into this area."
+      "data": "+3.7% growth (11 recent vs 24 older)",
+      "insight": "Pelvic floor content trending up +3.7%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +3.2%, employers -5%",
-      "insight": "Shifting focus from employers (-5%) to members (+3.2%), indicating a strategic repositioning."
+      "data": "members +3.7%, employers -5%",
+      "insight": "Shifting focus from employers (-5%) to members (+3.7%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
