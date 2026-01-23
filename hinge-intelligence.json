@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-22T14:19:50.486Z",
-  "generatedAt": "January 22, 2026 at 2:19 PM",
+  "lastUpdated": "2026-01-23T14:01:45.018Z",
+  "generatedAt": "January 23, 2026 at 2:01 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -324,26 +324,10 @@
   ],
   "trendingUp": [
     {
-      "topic": "pelvic floor",
-      "change": 3.8,
-      "recentCount": 11,
-      "olderCount": 24,
-      "examples": [
-        {
-          "title": "What is vaginismus? Symptoms, causes, treatments, and exercises for relief",
-          "url": "https://www.hingehealth.com/resources/articles/vaginismus/"
-        },
-        {
-          "title": "How to use Kegel weights for bladder control: benefits, instructions, and expert tips",
-          "url": "https://www.hingehealth.com/resources/articles/how-to-use-kegel-weights/"
-        }
-      ]
-    },
-    {
       "topic": "app",
-      "change": 3.6,
-      "recentCount": 17,
-      "olderCount": 59,
+      "change": 5,
+      "recentCount": 14,
+      "olderCount": 62,
       "examples": [
         {
           "title": "Step-by-step instructions for app download",
@@ -356,58 +340,10 @@
       ]
     },
     {
-      "topic": "tendonitis",
-      "change": 1.5,
-      "recentCount": 5,
-      "olderCount": 13,
-      "examples": [
-        {
-          "title": "Achilles tendonitis: symptoms, treatment, and exercises",
-          "url": "https://www.hingehealth.com/resources/articles/achilles-tendonitis/"
-        },
-        {
-          "title": "Rotator cuff tendonitis: causes, symptoms, and exercises to relieve pain and improve mobility",
-          "url": "https://www.hingehealth.com/resources/articles/rotator-cuff-tendonitis/"
-        }
-      ]
-    },
-    {
-      "topic": "physical therapy",
-      "change": 1.3,
-      "recentCount": 12,
-      "olderCount": 54,
-      "examples": [
-        {
-          "title": "Access to virtual physical therapy is at your fingertips",
-          "url": "https://www.hingehealth.com/resources/support/mobile-app-support/"
-        },
-        {
-          "title": "Personalizing digital physical therapy: how we forge therapeutic alliance at Hinge Health",
-          "url": "https://www.hingehealth.com/resources/articles/personalizing-digital-pt-therapeutic-alliance/"
-        }
-      ]
-    },
-    {
-      "topic": "arthritis",
-      "change": 1.1,
-      "recentCount": 5,
-      "olderCount": 17,
-      "examples": [
-        {
-          "title": "Foot arthritis treatment: tips and exercises",
-          "url": "https://www.hingehealth.com/resources/articles/foot-arthritis/"
-        },
-        {
-          "title": "What is thumb arthritis? Signs you have it and how to treat it",
-          "url": "https://www.hingehealth.com/resources/articles/thumb-arthritis/"
-        }
-      ]
-    },
-    {
       "topic": "ai",
-      "change": 0.9,
-      "recentCount": 92,
-      "olderCount": 507,
+      "change": 3.2,
+      "recentCount": 69,
+      "olderCount": 530,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -418,68 +354,72 @@
           "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
         }
       ]
+    },
+    {
+      "topic": "pelvic floor",
+      "change": 1.9,
+      "recentCount": 6,
+      "olderCount": 29,
+      "examples": [
+        {
+          "title": "What is vaginismus? Symptoms, causes, treatments, and exercises for relief",
+          "url": "https://www.hingehealth.com/resources/articles/vaginismus/"
+        },
+        {
+          "title": "How to use Kegel weights for bladder control: benefits, instructions, and expert tips",
+          "url": "https://www.hingehealth.com/resources/articles/how-to-use-kegel-weights/"
+        }
+      ]
     }
   ],
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -8.9,
+      "change": -5.8,
       "recentCount": 11,
       "olderCount": 151
     },
     {
+      "topic": "pain relief",
+      "change": -3,
+      "recentCount": 3,
+      "olderCount": 56
+    },
+    {
       "topic": "chronic pain",
-      "change": -2.9,
+      "change": -2.8,
       "recentCount": 0,
       "olderCount": 29
     },
     {
       "topic": "employer",
-      "change": -2,
+      "change": -1.9,
       "recentCount": 0,
       "olderCount": 20
     },
     {
-      "topic": "msk",
-      "change": -1.9,
-      "recentCount": 7,
-      "olderCount": 58
-    },
-    {
-      "topic": "back pain",
-      "change": -1.9,
-      "recentCount": 8,
-      "olderCount": 64
-    },
-    {
-      "topic": "pain relief",
-      "change": -1.9,
-      "recentCount": 6,
-      "olderCount": 53
-    },
-    {
       "topic": "digital msk",
-      "change": -1.8,
+      "change": -1.7,
       "recentCount": 0,
       "olderCount": 18
     },
     {
+      "topic": "roi",
+      "change": -1.6,
+      "recentCount": 1,
+      "olderCount": 25
+    },
+    {
       "topic": "employers",
-      "change": -1.5,
+      "change": -1.4,
       "recentCount": 0,
       "olderCount": 15
     },
     {
-      "topic": "roi",
-      "change": -1.3,
-      "recentCount": 2,
-      "olderCount": 24
-    },
-    {
-      "topic": "health plan",
+      "topic": "sciatica",
       "change": -1,
       "recentCount": 0,
-      "olderCount": 10
+      "olderCount": 11
     },
     {
       "topic": "productivity",
@@ -488,10 +428,28 @@
       "olderCount": 9
     },
     {
-      "topic": "virtual",
+      "topic": "health plan",
+      "change": -0.9,
+      "recentCount": 0,
+      "olderCount": 10
+    },
+    {
+      "topic": "benefits",
       "change": -0.8,
+      "recentCount": 8,
+      "olderCount": 74
+    },
+    {
+      "topic": "back pain",
+      "change": -0.7,
+      "recentCount": 7,
+      "olderCount": 65
+    },
+    {
+      "topic": "pelvic health",
+      "change": -0.7,
       "recentCount": 1,
-      "olderCount": 14
+      "olderCount": 16
     },
     {
       "topic": "pain management",
@@ -500,22 +458,16 @@
       "olderCount": 7
     },
     {
-      "topic": "mental health",
+      "topic": "virtual",
       "change": -0.6,
       "recentCount": 1,
-      "olderCount": 12
+      "olderCount": 14
     },
     {
       "topic": "research",
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 6
-    },
-    {
-      "topic": "knee pain",
-      "change": -0.5,
-      "recentCount": 6,
-      "olderCount": 39
     }
   ],
   "audienceStrategy": {
@@ -581,27 +533,27 @@
       "growing": [
         {
           "audience": "providers",
-          "change": 0.4,
+          "change": 0.6,
           "recent": 1,
           "older": 2
         },
         {
           "audience": "members",
-          "change": 4.2,
-          "recent": 148,
-          "older": 788
+          "change": 1.7,
+          "recent": 104,
+          "older": 832
         }
       ],
       "declining": [
         {
           "audience": "employers",
-          "change": -5.7,
+          "change": -4.9,
           "recent": 2,
           "older": 68
         },
         {
           "audience": "health plans",
-          "change": -1.3,
+          "change": -1,
           "recent": 1,
           "older": 19
         },
@@ -610,12 +562,6 @@
           "change": -0.4,
           "recent": 0,
           "older": 4
-        },
-        {
-          "audience": "general",
-          "change": -1.5,
-          "recent": 27,
-          "older": 166
         }
       ]
     }
@@ -975,14 +921,9 @@
       "insight": "Members content dominates with 79.5, indicating a clear members-first content strategy."
     },
     {
-      "title": "PELVIC FLOOR EXPANSION",
-      "data": "+3.8% growth (11 recent vs 24 older)",
-      "insight": "Pelvic floor content trending up +3.8%, indicating strategic expansion into this area."
-    },
-    {
-      "title": "AUDIENCE PIVOT",
-      "data": "members +4.2%, employers -5.7%",
-      "insight": "Shifting focus from employers (-5.7%) to members (+4.2%), indicating a strategic repositioning."
+      "title": "APP EXPANSION",
+      "data": "+5% growth (14 recent vs 62 older)",
+      "insight": "App content trending up +5%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
