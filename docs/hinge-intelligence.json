@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-23T14:01:45.018Z",
-  "generatedAt": "January 23, 2026 at 2:01 PM",
+  "lastUpdated": "2026-01-24T13:48:58.042Z",
+  "generatedAt": "January 24, 2026 at 1:48 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 5,
+      "change": 5.2,
       "recentCount": 14,
       "olderCount": 62,
       "examples": [
@@ -341,9 +341,9 @@
     },
     {
       "topic": "ai",
-      "change": 3.2,
-      "recentCount": 69,
-      "olderCount": 530,
+      "change": 3.7,
+      "recentCount": 68,
+      "olderCount": 531,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -357,9 +357,9 @@
     },
     {
       "topic": "pelvic floor",
-      "change": 1.9,
-      "recentCount": 6,
-      "olderCount": 29,
+      "change": 1.1,
+      "recentCount": 5,
+      "olderCount": 30,
       "examples": [
         {
           "title": "What is vaginismus? Symptoms, causes, treatments, and exercises for relief",
@@ -375,19 +375,19 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -5.8,
+      "change": -5.6,
       "recentCount": 11,
       "olderCount": 151
     },
     {
       "topic": "pain relief",
-      "change": -3,
+      "change": -2.9,
       "recentCount": 3,
       "olderCount": 56
     },
     {
       "topic": "chronic pain",
-      "change": -2.8,
+      "change": -2.7,
       "recentCount": 0,
       "olderCount": 29
     },
@@ -422,6 +422,12 @@
       "olderCount": 11
     },
     {
+      "topic": "physical therapy",
+      "change": -0.9,
+      "recentCount": 6,
+      "olderCount": 60
+    },
+    {
       "topic": "productivity",
       "change": -0.9,
       "recentCount": 0,
@@ -435,15 +441,9 @@
     },
     {
       "topic": "benefits",
-      "change": -0.8,
+      "change": -0.7,
       "recentCount": 8,
       "olderCount": 74
-    },
-    {
-      "topic": "back pain",
-      "change": -0.7,
-      "recentCount": 7,
-      "olderCount": 65
     },
     {
       "topic": "pelvic health",
@@ -458,16 +458,22 @@
       "olderCount": 7
     },
     {
-      "topic": "virtual",
+      "topic": "back pain",
       "change": -0.6,
-      "recentCount": 1,
-      "olderCount": 14
+      "recentCount": 7,
+      "olderCount": 65
     },
     {
       "topic": "research",
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 6
+    },
+    {
+      "topic": "virtual",
+      "change": -0.5,
+      "recentCount": 1,
+      "olderCount": 14
     }
   ],
   "audienceStrategy": {
@@ -539,15 +545,21 @@
         },
         {
           "audience": "members",
-          "change": 1.7,
-          "recent": 104,
-          "older": 832
+          "change": 1.2,
+          "recent": 101,
+          "older": 835
+        },
+        {
+          "audience": "general",
+          "change": 0.4,
+          "recent": 21,
+          "older": 172
         }
       ],
       "declining": [
         {
           "audience": "employers",
-          "change": -4.9,
+          "change": -4.8,
           "recent": 2,
           "older": 68
         },
@@ -922,8 +934,8 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+5% growth (14 recent vs 62 older)",
-      "insight": "App content trending up +5%, indicating strategic expansion into this area."
+      "data": "+5.2% growth (14 recent vs 62 older)",
+      "insight": "App content trending up +5.2%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
