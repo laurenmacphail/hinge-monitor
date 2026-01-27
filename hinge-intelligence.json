@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-26T14:03:36.429Z",
-  "generatedAt": "January 26, 2026 at 2:03 PM",
+  "lastUpdated": "2026-01-27T14:19:16.127Z",
+  "generatedAt": "January 27, 2026 at 2:19 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 5.2,
+      "change": 5.3,
       "recentCount": 14,
       "olderCount": 62,
       "examples": [
@@ -341,9 +341,9 @@
     },
     {
       "topic": "ai",
-      "change": 3.7,
-      "recentCount": 68,
-      "olderCount": 531,
+      "change": 3.3,
+      "recentCount": 67,
+      "olderCount": 532,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -357,7 +357,7 @@
     },
     {
       "topic": "pelvic floor",
-      "change": 1.1,
+      "change": 1.2,
       "recentCount": 5,
       "olderCount": 30,
       "examples": [
@@ -375,15 +375,15 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -5.6,
+      "change": -5.5,
       "recentCount": 11,
       "olderCount": 151
     },
     {
       "topic": "pain relief",
-      "change": -2.9,
-      "recentCount": 3,
-      "olderCount": 56
+      "change": -3.8,
+      "recentCount": 2,
+      "olderCount": 57
     },
     {
       "topic": "chronic pain",
@@ -440,12 +440,6 @@
       "olderCount": 10
     },
     {
-      "topic": "benefits",
-      "change": -0.7,
-      "recentCount": 8,
-      "olderCount": 74
-    },
-    {
       "topic": "pelvic health",
       "change": -0.7,
       "recentCount": 1,
@@ -458,10 +452,10 @@
       "olderCount": 7
     },
     {
-      "topic": "back pain",
+      "topic": "benefits",
       "change": -0.6,
-      "recentCount": 7,
-      "olderCount": 65
+      "recentCount": 8,
+      "olderCount": 74
     },
     {
       "topic": "research",
@@ -474,6 +468,12 @@
       "change": -0.5,
       "recentCount": 1,
       "olderCount": 14
+    },
+    {
+      "topic": "back pain",
+      "change": -0.5,
+      "recentCount": 7,
+      "olderCount": 65
     }
   ],
   "audienceStrategy": {
@@ -545,13 +545,13 @@
         },
         {
           "audience": "members",
-          "change": 1.2,
-          "recent": 101,
-          "older": 835
+          "change": 1,
+          "recent": 100,
+          "older": 836
         },
         {
           "audience": "general",
-          "change": 0.4,
+          "change": 0.5,
           "recent": 21,
           "older": 172
         }
@@ -934,8 +934,8 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+5.2% growth (14 recent vs 62 older)",
-      "insight": "App content trending up +5.2%, indicating strategic expansion into this area."
+      "data": "+5.3% growth (14 recent vs 62 older)",
+      "insight": "App content trending up +5.3%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
