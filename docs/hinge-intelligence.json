@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-30T14:58:45.825Z",
-  "generatedAt": "January 30, 2026 at 2:58 PM",
+  "lastUpdated": "2026-01-31T14:00:12.171Z",
+  "generatedAt": "January 31, 2026 at 2:00 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 3.8,
+      "change": 4,
       "recentCount": 11,
       "olderCount": 65,
       "examples": [
@@ -341,9 +341,9 @@
     },
     {
       "topic": "ai",
-      "change": 1.3,
-      "recentCount": 58,
-      "olderCount": 541,
+      "change": 1.8,
+      "recentCount": 57,
+      "olderCount": 542,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -359,7 +359,7 @@
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -4.3,
+      "change": -4,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -407,7 +407,7 @@
     },
     {
       "topic": "msk",
-      "change": -1.1,
+      "change": -1,
       "recentCount": 5,
       "olderCount": 60
     },
@@ -424,12 +424,6 @@
       "olderCount": 10
     },
     {
-      "topic": "back pain",
-      "change": -0.8,
-      "recentCount": 6,
-      "olderCount": 66
-    },
-    {
       "topic": "productivity",
       "change": -0.8,
       "recentCount": 0,
@@ -440,6 +434,12 @@
       "change": -0.7,
       "recentCount": 0,
       "olderCount": 7
+    },
+    {
+      "topic": "back pain",
+      "change": -0.6,
+      "recentCount": 6,
+      "olderCount": 66
     },
     {
       "topic": "neck pain",
@@ -523,13 +523,13 @@
       "growing": [
         {
           "audience": "members",
-          "change": 1.4,
-          "recent": 90,
-          "older": 846
+          "change": 0.8,
+          "recent": 87,
+          "older": 849
         },
         {
           "audience": "general",
-          "change": 0.7,
+          "change": 1.2,
           "recent": 19,
           "older": 174
         }
@@ -543,7 +543,7 @@
         },
         {
           "audience": "employers",
-          "change": -4.6,
+          "change": -4.5,
           "recent": 2,
           "older": 68
         },
@@ -918,8 +918,8 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+3.8% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +3.8%, indicating strategic expansion into this area."
+      "data": "+4% growth (11 recent vs 65 older)",
+      "insight": "App content trending up +4%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
