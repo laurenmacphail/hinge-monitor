@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-02T15:10:27.173Z",
-  "generatedAt": "February 2, 2026 at 3:10 PM",
+  "lastUpdated": "2026-02-03T15:35:24.661Z",
+  "generatedAt": "February 3, 2026 at 3:35 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 4,
+      "change": 4.6,
       "recentCount": 11,
       "olderCount": 65,
       "examples": [
@@ -341,9 +341,9 @@
     },
     {
       "topic": "ai",
-      "change": 1.8,
-      "recentCount": 57,
-      "olderCount": 542,
+      "change": 1.4,
+      "recentCount": 54,
+      "olderCount": 545,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -354,18 +354,34 @@
           "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
         }
       ]
+    },
+    {
+      "topic": "benefits",
+      "change": 0.8,
+      "recentCount": 8,
+      "olderCount": 74,
+      "examples": [
+        {
+          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
+          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
+        },
+        {
+          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
+          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
+        }
+      ]
     }
   ],
   "trendingDown": [
     {
       "topic": "musculoskeletal",
-      "change": -4,
+      "change": -3.4,
       "recentCount": 11,
       "olderCount": 151
     },
     {
       "topic": "pain relief",
-      "change": -3.5,
+      "change": -3.4,
       "recentCount": 2,
       "olderCount": 57
     },
@@ -406,12 +422,6 @@
       "olderCount": 13
     },
     {
-      "topic": "msk",
-      "change": -1,
-      "recentCount": 5,
-      "olderCount": 60
-    },
-    {
       "topic": "sciatica",
       "change": -1,
       "recentCount": 0,
@@ -424,40 +434,40 @@
       "olderCount": 10
     },
     {
+      "topic": "msk",
+      "change": -0.8,
+      "recentCount": 5,
+      "olderCount": 60
+    },
+    {
       "topic": "productivity",
       "change": -0.8,
       "recentCount": 0,
       "olderCount": 9
     },
     {
+      "topic": "research",
+      "change": -0.6,
+      "recentCount": 0,
+      "olderCount": 6
+    },
+    {
       "topic": "pain management",
-      "change": -0.7,
+      "change": -0.6,
       "recentCount": 0,
       "olderCount": 7
     },
     {
-      "topic": "back pain",
-      "change": -0.6,
-      "recentCount": 6,
-      "olderCount": 66
-    },
-    {
       "topic": "neck pain",
-      "change": -0.6,
+      "change": -0.5,
       "recentCount": 1,
       "olderCount": 16
     },
     {
       "topic": "pelvic health",
-      "change": -0.6,
+      "change": -0.5,
       "recentCount": 1,
       "olderCount": 16
-    },
-    {
-      "topic": "research",
-      "change": -0.6,
-      "recentCount": 0,
-      "olderCount": 6
     }
   ],
   "audienceStrategy": {
@@ -524,14 +534,14 @@
         {
           "audience": "members",
           "change": 0.8,
-          "recent": 87,
-          "older": 849
+          "recent": 83,
+          "older": 853
         },
         {
           "audience": "general",
-          "change": 1.2,
-          "recent": 19,
-          "older": 174
+          "change": 1.1,
+          "recent": 18,
+          "older": 175
         }
       ],
       "declining": [
@@ -543,13 +553,13 @@
         },
         {
           "audience": "employers",
-          "change": -4.5,
+          "change": -4.4,
           "recent": 2,
           "older": 68
         },
         {
           "audience": "health plans",
-          "change": -0.9,
+          "change": -0.8,
           "recent": 1,
           "older": 19
         },
@@ -918,8 +928,8 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+4% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +4%, indicating strategic expansion into this area."
+      "data": "+4.6% growth (11 recent vs 65 older)",
+      "insight": "App content trending up +4.6%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
