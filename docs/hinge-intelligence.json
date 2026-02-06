@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T15:26:02.803Z",
-  "generatedAt": "February 5, 2026 at 3:26 PM",
+  "lastUpdated": "2026-02-06T15:10:22.310Z",
+  "generatedAt": "February 6, 2026 at 3:10 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 4.9,
+      "change": 5.1,
       "recentCount": 11,
       "olderCount": 65,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "benefits",
-      "change": 1.1,
+      "change": 1.3,
       "recentCount": 8,
       "olderCount": 74,
       "examples": [
@@ -357,9 +357,9 @@
     },
     {
       "topic": "ai",
-      "change": 0.9,
-      "recentCount": 52,
-      "olderCount": 547,
+      "change": 1,
+      "recentCount": 51,
+      "olderCount": 548,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -370,18 +370,34 @@
           "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
         }
       ]
+    },
+    {
+      "topic": "physical therapy",
+      "change": 0.5,
+      "recentCount": 6,
+      "olderCount": 60,
+      "examples": [
+        {
+          "title": "Access to virtual physical therapy is at your fingertips",
+          "url": "https://www.hingehealth.com/resources/support/mobile-app-support/"
+        },
+        {
+          "title": "Personalizing digital physical therapy: how we forge therapeutic alliance at Hinge Health",
+          "url": "https://www.hingehealth.com/resources/articles/personalizing-digital-pt-therapeutic-alliance/"
+        }
+      ]
     }
   ],
   "trendingDown": [
     {
       "topic": "pain relief",
-      "change": -3.3,
+      "change": -3.2,
       "recentCount": 2,
       "olderCount": 57
     },
     {
       "topic": "musculoskeletal",
-      "change": -3.1,
+      "change": -2.8,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -390,6 +406,12 @@
       "change": -2.7,
       "recentCount": 0,
       "olderCount": 29
+    },
+    {
+      "topic": "knee pain",
+      "change": -1.9,
+      "recentCount": 2,
+      "olderCount": 43
     },
     {
       "topic": "employer",
@@ -422,16 +444,16 @@
       "olderCount": 13
     },
     {
+      "topic": "enso",
+      "change": -1.1,
+      "recentCount": 0,
+      "olderCount": 12
+    },
+    {
       "topic": "sciatica",
       "change": -1,
       "recentCount": 0,
       "olderCount": 11
-    },
-    {
-      "topic": "knee pain",
-      "change": -0.9,
-      "recentCount": 3,
-      "olderCount": 42
     },
     {
       "topic": "health plan",
@@ -444,12 +466,6 @@
       "change": -0.8,
       "recentCount": 0,
       "olderCount": 9
-    },
-    {
-      "topic": "msk",
-      "change": -0.6,
-      "recentCount": 5,
-      "olderCount": 60
     },
     {
       "topic": "report",
@@ -533,9 +549,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 2.3,
-          "recent": 82,
-          "older": 854
+          "change": 1.8,
+          "recent": 80,
+          "older": 856
         }
       ],
       "declining": [
@@ -553,7 +569,7 @@
         },
         {
           "audience": "health plans",
-          "change": -0.8,
+          "change": -0.7,
           "recent": 1,
           "older": 19
         },
@@ -565,7 +581,7 @@
         },
         {
           "audience": "general",
-          "change": -0.5,
+          "change": -0.2,
           "recent": 16,
           "older": 177
         }
@@ -928,13 +944,8 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+4.9% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +4.9%, indicating strategic expansion into this area."
-    },
-    {
-      "title": "AUDIENCE PIVOT",
-      "data": "members +2.3%, employers -4.3%",
-      "insight": "Shifting focus from employers (-4.3%) to members (+2.3%), indicating a strategic repositioning."
+      "data": "+5.1% growth (11 recent vs 65 older)",
+      "insight": "App content trending up +5.1%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
