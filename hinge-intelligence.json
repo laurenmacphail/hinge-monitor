@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T15:10:22.310Z",
-  "generatedAt": "February 6, 2026 at 3:10 PM",
+  "lastUpdated": "2026-02-07T13:42:56.710Z",
+  "generatedAt": "February 7, 2026 at 1:42 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 5.1,
+      "change": 5.2,
       "recentCount": 11,
       "olderCount": 65,
       "examples": [
@@ -356,24 +356,8 @@
       ]
     },
     {
-      "topic": "ai",
-      "change": 1,
-      "recentCount": 51,
-      "olderCount": 548,
-      "examples": [
-        {
-          "title": "Pain graph: A clearer view of your progress",
-          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
-        },
-        {
-          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
-          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
-        }
-      ]
-    },
-    {
       "topic": "physical therapy",
-      "change": 0.5,
+      "change": 0.6,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -397,7 +381,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": -2.8,
+      "change": -2.7,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -442,6 +426,12 @@
       "change": -1.2,
       "recentCount": 0,
       "olderCount": 13
+    },
+    {
+      "topic": "back pain",
+      "change": -1.1,
+      "recentCount": 5,
+      "olderCount": 67
     },
     {
       "topic": "enso",
@@ -549,9 +539,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 1.8,
-          "recent": 80,
-          "older": 856
+          "change": 1.6,
+          "recent": 79,
+          "older": 857
         }
       ],
       "declining": [
@@ -563,7 +553,7 @@
         },
         {
           "audience": "employers",
-          "change": -4.3,
+          "change": -4.2,
           "recent": 2,
           "older": 68
         },
@@ -578,12 +568,6 @@
           "change": -0.4,
           "recent": 0,
           "older": 4
-        },
-        {
-          "audience": "general",
-          "change": -0.2,
-          "recent": 16,
-          "older": 177
         }
       ]
     }
@@ -944,8 +928,8 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+5.1% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +5.1%, indicating strategic expansion into this area."
+      "data": "+5.2% growth (11 recent vs 65 older)",
+      "insight": "App content trending up +5.2%, indicating strategic expansion into this area."
     }
   ],
   "timeline": {
