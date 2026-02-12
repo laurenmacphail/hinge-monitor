@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T14:15:28.379Z",
-  "generatedAt": "February 11, 2026 at 2:15 PM",
+  "lastUpdated": "2026-02-12T14:11:00.927Z",
+  "generatedAt": "February 12, 2026 at 2:11 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 5.4,
+      "change": 5.5,
       "recentCount": 11,
       "olderCount": 65,
       "examples": [
@@ -340,24 +340,8 @@
       ]
     },
     {
-      "topic": "benefits",
-      "change": 1.4,
-      "recentCount": 8,
-      "olderCount": 74,
-      "examples": [
-        {
-          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
-          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
-        },
-        {
-          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
-          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
-        }
-      ]
-    },
-    {
       "topic": "ai",
-      "change": 1,
+      "change": 1.6,
       "recentCount": 50,
       "olderCount": 549,
       "examples": [
@@ -368,6 +352,22 @@
         {
           "title": "3 ways to greet this holiday season with less musculoskeletal pain",
           "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
+        }
+      ]
+    },
+    {
+      "topic": "benefits",
+      "change": 1.5,
+      "recentCount": 8,
+      "olderCount": 74,
+      "examples": [
+        {
+          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
+          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
+        },
+        {
+          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
+          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
         }
       ]
     },
@@ -403,7 +403,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": -2.6,
+      "change": -2.4,
       "recentCount": 11,
       "olderCount": 151
     },
@@ -427,7 +427,7 @@
     },
     {
       "topic": "msk",
-      "change": -1.5,
+      "change": -1.4,
       "recentCount": 4,
       "olderCount": 61
     },
@@ -561,7 +561,7 @@
       "growing": [
         {
           "audience": "members",
-          "change": 2.5,
+          "change": 3.5,
           "recent": 79,
           "older": 857
         }
@@ -593,9 +593,9 @@
         },
         {
           "audience": "general",
-          "change": -0.9,
-          "recent": 15,
-          "older": 178
+          "change": -1.9,
+          "recent": 14,
+          "older": 179
         }
       ]
     }
@@ -956,13 +956,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+5.4% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +5.4%, indicating strategic expansion into this area."
+      "data": "+5.5% growth (11 recent vs 65 older)",
+      "insight": "App content trending up +5.5%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +2.5%, employers -4.2%",
-      "insight": "Shifting focus from employers (-4.2%) to members (+2.5%), indicating a strategic repositioning."
+      "data": "members +3.5%, employers -4.2%",
+      "insight": "Shifting focus from employers (-4.2%) to members (+3.5%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
