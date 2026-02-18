@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-17T14:06:32.858Z",
-  "generatedAt": "February 17, 2026 at 2:06 PM",
+  "lastUpdated": "2026-02-18T14:06:48.934Z",
+  "generatedAt": "February 18, 2026 at 2:06 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 5.6,
+      "change": 6.3,
       "recentCount": 11,
       "olderCount": 65,
       "examples": [
@@ -340,24 +340,8 @@
       ]
     },
     {
-      "topic": "ai",
-      "change": 2.2,
-      "recentCount": 50,
-      "olderCount": 549,
-      "examples": [
-        {
-          "title": "Pain graph: A clearer view of your progress",
-          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
-        },
-        {
-          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
-          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
-        }
-      ]
-    },
-    {
       "topic": "benefits",
-      "change": 1.6,
+      "change": 2.1,
       "recentCount": 8,
       "olderCount": 74,
       "examples": [
@@ -372,8 +356,24 @@
       ]
     },
     {
+      "topic": "ai",
+      "change": 1.7,
+      "recentCount": 47,
+      "olderCount": 552,
+      "examples": [
+        {
+          "title": "Pain graph: A clearer view of your progress",
+          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
+        },
+        {
+          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
+          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
+        }
+      ]
+    },
+    {
       "topic": "physical therapy",
-      "change": 0.8,
+      "change": 1.2,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -391,9 +391,15 @@
   "trendingDown": [
     {
       "topic": "pain relief",
-      "change": -3.1,
+      "change": -3,
       "recentCount": 2,
       "olderCount": 57
+    },
+    {
+      "topic": "knee pain",
+      "change": -2.9,
+      "recentCount": 1,
+      "olderCount": 44
     },
     {
       "topic": "chronic pain",
@@ -403,21 +409,9 @@
     },
     {
       "topic": "msk",
-      "change": -2.5,
+      "change": -2.3,
       "recentCount": 3,
       "olderCount": 62
-    },
-    {
-      "topic": "musculoskeletal",
-      "change": -2.3,
-      "recentCount": 11,
-      "olderCount": 151
-    },
-    {
-      "topic": "knee pain",
-      "change": -1.8,
-      "recentCount": 2,
-      "olderCount": 43
     },
     {
       "topic": "employer",
@@ -426,8 +420,14 @@
       "olderCount": 20
     },
     {
+      "topic": "musculoskeletal",
+      "change": -1.6,
+      "recentCount": 11,
+      "olderCount": 151
+    },
+    {
       "topic": "digital msk",
-      "change": -1.7,
+      "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
     },
@@ -462,12 +462,6 @@
       "olderCount": 11
     },
     {
-      "topic": "back pain",
-      "change": -0.9,
-      "recentCount": 5,
-      "olderCount": 67
-    },
-    {
       "topic": "health plan",
       "change": -0.9,
       "recentCount": 0,
@@ -480,16 +474,16 @@
       "olderCount": 9
     },
     {
+      "topic": "back pain",
+      "change": -0.6,
+      "recentCount": 5,
+      "olderCount": 67
+    },
+    {
       "topic": "report",
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 7
-    },
-    {
-      "topic": "research",
-      "change": -0.6,
-      "recentCount": 0,
-      "olderCount": 6
     },
     {
       "topic": "pain management",
@@ -498,10 +492,10 @@
       "olderCount": 7
     },
     {
-      "topic": "msk care",
+      "topic": "research",
       "change": -0.5,
-      "recentCount": 1,
-      "olderCount": 17
+      "recentCount": 0,
+      "olderCount": 6
     }
   ],
   "audienceStrategy": {
@@ -567,9 +561,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 4.4,
-          "recent": 79,
-          "older": 857
+          "change": 4.6,
+          "recent": 75,
+          "older": 861
         }
       ],
       "declining": [
@@ -581,13 +575,13 @@
         },
         {
           "audience": "employers",
-          "change": -5.3,
+          "change": -5.2,
           "recent": 1,
           "older": 69
         },
         {
           "audience": "health plans",
-          "change": -0.7,
+          "change": -0.6,
           "recent": 1,
           "older": 19
         },
@@ -599,9 +593,9 @@
         },
         {
           "audience": "general",
-          "change": -1.7,
-          "recent": 14,
-          "older": 179
+          "change": -2,
+          "recent": 13,
+          "older": 180
         }
       ]
     }
@@ -962,13 +956,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+5.6% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +5.6%, indicating strategic expansion into this area."
+      "data": "+6.3% growth (11 recent vs 65 older)",
+      "insight": "App content trending up +6.3%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +4.4%, employers -5.3%",
-      "insight": "Shifting focus from employers (-5.3%) to members (+4.4%), indicating a strategic repositioning."
+      "data": "members +4.6%, employers -5.2%",
+      "insight": "Shifting focus from employers (-5.2%) to members (+4.6%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
