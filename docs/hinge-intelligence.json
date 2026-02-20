@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-19T14:08:33.199Z",
-  "generatedAt": "February 19, 2026 at 2:08 PM",
+  "lastUpdated": "2026-02-20T14:00:38.357Z",
+  "generatedAt": "February 20, 2026 at 2:00 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,9 +325,9 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 6.6,
-      "recentCount": 11,
-      "olderCount": 65,
+      "change": 5.8,
+      "recentCount": 10,
+      "olderCount": 66,
       "examples": [
         {
           "title": "Step-by-step instructions for app download",
@@ -341,7 +341,7 @@
     },
     {
       "topic": "benefits",
-      "change": 2.3,
+      "change": 2.7,
       "recentCount": 8,
       "olderCount": 74,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 1.3,
+      "change": 1.6,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -373,9 +373,9 @@
     },
     {
       "topic": "ai",
-      "change": 0.5,
-      "recentCount": 45,
-      "olderCount": 554,
+      "change": 1.2,
+      "recentCount": 44,
+      "olderCount": 555,
       "examples": [
         {
           "title": "Pain graph: A clearer view of your progress",
@@ -391,15 +391,15 @@
   "trendingDown": [
     {
       "topic": "pain relief",
-      "change": -4.2,
+      "change": -4.1,
       "recentCount": 1,
       "olderCount": 58
     },
     {
       "topic": "knee pain",
-      "change": -2.9,
-      "recentCount": 1,
-      "olderCount": 44
+      "change": -4.1,
+      "recentCount": 0,
+      "olderCount": 45
     },
     {
       "topic": "chronic pain",
@@ -409,7 +409,7 @@
     },
     {
       "topic": "msk",
-      "change": -2.3,
+      "change": -2.1,
       "recentCount": 3,
       "olderCount": 62
     },
@@ -420,28 +420,22 @@
       "olderCount": 20
     },
     {
-      "topic": "back pain",
-      "change": -1.7,
-      "recentCount": 4,
-      "olderCount": 68
-    },
-    {
       "topic": "digital msk",
       "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
     },
     {
+      "topic": "back pain",
+      "change": -1.5,
+      "recentCount": 4,
+      "olderCount": 68
+    },
+    {
       "topic": "employers",
       "change": -1.4,
       "recentCount": 0,
       "olderCount": 15
-    },
-    {
-      "topic": "musculoskeletal",
-      "change": -1.3,
-      "recentCount": 11,
-      "olderCount": 151
     },
     {
       "topic": "mental health",
@@ -472,6 +466,12 @@
       "change": -0.9,
       "recentCount": 0,
       "olderCount": 10
+    },
+    {
+      "topic": "musculoskeletal",
+      "change": -0.8,
+      "recentCount": 11,
+      "olderCount": 151
     },
     {
       "topic": "productivity",
@@ -561,9 +561,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 4.1,
-          "recent": 73,
-          "older": 863
+          "change": 3.5,
+          "recent": 70,
+          "older": 866
         }
       ],
       "declining": [
@@ -575,7 +575,7 @@
         },
         {
           "audience": "employers",
-          "change": -5.2,
+          "change": -5.1,
           "recent": 1,
           "older": 69
         },
@@ -593,7 +593,7 @@
         },
         {
           "audience": "general",
-          "change": -1.7,
+          "change": -1.1,
           "recent": 13,
           "older": 180
         }
@@ -956,13 +956,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+6.6% growth (11 recent vs 65 older)",
-      "insight": "App content trending up +6.6%, indicating strategic expansion into this area."
+      "data": "+5.8% growth (10 recent vs 66 older)",
+      "insight": "App content trending up +5.8%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +4.1%, employers -5.2%",
-      "insight": "Shifting focus from employers (-5.2%) to members (+4.1%), indicating a strategic repositioning."
+      "data": "members +3.5%, employers -5.1%",
+      "insight": "Shifting focus from employers (-5.1%) to members (+3.5%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
