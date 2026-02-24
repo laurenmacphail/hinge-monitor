@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-23T14:07:26.789Z",
-  "generatedAt": "February 23, 2026 at 2:07 PM",
+  "lastUpdated": "2026-02-24T14:10:30.671Z",
+  "generatedAt": "February 24, 2026 at 2:10 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 5.8,
+      "change": 6,
       "recentCount": 10,
       "olderCount": 66,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "benefits",
-      "change": 2.7,
+      "change": 2.9,
       "recentCount": 8,
       "olderCount": 74,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 1.6,
+      "change": 1.8,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -368,22 +368,6 @@
         {
           "title": "Personalizing digital physical therapy: how we forge therapeutic alliance at Hinge Health",
           "url": "https://www.hingehealth.com/resources/articles/personalizing-digital-pt-therapeutic-alliance/"
-        }
-      ]
-    },
-    {
-      "topic": "ai",
-      "change": 1.2,
-      "recentCount": 44,
-      "olderCount": 555,
-      "examples": [
-        {
-          "title": "Pain graph: A clearer view of your progress",
-          "url": "https://www.hingehealth.com/resources/articles/pain-graph-a-clearer-view-of-your-progress/"
-        },
-        {
-          "title": "3 ways to greet this holiday season with less musculoskeletal pain",
-          "url": "https://www.hingehealth.com/resources/support/greet-this-holiday-season-with-less-musculoskeletal-pain/"
         }
       ]
     }
@@ -402,6 +386,12 @@
       "olderCount": 45
     },
     {
+      "topic": "back pain",
+      "change": -2.7,
+      "recentCount": 3,
+      "olderCount": 69
+    },
+    {
       "topic": "chronic pain",
       "change": -2.6,
       "recentCount": 0,
@@ -409,7 +399,7 @@
     },
     {
       "topic": "msk",
-      "change": -2.1,
+      "change": -2,
       "recentCount": 3,
       "olderCount": 62
     },
@@ -424,12 +414,6 @@
       "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
-    },
-    {
-      "topic": "back pain",
-      "change": -1.5,
-      "recentCount": 4,
-      "olderCount": 68
     },
     {
       "topic": "employers",
@@ -462,16 +446,16 @@
       "olderCount": 11
     },
     {
-      "topic": "health plan",
+      "topic": "study",
       "change": -0.9,
       "recentCount": 0,
       "olderCount": 10
     },
     {
-      "topic": "musculoskeletal",
-      "change": -0.8,
-      "recentCount": 11,
-      "olderCount": 151
+      "topic": "health plan",
+      "change": -0.9,
+      "recentCount": 0,
+      "olderCount": 10
     },
     {
       "topic": "productivity",
@@ -561,9 +545,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 3.5,
-          "recent": 70,
-          "older": 866
+          "change": 4.3,
+          "recent": 69,
+          "older": 867
         }
       ],
       "declining": [
@@ -581,7 +565,7 @@
         },
         {
           "audience": "health plans",
-          "change": -0.6,
+          "change": -0.5,
           "recent": 1,
           "older": 19
         },
@@ -593,9 +577,9 @@
         },
         {
           "audience": "general",
-          "change": -1.1,
-          "recent": 13,
-          "older": 180
+          "change": -2,
+          "recent": 12,
+          "older": 181
         }
       ]
     }
@@ -956,13 +940,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+5.8% growth (10 recent vs 66 older)",
-      "insight": "App content trending up +5.8%, indicating strategic expansion into this area."
+      "data": "+6% growth (10 recent vs 66 older)",
+      "insight": "App content trending up +6%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +3.5%, employers -5.1%",
-      "insight": "Shifting focus from employers (-5.1%) to members (+3.5%), indicating a strategic repositioning."
+      "data": "members +4.3%, employers -5.1%",
+      "insight": "Shifting focus from employers (-5.1%) to members (+4.3%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
