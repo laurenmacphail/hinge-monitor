@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-24T14:10:30.671Z",
-  "generatedAt": "February 24, 2026 at 2:10 PM",
+  "lastUpdated": "2026-02-25T14:09:15.349Z",
+  "generatedAt": "February 25, 2026 at 2:09 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 6,
+      "change": 6.8,
       "recentCount": 10,
       "olderCount": 66,
       "examples": [
@@ -340,24 +340,8 @@
       ]
     },
     {
-      "topic": "benefits",
-      "change": 2.9,
-      "recentCount": 8,
-      "olderCount": 74,
-      "examples": [
-        {
-          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
-          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
-        },
-        {
-          "title": "Embedding AI Across the Care Journey: Insights for Benefits Leaders",
-          "url": "https://www.hingehealth.com/resources/articles/embedding-ai-across-the-care-journey/"
-        }
-      ]
-    },
-    {
       "topic": "physical therapy",
-      "change": 1.8,
+      "change": 2.3,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -370,15 +354,25 @@
           "url": "https://www.hingehealth.com/resources/articles/personalizing-digital-pt-therapeutic-alliance/"
         }
       ]
+    },
+    {
+      "topic": "benefits",
+      "change": 2.2,
+      "recentCount": 7,
+      "olderCount": 75,
+      "examples": [
+        {
+          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
+          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
+        },
+        {
+          "title": "How to do a push-up: a Hinge Health guide",
+          "url": "https://www.hingehealth.com/resources/articles/push-ups/"
+        }
+      ]
     }
   ],
   "trendingDown": [
-    {
-      "topic": "pain relief",
-      "change": -4.1,
-      "recentCount": 1,
-      "olderCount": 58
-    },
     {
       "topic": "knee pain",
       "change": -4.1,
@@ -386,10 +380,16 @@
       "olderCount": 45
     },
     {
+      "topic": "pain relief",
+      "change": -4,
+      "recentCount": 1,
+      "olderCount": 58
+    },
+    {
       "topic": "back pain",
-      "change": -2.7,
-      "recentCount": 3,
-      "olderCount": 69
+      "change": -3.8,
+      "recentCount": 2,
+      "olderCount": 70
     },
     {
       "topic": "chronic pain",
@@ -399,7 +399,7 @@
     },
     {
       "topic": "msk",
-      "change": -2,
+      "change": -1.8,
       "recentCount": 3,
       "olderCount": 62
     },
@@ -428,16 +428,22 @@
       "olderCount": 13
     },
     {
-      "topic": "roi",
-      "change": -1.1,
-      "recentCount": 1,
-      "olderCount": 25
-    },
-    {
       "topic": "enso",
       "change": -1.1,
       "recentCount": 0,
       "olderCount": 12
+    },
+    {
+      "topic": "roi",
+      "change": -1,
+      "recentCount": 1,
+      "olderCount": 25
+    },
+    {
+      "topic": "digital health",
+      "change": -1,
+      "recentCount": 0,
+      "olderCount": 11
     },
     {
       "topic": "sciatica",
@@ -462,6 +468,12 @@
       "change": -0.8,
       "recentCount": 0,
       "olderCount": 9
+    },
+    {
+      "topic": "ai",
+      "change": -0.7,
+      "recentCount": 39,
+      "olderCount": 560
     },
     {
       "topic": "report",
@@ -545,9 +557,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 4.3,
-          "recent": 69,
-          "older": 867
+          "change": 7.3,
+          "recent": 67,
+          "older": 869
         }
       ],
       "declining": [
@@ -559,13 +571,13 @@
         },
         {
           "audience": "employers",
-          "change": -5.1,
-          "recent": 1,
-          "older": 69
+          "change": -6.3,
+          "recent": 0,
+          "older": 70
         },
         {
           "audience": "health plans",
-          "change": -0.5,
+          "change": -0.4,
           "recent": 1,
           "older": 19
         },
@@ -577,9 +589,9 @@
         },
         {
           "audience": "general",
-          "change": -2,
-          "recent": 12,
-          "older": 181
+          "change": -3.7,
+          "recent": 10,
+          "older": 183
         }
       ]
     }
@@ -940,13 +952,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+6% growth (10 recent vs 66 older)",
-      "insight": "App content trending up +6%, indicating strategic expansion into this area."
+      "data": "+6.8% growth (10 recent vs 66 older)",
+      "insight": "App content trending up +6.8%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +4.3%, employers -5.1%",
-      "insight": "Shifting focus from employers (-5.1%) to members (+4.3%), indicating a strategic repositioning."
+      "data": "members +7.3%, employers -6.3%",
+      "insight": "Shifting focus from employers (-6.3%) to members (+7.3%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
