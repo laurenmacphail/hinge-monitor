@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-25T14:09:15.349Z",
-  "generatedAt": "February 25, 2026 at 2:09 PM",
+  "lastUpdated": "2026-02-26T14:09:18.779Z",
+  "generatedAt": "February 26, 2026 at 2:09 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 6.8,
+      "change": 7.4,
       "recentCount": 10,
       "olderCount": 66,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 2.3,
+      "change": 2.6,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "benefits",
-      "change": 2.2,
+      "change": 2.6,
       "recentCount": 7,
       "olderCount": 75,
       "examples": [
@@ -368,6 +368,22 @@
         {
           "title": "How to do a push-up: a Hinge Health guide",
           "url": "https://www.hingehealth.com/resources/articles/push-ups/"
+        }
+      ]
+    },
+    {
+      "topic": "musculoskeletal",
+      "change": 1,
+      "recentCount": 11,
+      "olderCount": 151,
+      "examples": [
+        {
+          "title": "Technical Support FAQ",
+          "url": "https://www.hingehealth.com/resources/support/technical-support-faq/"
+        },
+        {
+          "title": "Step-by-step instructions for app download",
+          "url": "https://www.hingehealth.com/resources/support/step-by-step-instructions-for-app-download/"
         }
       ]
     }
@@ -381,13 +397,13 @@
     },
     {
       "topic": "pain relief",
-      "change": -4,
+      "change": -3.9,
       "recentCount": 1,
       "olderCount": 58
     },
     {
       "topic": "back pain",
-      "change": -3.8,
+      "change": -3.7,
       "recentCount": 2,
       "olderCount": 70
     },
@@ -398,22 +414,28 @@
       "olderCount": 29
     },
     {
-      "topic": "msk",
-      "change": -1.8,
-      "recentCount": 3,
-      "olderCount": 62
-    },
-    {
       "topic": "employer",
       "change": -1.8,
       "recentCount": 0,
       "olderCount": 20
     },
     {
+      "topic": "msk",
+      "change": -1.6,
+      "recentCount": 3,
+      "olderCount": 62
+    },
+    {
       "topic": "digital msk",
       "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
+    },
+    {
+      "topic": "ai",
+      "change": -1.4,
+      "recentCount": 37,
+      "olderCount": 562
     },
     {
       "topic": "employers",
@@ -434,12 +456,6 @@
       "olderCount": 12
     },
     {
-      "topic": "roi",
-      "change": -1,
-      "recentCount": 1,
-      "olderCount": 25
-    },
-    {
       "topic": "digital health",
       "change": -1,
       "recentCount": 0,
@@ -450,6 +466,12 @@
       "change": -1,
       "recentCount": 0,
       "olderCount": 11
+    },
+    {
+      "topic": "roi",
+      "change": -0.9,
+      "recentCount": 1,
+      "olderCount": 25
     },
     {
       "topic": "study",
@@ -468,12 +490,6 @@
       "change": -0.8,
       "recentCount": 0,
       "olderCount": 9
-    },
-    {
-      "topic": "ai",
-      "change": -0.7,
-      "recentCount": 39,
-      "olderCount": 560
     },
     {
       "topic": "report",
@@ -557,9 +573,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 7.3,
-          "recent": 67,
-          "older": 869
+          "change": 6.6,
+          "recent": 64,
+          "older": 872
         }
       ],
       "declining": [
@@ -589,7 +605,7 @@
         },
         {
           "audience": "general",
-          "change": -3.7,
+          "change": -3.2,
           "recent": 10,
           "older": 183
         }
@@ -952,13 +968,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+6.8% growth (10 recent vs 66 older)",
-      "insight": "App content trending up +6.8%, indicating strategic expansion into this area."
+      "data": "+7.4% growth (10 recent vs 66 older)",
+      "insight": "App content trending up +7.4%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +7.3%, employers -6.3%",
-      "insight": "Shifting focus from employers (-6.3%) to members (+7.3%), indicating a strategic repositioning."
+      "data": "members +6.6%, employers -6.3%",
+      "insight": "Shifting focus from employers (-6.3%) to members (+6.6%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
