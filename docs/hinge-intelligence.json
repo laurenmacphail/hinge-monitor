@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-10T14:01:24.776Z",
-  "generatedAt": "March 10, 2026 at 2:01 PM",
+  "lastUpdated": "2026-03-11T14:05:38.309Z",
+  "generatedAt": "March 11, 2026 at 2:05 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 6.8,
+      "change": 7,
       "recentCount": 9,
       "olderCount": 67,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "benefits",
-      "change": 3.3,
+      "change": 3.4,
       "recentCount": 7,
       "olderCount": 75,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 3.2,
+      "change": 3.3,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -373,7 +373,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": 0.6,
+      "change": 0.8,
       "recentCount": 10,
       "olderCount": 152,
       "examples": [
@@ -420,12 +420,6 @@
       "olderCount": 29
     },
     {
-      "topic": "ai",
-      "change": -2.2,
-      "recentCount": 34,
-      "olderCount": 565
-    },
-    {
       "topic": "employer",
       "change": -1.8,
       "recentCount": 0,
@@ -436,6 +430,12 @@
       "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
+    },
+    {
+      "topic": "ai",
+      "change": -1.4,
+      "recentCount": 34,
+      "olderCount": 565
     },
     {
       "topic": "employers",
@@ -573,9 +573,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 10,
-          "recent": 62,
-          "older": 874
+          "change": 9.9,
+          "recent": 61,
+          "older": 875
         }
       ],
       "declining": [
@@ -605,7 +605,7 @@
         },
         {
           "audience": "general",
-          "change": -6.7,
+          "change": -6.6,
           "recent": 7,
           "older": 186
         }
@@ -968,13 +968,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+6.8% growth (9 recent vs 67 older)",
-      "insight": "App content trending up +6.8%, indicating strategic expansion into this area."
+      "data": "+7% growth (9 recent vs 67 older)",
+      "insight": "App content trending up +7%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +10%, employers -6.3%",
-      "insight": "Shifting focus from employers (-6.3%) to members (+10%), indicating a strategic repositioning."
+      "data": "members +9.9%, employers -6.3%",
+      "insight": "Shifting focus from employers (-6.3%) to members (+9.9%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
