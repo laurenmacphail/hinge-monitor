@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-16T14:20:19.005Z",
-  "generatedAt": "March 16, 2026 at 2:20 PM",
+  "lastUpdated": "2026-03-17T14:18:01.460Z",
+  "generatedAt": "March 17, 2026 at 2:18 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 7.6,
+      "change": 8.1,
       "recentCount": 9,
       "olderCount": 67,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "benefits",
-      "change": 3.9,
+      "change": 4.2,
       "recentCount": 7,
       "olderCount": 75,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 3.7,
+      "change": 4,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -373,7 +373,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": 1.5,
+      "change": 2,
       "recentCount": 10,
       "olderCount": 152,
       "examples": [
@@ -397,21 +397,15 @@
     },
     {
       "topic": "pain relief",
-      "change": -3.7,
+      "change": -3.6,
       "recentCount": 1,
       "olderCount": 58
     },
     {
       "topic": "back pain",
-      "change": -3.2,
+      "change": -3.1,
       "recentCount": 2,
       "olderCount": 70
-    },
-    {
-      "topic": "msk",
-      "change": -2.6,
-      "recentCount": 2,
-      "olderCount": 63
     },
     {
       "topic": "chronic pain",
@@ -420,10 +414,28 @@
       "olderCount": 29
     },
     {
+      "topic": "msk",
+      "change": -2.5,
+      "recentCount": 2,
+      "olderCount": 63
+    },
+    {
+      "topic": "ai",
+      "change": -2.3,
+      "recentCount": 31,
+      "olderCount": 568
+    },
+    {
       "topic": "employer",
       "change": -1.8,
       "recentCount": 0,
       "olderCount": 20
+    },
+    {
+      "topic": "outcomes",
+      "change": -1.7,
+      "recentCount": 0,
+      "olderCount": 19
     },
     {
       "topic": "digital msk",
@@ -478,12 +490,6 @@
       "change": -0.8,
       "recentCount": 0,
       "olderCount": 9
-    },
-    {
-      "topic": "ai",
-      "change": -0.7,
-      "recentCount": 33,
-      "olderCount": 566
     },
     {
       "topic": "roi",
@@ -573,9 +579,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 9.3,
-          "recent": 58,
-          "older": 878
+          "change": 8.9,
+          "recent": 56,
+          "older": 880
         }
       ],
       "declining": [
@@ -593,7 +599,7 @@
         },
         {
           "audience": "health plans",
-          "change": -0.2,
+          "change": -0.1,
           "recent": 1,
           "older": 19
         },
@@ -605,7 +611,7 @@
         },
         {
           "audience": "general",
-          "change": -6,
+          "change": -5.7,
           "recent": 7,
           "older": 186
         }
@@ -968,13 +974,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+7.6% growth (9 recent vs 67 older)",
-      "insight": "App content trending up +7.6%, indicating strategic expansion into this area."
+      "data": "+8.1% growth (9 recent vs 67 older)",
+      "insight": "App content trending up +8.1%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +9.3%, employers -6.3%",
-      "insight": "Shifting focus from employers (-6.3%) to members (+9.3%), indicating a strategic repositioning."
+      "data": "members +8.9%, employers -6.3%",
+      "insight": "Shifting focus from employers (-6.3%) to members (+8.9%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
