@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-17T14:18:01.460Z",
-  "generatedAt": "March 17, 2026 at 2:18 PM",
+  "lastUpdated": "2026-03-18T14:21:22.912Z",
+  "generatedAt": "March 18, 2026 at 2:21 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 8.1,
+      "change": 9.3,
       "recentCount": 9,
       "olderCount": 67,
       "examples": [
@@ -340,24 +340,8 @@
       ]
     },
     {
-      "topic": "benefits",
-      "change": 4.2,
-      "recentCount": 7,
-      "olderCount": 75,
-      "examples": [
-        {
-          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
-          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
-        },
-        {
-          "title": "How to do a push-up: a Hinge Health guide",
-          "url": "https://www.hingehealth.com/resources/articles/push-ups/"
-        }
-      ]
-    },
-    {
       "topic": "physical therapy",
-      "change": 4,
+      "change": 4.8,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -373,7 +357,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": 2,
+      "change": 3.4,
       "recentCount": 10,
       "olderCount": 152,
       "examples": [
@@ -386,9 +370,47 @@
           "url": "https://www.hingehealth.com/resources/support/step-by-step-instructions-for-app-download/"
         }
       ]
+    },
+    {
+      "topic": "ai",
+      "change": 2,
+      "recentCount": 31,
+      "olderCount": 568,
+      "examples": [
+        {
+          "title": "Is cracking your back bad for you?",
+          "url": "https://www.hingehealth.com/resources/articles/is-cracking-your-back-bad-for-you/"
+        },
+        {
+          "title": "10 tips and habits for a healthy bladder",
+          "url": "https://www.hingehealth.com/resources/articles/healthy-bladder/"
+        }
+      ]
+    },
+    {
+      "topic": "benefits",
+      "change": 1.6,
+      "recentCount": 5,
+      "olderCount": 77,
+      "examples": [
+        {
+          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
+          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
+        },
+        {
+          "title": "How to do a push-up: a Hinge Health guide",
+          "url": "https://www.hingehealth.com/resources/articles/push-ups/"
+        }
+      ]
     }
   ],
   "trendingDown": [
+    {
+      "topic": "msk",
+      "change": -4,
+      "recentCount": 1,
+      "olderCount": 64
+    },
     {
       "topic": "knee pain",
       "change": -4,
@@ -397,13 +419,13 @@
     },
     {
       "topic": "pain relief",
-      "change": -3.6,
+      "change": -3.5,
       "recentCount": 1,
       "olderCount": 58
     },
     {
       "topic": "back pain",
-      "change": -3.1,
+      "change": -2.8,
       "recentCount": 2,
       "olderCount": 70
     },
@@ -412,18 +434,6 @@
       "change": -2.6,
       "recentCount": 0,
       "olderCount": 29
-    },
-    {
-      "topic": "msk",
-      "change": -2.5,
-      "recentCount": 2,
-      "olderCount": 63
-    },
-    {
-      "topic": "ai",
-      "change": -2.3,
-      "recentCount": 31,
-      "olderCount": 568
     },
     {
       "topic": "employer",
@@ -438,10 +448,22 @@
       "olderCount": 19
     },
     {
+      "topic": "msk care",
+      "change": -1.6,
+      "recentCount": 0,
+      "olderCount": 18
+    },
+    {
       "topic": "digital msk",
       "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
+    },
+    {
+      "topic": "pelvic floor",
+      "change": -1.3,
+      "recentCount": 1,
+      "olderCount": 34
     },
     {
       "topic": "employers",
@@ -492,10 +514,10 @@
       "olderCount": 9
     },
     {
-      "topic": "roi",
-      "change": -0.7,
-      "recentCount": 1,
-      "olderCount": 25
+      "topic": "partnership",
+      "change": -0.6,
+      "recentCount": 0,
+      "olderCount": 7
     },
     {
       "topic": "report",
@@ -508,6 +530,12 @@
       "change": -0.6,
       "recentCount": 0,
       "olderCount": 7
+    },
+    {
+      "topic": "roi",
+      "change": -0.5,
+      "recentCount": 1,
+      "olderCount": 25
     },
     {
       "topic": "research",
@@ -579,9 +607,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 8.9,
-          "recent": 56,
-          "older": 880
+          "change": 9.5,
+          "recent": 52,
+          "older": 884
         }
       ],
       "declining": [
@@ -593,15 +621,15 @@
         },
         {
           "audience": "employers",
-          "change": -6.3,
+          "change": -6.2,
           "recent": 0,
           "older": 70
         },
         {
           "audience": "health plans",
-          "change": -0.1,
-          "recent": 1,
-          "older": 19
+          "change": -1.8,
+          "recent": 0,
+          "older": 20
         },
         {
           "audience": "partners",
@@ -611,7 +639,7 @@
         },
         {
           "audience": "general",
-          "change": -5.7,
+          "change": -4.7,
           "recent": 7,
           "older": 186
         }
@@ -974,13 +1002,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+8.1% growth (9 recent vs 67 older)",
-      "insight": "App content trending up +8.1%, indicating strategic expansion into this area."
+      "data": "+9.3% growth (9 recent vs 67 older)",
+      "insight": "App content trending up +9.3%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +8.9%, employers -6.3%",
-      "insight": "Shifting focus from employers (-6.3%) to members (+8.9%), indicating a strategic repositioning."
+      "data": "members +9.5%, employers -6.2%",
+      "insight": "Shifting focus from employers (-6.2%) to members (+9.5%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
