@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-21T13:41:41.006Z",
-  "generatedAt": "March 21, 2026 at 1:41 PM",
+  "lastUpdated": "2026-03-22T13:43:18.876Z",
+  "generatedAt": "March 22, 2026 at 1:43 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 7.7,
+      "change": 8.3,
       "recentCount": 8,
       "olderCount": 68,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 5,
+      "change": 5.4,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -356,24 +356,8 @@
       ]
     },
     {
-      "topic": "musculoskeletal",
-      "change": 3.7,
-      "recentCount": 10,
-      "olderCount": 152,
-      "examples": [
-        {
-          "title": "Technical Support FAQ",
-          "url": "https://www.hingehealth.com/resources/support/technical-support-faq/"
-        },
-        {
-          "title": "Step-by-step instructions for app download",
-          "url": "https://www.hingehealth.com/resources/support/step-by-step-instructions-for-app-download/"
-        }
-      ]
-    },
-    {
       "topic": "ai",
-      "change": 3,
+      "change": 5,
       "recentCount": 31,
       "olderCount": 568,
       "examples": [
@@ -388,34 +372,34 @@
       ]
     },
     {
-      "topic": "benefits",
-      "change": 1.8,
-      "recentCount": 5,
-      "olderCount": 77,
+      "topic": "musculoskeletal",
+      "change": 4.4,
+      "recentCount": 10,
+      "olderCount": 152,
       "examples": [
         {
-          "title": "The simple science of a ‘fresh start’ for healthy habits and goals in 2026",
-          "url": "https://www.hingehealth.com/resources/support/fresh-start-healthy-habits/"
+          "title": "Technical Support FAQ",
+          "url": "https://www.hingehealth.com/resources/support/technical-support-faq/"
         },
         {
-          "title": "How to do a push-up: a Hinge Health guide",
-          "url": "https://www.hingehealth.com/resources/articles/push-ups/"
+          "title": "Step-by-step instructions for app download",
+          "url": "https://www.hingehealth.com/resources/support/step-by-step-instructions-for-app-download/"
         }
       ]
     }
   ],
   "trendingDown": [
     {
-      "topic": "msk",
-      "change": -4,
-      "recentCount": 1,
-      "olderCount": 64
-    },
-    {
       "topic": "knee pain",
       "change": -4,
       "recentCount": 0,
       "olderCount": 45
+    },
+    {
+      "topic": "msk",
+      "change": -3.9,
+      "recentCount": 1,
+      "olderCount": 64
     },
     {
       "topic": "pain relief",
@@ -425,7 +409,7 @@
     },
     {
       "topic": "back pain",
-      "change": -2.8,
+      "change": -2.6,
       "recentCount": 2,
       "olderCount": 70
     },
@@ -460,16 +444,22 @@
       "olderCount": 18
     },
     {
-      "topic": "pelvic floor",
-      "change": -1.3,
-      "recentCount": 1,
-      "olderCount": 34
+      "topic": "pelvic health",
+      "change": -1.5,
+      "recentCount": 0,
+      "olderCount": 17
     },
     {
       "topic": "employers",
       "change": -1.3,
       "recentCount": 0,
       "olderCount": 15
+    },
+    {
+      "topic": "pelvic floor",
+      "change": -1.2,
+      "recentCount": 1,
+      "olderCount": 34
     },
     {
       "topic": "mental health",
@@ -601,9 +591,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 11.1,
-          "recent": 52,
-          "older": 884
+          "change": 10.7,
+          "recent": 50,
+          "older": 886
         }
       ],
       "declining": [
@@ -633,7 +623,7 @@
         },
         {
           "audience": "general",
-          "change": -6.3,
+          "change": -5.9,
           "recent": 6,
           "older": 187
         }
@@ -996,13 +986,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+7.7% growth (8 recent vs 68 older)",
-      "insight": "App content trending up +7.7%, indicating strategic expansion into this area."
+      "data": "+8.3% growth (8 recent vs 68 older)",
+      "insight": "App content trending up +8.3%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +11.1%, employers -6.2%",
-      "insight": "Shifting focus from employers (-6.2%) to members (+11.1%), indicating a strategic repositioning."
+      "data": "members +10.7%, employers -6.2%",
+      "insight": "Shifting focus from employers (-6.2%) to members (+10.7%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
