@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-22T13:43:18.876Z",
-  "generatedAt": "March 22, 2026 at 1:43 PM",
+  "lastUpdated": "2026-03-23T14:15:19.792Z",
+  "generatedAt": "March 23, 2026 at 2:15 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 8.3,
+      "change": 8.5,
       "recentCount": 8,
       "olderCount": 68,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 5.4,
+      "change": 5.6,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -356,24 +356,8 @@
       ]
     },
     {
-      "topic": "ai",
-      "change": 5,
-      "recentCount": 31,
-      "olderCount": 568,
-      "examples": [
-        {
-          "title": "Is cracking your back bad for you?",
-          "url": "https://www.hingehealth.com/resources/articles/is-cracking-your-back-bad-for-you/"
-        },
-        {
-          "title": "10 tips and habits for a healthy bladder",
-          "url": "https://www.hingehealth.com/resources/articles/healthy-bladder/"
-        }
-      ]
-    },
-    {
       "topic": "musculoskeletal",
-      "change": 4.4,
+      "change": 4.7,
       "recentCount": 10,
       "olderCount": 152,
       "examples": [
@@ -384,6 +368,22 @@
         {
           "title": "Step-by-step instructions for app download",
           "url": "https://www.hingehealth.com/resources/support/step-by-step-instructions-for-app-download/"
+        }
+      ]
+    },
+    {
+      "topic": "ai",
+      "change": 4.1,
+      "recentCount": 30,
+      "olderCount": 569,
+      "examples": [
+        {
+          "title": "Is cracking your back bad for you?",
+          "url": "https://www.hingehealth.com/resources/articles/is-cracking-your-back-bad-for-you/"
+        },
+        {
+          "title": "10 tips and habits for a healthy bladder",
+          "url": "https://www.hingehealth.com/resources/articles/healthy-bladder/"
         }
       ]
     }
@@ -403,7 +403,7 @@
     },
     {
       "topic": "pain relief",
-      "change": -3.4,
+      "change": -3.3,
       "recentCount": 1,
       "olderCount": 58
     },
@@ -442,6 +442,12 @@
       "change": -1.6,
       "recentCount": 0,
       "olderCount": 18
+    },
+    {
+      "topic": "benefits",
+      "change": -1.5,
+      "recentCount": 3,
+      "olderCount": 79
     },
     {
       "topic": "pelvic health",
@@ -591,9 +597,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 10.7,
-          "recent": 50,
-          "older": 886
+          "change": 10.5,
+          "recent": 49,
+          "older": 887
         }
       ],
       "declining": [
@@ -623,7 +629,7 @@
         },
         {
           "audience": "general",
-          "change": -5.9,
+          "change": -5.7,
           "recent": 6,
           "older": 187
         }
@@ -986,13 +992,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+8.3% growth (8 recent vs 68 older)",
-      "insight": "App content trending up +8.3%, indicating strategic expansion into this area."
+      "data": "+8.5% growth (8 recent vs 68 older)",
+      "insight": "App content trending up +8.5%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +10.7%, employers -6.2%",
-      "insight": "Shifting focus from employers (-6.2%) to members (+10.7%), indicating a strategic repositioning."
+      "data": "members +10.5%, employers -6.2%",
+      "insight": "Shifting focus from employers (-6.2%) to members (+10.5%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
