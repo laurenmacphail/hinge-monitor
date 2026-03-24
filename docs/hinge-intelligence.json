@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-23T14:15:19.792Z",
-  "generatedAt": "March 23, 2026 at 2:15 PM",
+  "lastUpdated": "2026-03-24T14:18:51.179Z",
+  "generatedAt": "March 24, 2026 at 2:18 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 8.5,
+      "change": 8.8,
       "recentCount": 8,
       "olderCount": 68,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 5.6,
+      "change": 5.8,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": 4.7,
+      "change": 5.1,
       "recentCount": 10,
       "olderCount": 152,
       "examples": [
@@ -373,9 +373,9 @@
     },
     {
       "topic": "ai",
-      "change": 4.1,
-      "recentCount": 30,
-      "olderCount": 569,
+      "change": 3.2,
+      "recentCount": 29,
+      "olderCount": 570,
       "examples": [
         {
           "title": "Is cracking your back bad for you?",
@@ -397,7 +397,7 @@
     },
     {
       "topic": "msk",
-      "change": -3.9,
+      "change": -3.8,
       "recentCount": 1,
       "olderCount": 64
     },
@@ -408,16 +408,16 @@
       "olderCount": 58
     },
     {
-      "topic": "back pain",
-      "change": -2.6,
-      "recentCount": 2,
-      "olderCount": 70
-    },
-    {
       "topic": "chronic pain",
       "change": -2.6,
       "recentCount": 0,
       "olderCount": 29
+    },
+    {
+      "topic": "back pain",
+      "change": -2.5,
+      "recentCount": 2,
+      "olderCount": 70
     },
     {
       "topic": "employer",
@@ -444,16 +444,16 @@
       "olderCount": 18
     },
     {
-      "topic": "benefits",
-      "change": -1.5,
-      "recentCount": 3,
-      "olderCount": 79
-    },
-    {
       "topic": "pelvic health",
       "change": -1.5,
       "recentCount": 0,
       "olderCount": 17
+    },
+    {
+      "topic": "benefits",
+      "change": -1.4,
+      "recentCount": 3,
+      "olderCount": 79
     },
     {
       "topic": "employers",
@@ -597,9 +597,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 10.5,
-          "recent": 49,
-          "older": 887
+          "change": 10.2,
+          "recent": 48,
+          "older": 888
         }
       ],
       "declining": [
@@ -629,7 +629,7 @@
         },
         {
           "audience": "general",
-          "change": -5.7,
+          "change": -5.5,
           "recent": 6,
           "older": 187
         }
@@ -992,13 +992,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+8.5% growth (8 recent vs 68 older)",
-      "insight": "App content trending up +8.5%, indicating strategic expansion into this area."
+      "data": "+8.8% growth (8 recent vs 68 older)",
+      "insight": "App content trending up +8.8%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +10.5%, employers -6.2%",
-      "insight": "Shifting focus from employers (-6.2%) to members (+10.5%), indicating a strategic repositioning."
+      "data": "members +10.2%, employers -6.2%",
+      "insight": "Shifting focus from employers (-6.2%) to members (+10.2%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
