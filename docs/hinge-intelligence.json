@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-30T14:26:14.999Z",
-  "generatedAt": "March 30, 2026 at 2:26 PM",
+  "lastUpdated": "2026-03-31T14:26:12.964Z",
+  "generatedAt": "March 31, 2026 at 2:26 PM",
   "metadata": {
     "totalPieces": 1332,
     "dateRange": {
@@ -325,7 +325,7 @@
   "trendingUp": [
     {
       "topic": "app",
-      "change": 9.4,
+      "change": 9.7,
       "recentCount": 8,
       "olderCount": 68,
       "examples": [
@@ -341,7 +341,7 @@
     },
     {
       "topic": "physical therapy",
-      "change": 6.2,
+      "change": 6.5,
       "recentCount": 6,
       "olderCount": 60,
       "examples": [
@@ -357,7 +357,7 @@
     },
     {
       "topic": "musculoskeletal",
-      "change": 5.8,
+      "change": 6.2,
       "recentCount": 10,
       "olderCount": 152,
       "examples": [
@@ -373,9 +373,9 @@
     },
     {
       "topic": "ai",
-      "change": 3.4,
-      "recentCount": 28,
-      "olderCount": 571,
+      "change": 2.4,
+      "recentCount": 27,
+      "olderCount": 572,
       "examples": [
         {
           "title": "Is cracking your back bad for you?",
@@ -457,15 +457,9 @@
     },
     {
       "topic": "benefits",
-      "change": -1.2,
+      "change": -1.1,
       "recentCount": 3,
       "olderCount": 79
-    },
-    {
-      "topic": "pelvic floor",
-      "change": -1.1,
-      "recentCount": 1,
-      "olderCount": 34
     },
     {
       "topic": "enso",
@@ -478,6 +472,12 @@
       "change": -1.1,
       "recentCount": 0,
       "olderCount": 13
+    },
+    {
+      "topic": "pelvic floor",
+      "change": -1,
+      "recentCount": 1,
+      "olderCount": 34
     },
     {
       "topic": "digital health",
@@ -597,9 +597,9 @@
       "growing": [
         {
           "audience": "members",
-          "change": 9.8,
-          "recent": 46,
-          "older": 890
+          "change": 9.5,
+          "recent": 45,
+          "older": 891
         }
       ],
       "declining": [
@@ -629,7 +629,7 @@
         },
         {
           "audience": "general",
-          "change": -5,
+          "change": -4.8,
           "recent": 6,
           "older": 187
         }
@@ -992,13 +992,13 @@
     },
     {
       "title": "APP EXPANSION",
-      "data": "+9.4% growth (8 recent vs 68 older)",
-      "insight": "App content trending up +9.4%, indicating strategic expansion into this area."
+      "data": "+9.7% growth (8 recent vs 68 older)",
+      "insight": "App content trending up +9.7%, indicating strategic expansion into this area."
     },
     {
       "title": "AUDIENCE PIVOT",
-      "data": "members +9.8%, employers -6.2%",
-      "insight": "Shifting focus from employers (-6.2%) to members (+9.8%), indicating a strategic repositioning."
+      "data": "members +9.5%, employers -6.2%",
+      "insight": "Shifting focus from employers (-6.2%) to members (+9.5%), indicating a strategic repositioning."
     }
   ],
   "timeline": {
